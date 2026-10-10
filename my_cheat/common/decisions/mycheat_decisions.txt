@@ -7,24 +7,7 @@ mycheat_category = {
 	### 解锁军工企业：让 17 个 MIO 组织在装备设计界面可见          ###
 	### 机理：这些 MIO 的 visible 条件是 owner 拥有指定 flag        ###
 	###       （通用 7 个查 66pp，ACMD 10 个查 flag_ACMD_on_1）    ###
-	##################################################################
-	mycheat_unlock_mio = {
-		icon = generic_construction
-		cost = 0
-
-		available = {
-			is_ai = no
-			NOT = { has_country_flag = mycheat_mio_unlocked }
-		}
-
-		complete_effect = {
-			set_country_flag = mycheat_mio_unlocked
-			set_country_flag = 66pp
-			set_country_flag = flag_ACMD_on_1
-		}
-	}
-
-	##################################################################
+##################################################################
 	### 获得全部角色：一次性招募 58 个二次元角色                    ###
 	### 机理：用 recruit_character 逐个招募静态定义的角色           ###
 	###       （generate_character 只能在 history 里用，运行时无效）###
@@ -41,6 +24,10 @@ mycheat_category = {
 
 		complete_effect = {
 			set_country_flag = mycheat_characters_granted
+			### 同时解锁 17 家军工企业（MIO）###
+			set_country_flag = mycheat_mio_unlocked
+			set_country_flag = 66pp
+			set_country_flag = flag_ACMD_on_1
 ### 58 个角色（自动生成）###
 			recruit_character = mc_ACMD_ALN
 			recruit_character = mc_ACMD_ABLN

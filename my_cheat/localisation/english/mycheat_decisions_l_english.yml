@@ -5,22 +5,33 @@
 #########################################
 
  mycheat_category:0 "My Cheat"
- mycheat_unlock_mio:0 "Unlock Military Industrial Organizations"
- mycheat_unlock_mio_desc:0 "Unlocks the 17 custom Military Industrial Organizations (MIO) included in this mod. Once unlocked, their research trees become available in the Equipment Designer.\n\n§YIncludes§!: 7 general MIOs (tanks, artillery, infantry equipment, support equipment, motorized/mechanized, raiding fleet, light aircraft) and 10 character-themed MIOs."
+ ### 已合并到 mycheat_grant_characters（原 unlock_mio）###
+ ### 已合并到 mycheat_grant_characters（原 unlock_mio）###
  mycheat_grant_characters:0 "Visitors from Beyond"
- mycheat_grant_characters_desc:0 "Recruits ALL §Y70§! custom characters included in this mod at once.
+ mycheat_grant_characters_desc:0 "Grants ALL content of this mod at once:
 
-§Y58-character pack§!: 35 army commanders, 17 political/military advisors, and 6 scientists.
-§Y12 anime commanders§!: Amiya, Shiroko, Sonetto, March 7th, Lucia Dawn, Kiana, Kasumi Toyama, Lyfe, Anby, Special Week (army) + Saratoga, Lexington (navy).
+§Y17 Military Industrial Organizations§!: unlock their research trees in the Equipment Designer (7 general + 10 character-themed).
+
+§Y70 custom characters§!:
+  • 58-character pack: 35 army commanders (several can also serve as cabinet advisors), 17 political/military advisors, 6 scientists
+  • 12 anime commanders: Amiya, Shiroko, Sonetto, March 7th, Lucia Dawn, Kiana, Kasumi Toyama, Lyfe, Anby, Special Week (army) + Saratoga, Lexington (navy)
 
 §RThis decision can only be taken once.§!"
 
- mycheat_add_breakthrough:0 "Add Research Breakthrough Points"
- mycheat_add_breakthrough_desc:0 "Adds research breakthrough points to a special project specialization.\n\nFirst pick the specialization (Land / Naval / Air / Nuclear / All), then pick the amount (+1 / +2 / +3 / +5 / +20)."
+ mycheat_add_breakthrough:0 "Technological Breakthrough"
+ mycheat_add_breakthrough_desc:0 "Adds research breakthrough points to a special project specialization.
+
+First pick the specialization (Land / Naval / Air / Nuclear / All), then pick the amount (+1 / +2 / +3 / +5 / +20)."
 # 已合并到 mycheat_grant_characters: mycheat_extra_leaders:0 "What Is This? Click It"
 # 已合并到 mycheat_grant_characters: mycheat_extra_leaders_desc:0 "Grants §Y12 anime commanders§! (integrated from the TYGC event of the same name).\n\n§Y10 army commanders§!: Amiya, Shiroko, Sonetto, March 7th, Lucia Dawn, Kiana, Kasumi Toyama, Lyfe, Anby, Special Week\n§Y2 navy leaders§!: Saratoga, Lexington\n\n§GThese commanders come with powerful traits (attack / defence / breakthrough).§!\n\n§RThis decision can only be taken once.§!"
- mycheat_add_resources:0 "Add Strategic Resources"
- mycheat_add_resources_desc:0 "Spawns a large amount of strategic resources in your capital state.\n\nThree tiers: +50 / +100 / +50000.\n\nCovers all 7 resources: oil, steel, aluminium, rubber, tungsten, chromium, coal.\n\n§RRequires full control of the capital state.§!"
+ mycheat_add_resources:0 "Meteor Impact"
+ mycheat_add_resources_desc:0 "A meteor strikes your capital, scattering vast strategic resources.
+
+Three tiers: +50 / +100 / +50000.
+
+Covers all 7 resources: oil, steel, aluminium, rubber, tungsten, chromium, coal.
+
+§RRequires full control of the capital state.§!"
 
 #########################################
 ### Events: Research Breakthrough
