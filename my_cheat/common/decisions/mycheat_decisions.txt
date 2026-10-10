@@ -100,61 +100,7 @@ mycheat_category = {
 			recruit_character = mc_ACMD_CMLZ_SC
 			recruit_character = mc_ACMD_CLST
 			recruit_character = mc_ACMD_CLST_SC
-		}
-	}
-
-	##################################################################
-	### 添加科研突破点：触发「科技突破」事件链                      ###
-	### 先选学科（陆/海/空/物理/全都要），再选档位(+1/+2/+3/+5/+20)###
-	##################################################################
-	mycheat_add_breakthrough = {
-		icon = generic_research
-		cost = 0
-
-		available = {
-			is_ai = no
-		}
-
-		complete_effect = {
-			country_event = { id = mycheat.breakthrough  days = 0 }
-		}
-	}
-
-	##################################################################
-	### 添加战略资源：触发「挖矿」事件                              ###
-	### 3 档：+50 / +100 / +50000（7 种资源全刷首都）              ###
-	##################################################################
-	mycheat_add_resources = {
-		icon = generic_construction
-		cost = 0
-
-		available = {
-			is_ai = no
-			has_full_control_of_state = CAPITAL
-		}
-
-		complete_effect = {
-			country_event = { id = mycheat.mining  days = 0 }
-		}
-	}
-
-	##################################################################
-	### 这是什么，点一下：12 名额外的二次元将领                    ###
-	### 整合自 TYGC「这是什么，点一下」事件（原消耗 66 政治点）    ###
-	### 10 名陆军将领 + 2 名海军将领                              ###
-	##################################################################
-	mycheat_extra_leaders = {
-		icon = generic_army_support
-		cost = 0
-		fire_only_once = yes
-
-		available = {
-			is_ai = no
-			NOT = { has_country_flag = mycheat_extra_leaders_granted }
-		}
-
-		complete_effect = {
-			set_country_flag = mycheat_extra_leaders_granted
+			### 12 名二次元将领（整合自 TYGC「这是什么，点一下」）###
 		create_corps_commander = {
 			name = "阿米娅"
 			gfx = GFX_amy
@@ -275,6 +221,47 @@ mycheat_category = {
 			coordination_skill = 2
 			traits = { star_5_2 traits_jianniang }
 		}
+
 		}
 	}
+
+	##################################################################
+	### 添加科研突破点：触发「科技突破」事件链                      ###
+	### 先选学科（陆/海/空/物理/全都要），再选档位(+1/+2/+3/+5/+20)###
+	##################################################################
+	mycheat_add_breakthrough = {
+		icon = generic_research
+		cost = 0
+
+		available = {
+			is_ai = no
+		}
+
+		complete_effect = {
+			country_event = { id = mycheat.breakthrough  days = 0 }
+		}
+	}
+
+	##################################################################
+	### 添加战略资源：触发「挖矿」事件                              ###
+	### 3 档：+50 / +100 / +50000（7 种资源全刷首都）              ###
+	##################################################################
+	mycheat_add_resources = {
+		icon = generic_construction
+		cost = 0
+
+		available = {
+			is_ai = no
+			has_full_control_of_state = CAPITAL
+		}
+
+		complete_effect = {
+			country_event = { id = mycheat.mining  days = 0 }
+		}
+	}
+
+	##################################################################
+	### 这是什么，点一下：12 名额外的二次元将领                    ###
+	### 整合自 TYGC「这是什么，点一下」事件（原消耗 66 政治点）    ###
+	### 10 名陆军将领 + 2 名海军将领                              ###
 }
