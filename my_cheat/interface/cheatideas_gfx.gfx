@@ -1,0 +1,157 @@
+spriteTypes = {
+
+################
+### MENU GUI ###
+################
+	spriteType = { 
+		name = "GFX_cheatideas_cycle_left"
+		texturefile = "gfx/cheatideas_gui/cheatideas_cycle_left.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideas_cycle_right"
+		texturefile = "gfx/cheatideas_gui/cheatideas_cycle_right.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideas_expand_down"
+		texturefile = "gfx/cheatideas_gui/cheatideas_expand_down.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideas_expand_up"
+		texturefile = "gfx/cheatideas_gui/cheatideas_expand_up.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideas_hoi_icon_left"
+		texturefile = "gfx/cheatideas_gui/cheatideas_hoi_icon_left.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideas_hoi_icon_right"
+		texturefile = "gfx/cheatideas_gui/cheatideas_hoi_icon_right.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideas_categories_bg"
+		texturefile = "gfx/cheatideas_gui/cheatideas_categories_bg.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_empty_dicon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_empty_dicon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_empty_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_empty_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_empty_picon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_empty_picon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideas_category_bg"
+		texturefile = "gfx/cheatideas_gui/cheatideas_category_bg.dds"
+	}
+########################
+### SUB ICONS - ROW1 ###
+########################
+	spriteType = { 
+		name = "GFX_cheatideasic_production_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_production_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_construction_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_construction_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_industry_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_industry_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_inpolicies_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_inpolicies_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_expolicies_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_expolicies_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_inteldef_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_inteldef_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_inteloff_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_inteloff_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_intelagency_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_intelagency_icon.dds"
+	}
+########################
+### SUB ICONS - ROW2 ###
+########################
+	spriteType = { 
+		name = "GFX_cheatideasic_warmeasures_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_warmeasures_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_navygen_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_navygen_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_navyspec_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_navyspec_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_airgen_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_airgen_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_airspec_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_airspec_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_armygen_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_armygen_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_armyspec_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_armyspec_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_experiences_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_experiences_icon.dds"
+	}
+########################
+### SUB ICONS - ROW3 ###
+########################
+	spriteType = { 
+		name = "GFX_cheatideasic_doc1_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_doc1_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_doc2_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_doc2_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_doc3_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_doc3_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_doc4_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_doc4_icon.dds"
+	}
+########################
+### SUB ICONS - NEW  ###
+########################
+	spriteType = { 
+		name = "GFX_cheatideasic_new1_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_new1_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_new2_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_new2_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_new3_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_new3_icon.dds"
+	}
+	spriteType = { 
+		name = "GFX_cheatideasic_new4_icon"
+		texturefile = "gfx/cheatideas_gui/cheatideasic_new4_icon.dds"
+	}

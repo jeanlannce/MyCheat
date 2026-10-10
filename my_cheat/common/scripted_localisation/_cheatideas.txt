@@ -1,0 +1,1922 @@
+defined_text = {
+	name = cheatideas_page_main
+	text = {
+		localization_key = cheatideas_page_main
+	}
+}
+defined_text = {
+	name = cheatideas_page_bonus
+	text = {
+		localization_key = cheatideas_page_bonus
+	}
+}
+defined_text = {
+	name = cheatideas_page_presets
+	text = {
+		localization_key = cheatideas_page_presets
+	}
+}
+defined_text = {
+	name = cheatideas_row0
+	text = {
+		localization_key = cheatideas_row0
+	}
+}
+defined_text = {
+	name = cheatideas_construction
+	text = {
+		localization_key = cheatideas_construction
+	}
+}
+defined_text = {
+	name = cheatideas_construction_row1
+	text = {
+		localization_key = cheatideas_construction_row1
+	}
+}
+defined_text = {
+	name = cheatideas_construction_row2
+	text = {
+		localization_key = cheatideas_construction_row2
+	}
+}
+defined_text = {
+	name = cheatideas_construction_row3
+	text = {
+		localization_key = cheatideas_construction_row3
+	}
+}
+defined_text = {
+	name = cheatideas_construction_row4
+	text = {
+		localization_key = cheatideas_construction_row4
+	}
+}
+defined_text = {
+	name = cheatideas_construction_row5
+	text = {
+		localization_key = cheatideas_construction_row5
+	}
+}
+defined_text = {
+	name = cheatideas_construction_row6
+	text = {
+		localization_key = cheatideas_construction_row6
+	}
+}
+defined_text = {
+	name = cheatideas_construction_row7
+	text = {
+		localization_key = cheatideas_construction_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_industry
+	text = {
+		localization_key = cheatideas_industry
+	}
+}
+defined_text = {
+	name = cheatideas_industry_row1
+	text = {
+		localization_key = cheatideas_industry_row1
+	}
+}
+defined_text = {
+	name = cheatideas_industry_row2
+	text = {
+		localization_key = cheatideas_industry_row2
+	}
+}
+defined_text = {
+	name = cheatideas_industry_row3
+	text = {
+		localization_key = cheatideas_industry_row3
+	}
+}
+defined_text = {
+	name = cheatideas_industry_row4
+	text = {
+		localization_key = cheatideas_industry_row4
+	}
+}
+defined_text = {
+	name = cheatideas_industry_row5
+	text = {
+		localization_key = cheatideas_industry_row5
+	}
+}
+defined_text = {
+	name = cheatideas_industry_row6
+	text = {
+		localization_key = cheatideas_industry_row6
+	}
+}
+defined_text = {
+	name = cheatideas_industry_row7
+	text = {
+		localization_key = cheatideas_industry_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_inpolicies
+	text = {
+		localization_key = cheatideas_inpolicies
+	}
+}
+defined_text = {
+	name = cheatideas_inpolicies_row1
+	text = {
+		localization_key = cheatideas_inpolicies_row1
+	}
+}
+defined_text = {
+	name = cheatideas_inpolicies_row2
+	text = {
+		localization_key = cheatideas_inpolicies_row2
+	}
+}
+defined_text = {
+	name = cheatideas_inpolicies_row3
+	text = {
+		localization_key = cheatideas_inpolicies_row3
+	}
+}
+defined_text = {
+	name = cheatideas_inpolicies_row4
+	text = {
+		localization_key = cheatideas_inpolicies_row4
+	}
+}
+defined_text = {
+	name = cheatideas_inpolicies_row5
+	text = {
+		localization_key = cheatideas_inpolicies_row5
+	}
+}
+defined_text = {
+	name = cheatideas_inpolicies_row6
+	text = {
+		localization_key = cheatideas_inpolicies_row6
+	}
+}
+defined_text = {
+	name = cheatideas_inpolicies_row7
+	text = {
+		localization_key = cheatideas_inpolicies_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_expolicies
+	text = {
+		localization_key = cheatideas_expolicies
+	}
+}
+defined_text = {
+	name = cheatideas_expolicies_row1
+	text = {
+		localization_key = cheatideas_expolicies_row1
+	}
+}
+defined_text = {
+	name = cheatideas_expolicies_row2
+	text = {
+		localization_key = cheatideas_expolicies_row2
+	}
+}
+defined_text = {
+	name = cheatideas_expolicies_row3
+	text = {
+		localization_key = cheatideas_expolicies_row3
+	}
+}
+defined_text = {
+	name = cheatideas_expolicies_row4
+	text = {
+		localization_key = cheatideas_expolicies_row4
+	}
+}
+defined_text = {
+	name = cheatideas_expolicies_row5
+	text = {
+		localization_key = cheatideas_expolicies_row5
+	}
+}
+defined_text = {
+	name = cheatideas_expolicies_row6
+	text = {
+		localization_key = cheatideas_expolicies_row6
+	}
+}
+defined_text = {
+	name = cheatideas_expolicies_row7
+	text = {
+		localization_key = cheatideas_expolicies_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_inteldef
+	text = {
+		localization_key = cheatideas_inteldef
+	}
+}
+defined_text = {
+	name = cheatideas_inteldef_row1
+	text = {
+		localization_key = cheatideas_inteldef_row1
+	}
+}
+defined_text = {
+	name = cheatideas_inteldef_row2
+	text = {
+		localization_key = cheatideas_inteldef_row2
+	}
+}
+defined_text = {
+	name = cheatideas_inteldef_row3
+	text = {
+		localization_key = cheatideas_inteldef_row3_2
+	}
+}
+defined_text = {
+	name = cheatideas_inteldef_row4
+	text = {
+		localization_key = cheatideas_inteldef_row4
+	}
+}
+defined_text = {
+	name = cheatideas_inteldef_row5
+	text = {
+		localization_key = cheatideas_inteldef_row5
+	}
+}
+defined_text = {
+	name = cheatideas_inteldef_row6
+	text = {
+		localization_key = cheatideas_inteldef_row6
+	}
+}
+defined_text = {
+	name = cheatideas_inteldef_row7
+	text = {
+		localization_key = cheatideas_inteldef_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_inteloff
+	text = {
+		localization_key = cheatideas_inteloff
+	}
+}
+defined_text = {
+	name = cheatideas_inteloff_row1
+	text = {
+		localization_key = cheatideas_inteloff_row1
+	}
+}
+defined_text = {
+	name = cheatideas_inteloff_row2
+	text = {
+		localization_key = cheatideas_inteloff_row2
+	}
+}
+defined_text = {
+	name = cheatideas_inteloff_row3
+	text = {
+		localization_key = cheatideas_inteloff_row3
+	}
+}
+defined_text = {
+	name = cheatideas_inteloff_row4
+	text = {
+		localization_key = cheatideas_inteloff_row4
+	}
+}
+defined_text = {
+	name = cheatideas_inteloff_row5
+	text = {
+		localization_key = cheatideas_inteloff_row5
+	}
+}
+defined_text = {
+	name = cheatideas_inteloff_row6
+	text = {
+		localization_key = cheatideas_inteloff_row6
+	}
+}
+defined_text = {
+	name = cheatideas_inteloff_row7
+	text = {
+		localization_key = cheatideas_inteloff_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_airgen
+	text = {
+		localization_key = cheatideas_airgen
+	}
+}
+defined_text = {
+	name = cheatideas_airgen_row1
+	text = {
+		localization_key = cheatideas_airgen_row1
+	}
+}
+defined_text = {
+	name = cheatideas_airgen_row2
+	text = {
+		localization_key = cheatideas_airgen_row2
+	}
+}
+defined_text = {
+	name = cheatideas_airgen_row3
+	text = {
+		localization_key = cheatideas_airgen_row3
+	}
+}
+defined_text = {
+	name = cheatideas_airgen_row4
+	text = {
+		localization_key = cheatideas_airgen_row4
+	}
+}
+defined_text = {
+	name = cheatideas_airgen_row5
+	text = {
+		localization_key = cheatideas_airgen_row5
+	}
+}
+defined_text = {
+	name = cheatideas_airgen_row6
+	text = {
+		localization_key = cheatideas_airgen_row6
+	}
+}
+defined_text = {
+	name = cheatideas_airgen_row7
+	text = {
+		localization_key = cheatideas_airgen_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_airspec
+	text = {
+		localization_key = cheatideas_airspec
+	}
+}
+defined_text = {
+	name = cheatideas_airspec_row1
+	text = {
+		localization_key = cheatideas_airspec_row1
+	}
+}
+defined_text = {
+	name = cheatideas_airspec_row2
+	text = {
+		localization_key = cheatideas_airspec_row2
+	}
+}
+defined_text = {
+	name = cheatideas_airspec_row3
+	text = {
+		localization_key = cheatideas_airspec_row3
+	}
+}
+defined_text = {
+	name = cheatideas_airspec_row4
+	text = {
+		localization_key = cheatideas_airspec_row4
+	}
+}
+defined_text = {
+	name = cheatideas_airspec_row5
+	text = {
+		localization_key = cheatideas_airspec_row5
+	}
+}
+defined_text = {
+	name = cheatideas_airspec_row6
+	text = {
+		localization_key = cheatideas_airspec_row6
+	}
+}
+defined_text = {
+	name = cheatideas_airspec_row7
+	text = {
+		localization_key = cheatideas_airspec_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_navygen
+	text = {
+		localization_key = cheatideas_navygen
+	}
+}
+defined_text = {
+	name = cheatideas_navygen_row1
+	text = {
+		localization_key = cheatideas_navygen_row1_2
+	}
+}
+defined_text = {
+	name = cheatideas_navygen_row2
+	text = {
+		localization_key = cheatideas_navygen_row2_2
+	}
+}
+defined_text = {
+	name = cheatideas_navygen_row3
+	text = {
+		localization_key = cheatideas_navygen_row3
+	}
+}
+defined_text = {
+	name = cheatideas_navygen_row4
+	text = {
+		localization_key = cheatideas_navygen_row4
+	}
+}
+defined_text = {
+	name = cheatideas_navygen_row5
+	text = {
+		localization_key = cheatideas_navygen_row5
+	}
+}
+defined_text = {
+	name = cheatideas_navygen_row6
+	text = {
+		localization_key = cheatideas_navygen_row6_2
+	}
+}
+defined_text = {
+	name = cheatideas_navygen_row7
+	text = {
+		localization_key = cheatideas_navygen_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_navyspec
+	text = {
+		localization_key = cheatideas_navyspec
+	}
+}
+defined_text = {
+	name = cheatideas_navyspec_row1
+	text = {
+		localization_key = cheatideas_navyspec_row1
+	}
+}
+defined_text = {
+	name = cheatideas_navyspec_row2
+	text = {
+		localization_key = cheatideas_navyspec_row2
+	}
+}
+defined_text = {
+	name = cheatideas_navyspec_row3
+	text = {
+		localization_key = cheatideas_navyspec_row3_2
+	}
+}
+defined_text = {
+	name = cheatideas_navyspec_row4
+	text = {
+		localization_key = cheatideas_navyspec_row4
+	}
+}
+defined_text = {
+	name = cheatideas_navyspec_row5
+	text = {
+		localization_key = cheatideas_navyspec_row5
+	}
+}
+defined_text = {
+	name = cheatideas_navyspec_row6
+	text = {
+		localization_key = cheatideas_navyspec_row6
+	}
+}
+defined_text = {
+	name = cheatideas_navyspec_row7
+	text = {
+		localization_key = cheatideas_navyspec_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_armygen
+	text = {
+		localization_key = cheatideas_armygen
+	}
+}
+defined_text = {
+	name = cheatideas_armygen_row1
+	text = {
+		localization_key = cheatideas_armygen_row1
+	}
+}
+defined_text = {
+	name = cheatideas_armygen_row2
+	text = {
+		localization_key = cheatideas_armygen_row2_2
+	}
+}
+defined_text = {
+	name = cheatideas_armygen_row3
+	text = {
+		localization_key = cheatideas_armygen_row3_2
+	}
+}
+defined_text = {
+	name = cheatideas_armygen_row4
+	text = {
+		localization_key = cheatideas_armygen_row4
+	}
+}
+defined_text = {
+	name = cheatideas_armygen_row5
+	text = {
+		localization_key = cheatideas_armygen_row5
+	}
+}
+defined_text = {
+	name = cheatideas_armygen_row6
+	text = {
+		localization_key = cheatideas_armygen_row6
+	}
+}
+defined_text = {
+	name = cheatideas_armygen_row7
+	text = {
+		localization_key = cheatideas_armygen_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_armyspec
+	text = {
+		localization_key = cheatideas_armyspec
+	}
+}
+defined_text = {
+	name = cheatideas_armyspec_row1
+	text = {
+		localization_key = cheatideas_armyspec_row1
+	}
+}
+defined_text = {
+	name = cheatideas_armyspec_row2
+	text = {
+		localization_key = cheatideas_armyspec_row2
+	}
+}
+defined_text = {
+	name = cheatideas_armyspec_row3
+	text = {
+		localization_key = cheatideas_armyspec_row3
+	}
+}
+defined_text = {
+	name = cheatideas_armyspec_row4
+	text = {
+		localization_key = cheatideas_armyspec_row4
+	}
+}
+defined_text = {
+	name = cheatideas_armyspec_row5
+	text = {
+		localization_key = cheatideas_armyspec_row5_2
+	}
+}
+defined_text = {
+	name = cheatideas_armyspec_row6
+	text = {
+		localization_key = cheatideas_armyspec_row6
+	}
+}
+defined_text = {
+	name = cheatideas_armyspec_row7
+	text = {
+		localization_key = cheatideas_armyspec_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_production
+	text = {
+		localization_key = cheatideas_production
+	}
+}
+defined_text = {
+	name = cheatideas_production_row1
+	text = {
+		localization_key = cheatideas_production_row1
+	}
+}
+defined_text = {
+	name = cheatideas_production_row2
+	text = {
+		localization_key = cheatideas_production_row2
+	}
+}
+defined_text = {
+	name = cheatideas_production_row3
+	text = {
+		localization_key = cheatideas_production_row3
+	}
+}
+defined_text = {
+	name = cheatideas_production_row4
+	text = {
+		localization_key = cheatideas_production_row4
+	}
+}
+defined_text = {
+	name = cheatideas_production_row5
+	text = {
+		localization_key = cheatideas_production_row5
+	}
+}
+defined_text = {
+	name = cheatideas_production_row6
+	text = {
+		localization_key = cheatideas_production_row6
+	}
+}
+defined_text = {
+	name = cheatideas_production_row7
+	text = {
+		localization_key = cheatideas_production_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_intelagency
+	text = {
+		localization_key = cheatideas_intelagency
+	}
+}
+defined_text = {
+	name = cheatideas_intelagency_row1
+	text = {
+		localization_key = cheatideas_intelagency_row1
+	}
+}
+defined_text = {
+	name = cheatideas_intelagency_row2
+	text = {
+		localization_key = cheatideas_intelagency_row2
+	}
+}
+defined_text = {
+	name = cheatideas_intelagency_row3
+	text = {
+		localization_key = cheatideas_intelagency_row3
+	}
+}
+defined_text = {
+	name = cheatideas_intelagency_row4
+	text = {
+		localization_key = cheatideas_intelagency_row4
+	}
+}
+defined_text = {
+	name = cheatideas_intelagency_row5
+	text = {
+		localization_key = cheatideas_intelagency_row5
+	}
+}
+defined_text = {
+	name = cheatideas_intelagency_row6
+	text = {
+		localization_key = cheatideas_intelagency_row6
+	}
+}
+defined_text = {
+	name = cheatideas_intelagency_row7
+	text = {
+		localization_key = cheatideas_intelagency_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_warmeasures
+	text = {
+		localization_key = cheatideas_warmeasures
+	}
+}
+defined_text = {
+	name = cheatideas_warmeasures_row1
+	text = {
+		localization_key = cheatideas_warmeasures_row1
+	}
+}
+defined_text = {
+	name = cheatideas_warmeasures_row2
+	text = {
+		localization_key = cheatideas_warmeasures_row2
+	}
+}
+defined_text = {
+	name = cheatideas_warmeasures_row3
+	text = {
+		localization_key = cheatideas_warmeasures_row3
+	}
+}
+defined_text = {
+	name = cheatideas_warmeasures_row4
+	text = {
+		localization_key = cheatideas_warmeasures_row4
+	}
+}
+defined_text = {
+	name = cheatideas_warmeasures_row5
+	text = {
+		localization_key = cheatideas_warmeasures_row5
+	}
+}
+defined_text = {
+	name = cheatideas_warmeasures_row6
+	text = {
+		localization_key = cheatideas_warmeasures_row6
+	}
+}
+defined_text = {
+	name = cheatideas_warmeasures_row7
+	text = {
+		localization_key = cheatideas_warmeasures_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_experiences
+	text = {
+		localization_key = cheatideas_experiences
+	}
+}
+defined_text = {
+	name = cheatideas_experiences_row1
+	text = {
+		localization_key = cheatideas_experiences_row1
+	}
+}
+defined_text = {
+	name = cheatideas_experiences_row2
+	text = {
+		localization_key = cheatideas_experiences_row2
+	}
+}
+defined_text = {
+	name = cheatideas_experiences_row3
+	text = {
+		localization_key = cheatideas_experiences_row3
+	}
+}
+defined_text = {
+	name = cheatideas_experiences_row4
+	text = {
+		localization_key = cheatideas_experiences_row4
+	}
+}
+defined_text = {
+	name = cheatideas_experiences_row5
+	text = {
+		localization_key = cheatideas_experiences_row5
+	}
+}
+defined_text = {
+	name = cheatideas_experiences_row6
+	text = {
+		localization_key = cheatideas_experiences_row6
+	}
+}
+defined_text = {
+	name = cheatideas_experiences_row7
+	text = {
+		localization_key = cheatideas_experiences_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_doc1
+	text = {
+		localization_key = cheatideas_doc1
+	}
+}
+defined_text = {
+	name = cheatideas_doc1_row1
+	text = {
+		localization_key = cheatideas_doc1_row1
+	}
+}
+defined_text = {
+	name = cheatideas_doc1_row2
+	text = {
+		localization_key = cheatideas_doc1_row2
+	}
+}
+defined_text = {
+	name = cheatideas_doc1_row3
+	text = {
+		localization_key = cheatideas_doc1_row3
+	}
+}
+defined_text = {
+	name = cheatideas_doc1_row4
+	text = {
+		localization_key = cheatideas_doc1_row4
+	}
+}
+defined_text = {
+	name = cheatideas_doc1_row5
+	text = {
+		localization_key = cheatideas_doc1_row5
+	}
+}
+defined_text = {
+	name = cheatideas_doc1_row6
+	text = {
+		localization_key = cheatideas_doc1_row6
+	}
+}
+defined_text = {
+	name = cheatideas_doc1_row7
+	text = {
+		localization_key = cheatideas_doc1_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_doc2
+	text = {
+		localization_key = cheatideas_doc2
+	}
+}
+defined_text = {
+	name = cheatideas_doc2_row1
+	text = {
+		localization_key = cheatideas_doc2_row1
+	}
+}
+defined_text = {
+	name = cheatideas_doc2_row2
+	text = {
+		localization_key = cheatideas_doc2_row2
+	}
+}
+defined_text = {
+	name = cheatideas_doc2_row3
+	text = {
+		localization_key = cheatideas_doc2_row3
+	}
+}
+defined_text = {
+	name = cheatideas_doc2_row4
+	text = {
+		localization_key = cheatideas_doc2_row4
+	}
+}
+defined_text = {
+	name = cheatideas_doc2_row5
+	text = {
+		localization_key = cheatideas_doc2_row5
+	}
+}
+defined_text = {
+	name = cheatideas_doc2_row6
+	text = {
+		localization_key = cheatideas_doc2_row6
+	}
+}
+defined_text = {
+	name = cheatideas_doc2_row7
+	text = {
+		localization_key = cheatideas_doc2_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_doc3
+	text = {
+		localization_key = cheatideas_doc3
+	}
+}
+defined_text = {
+	name = cheatideas_doc3_row1
+	text = {
+		localization_key = cheatideas_doc3_row1
+	}
+}
+defined_text = {
+	name = cheatideas_doc3_row2
+	text = {
+		localization_key = cheatideas_doc3_row2
+	}
+}
+defined_text = {
+	name = cheatideas_doc3_row3
+	text = {
+		localization_key = cheatideas_doc3_row3
+	}
+}
+defined_text = {
+	name = cheatideas_doc3_row4
+	text = {
+		localization_key = cheatideas_doc3_row4
+	}
+}
+defined_text = {
+	name = cheatideas_doc3_row5
+	text = {
+		localization_key = cheatideas_doc3_row5
+	}
+}
+defined_text = {
+	name = cheatideas_doc3_row6
+	text = {
+		localization_key = cheatideas_doc3_row6
+	}
+}
+defined_text = {
+	name = cheatideas_doc3_row7
+	text = {
+		localization_key = cheatideas_doc3_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_doc4
+	text = {
+		localization_key = cheatideas_doc4
+	}
+}
+defined_text = {
+	name = cheatideas_doc4_row1
+	text = {
+		localization_key = cheatideas_doc4_row1
+	}
+}
+defined_text = {
+	name = cheatideas_doc4_row2
+	text = {
+		localization_key = cheatideas_doc4_row2
+	}
+}
+defined_text = {
+	name = cheatideas_doc4_row3
+	text = {
+		localization_key = cheatideas_doc4_row3
+	}
+}
+defined_text = {
+	name = cheatideas_doc4_row4
+	text = {
+		localization_key = cheatideas_doc4_row4
+	}
+}
+defined_text = {
+	name = cheatideas_doc4_row5
+	text = {
+		localization_key = cheatideas_doc4_row5
+	}
+}
+defined_text = {
+	name = cheatideas_doc4_row6
+	text = {
+		localization_key = cheatideas_doc4_row6
+	}
+}
+defined_text = {
+	name = cheatideas_doc4_row7
+	text = {
+		localization_key = cheatideas_doc4_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_new1
+	text = {
+		localization_key = cheatideas_new1
+	}
+}
+defined_text = {
+	name = cheatideas_new1_row1
+	text = {
+		localization_key = cheatideas_new1_row1
+	}
+}
+defined_text = {
+	name = cheatideas_new1_row2
+	text = {
+		localization_key = cheatideas_new1_row2
+	}
+}
+defined_text = {
+	name = cheatideas_new1_row3
+	text = {
+		localization_key = cheatideas_new1_row3
+	}
+}
+defined_text = {
+	name = cheatideas_new1_row4
+	text = {
+		localization_key = cheatideas_new1_row4
+	}
+}
+defined_text = {
+	name = cheatideas_new1_row5
+	text = {
+		localization_key = cheatideas_new1_row5
+	}
+}
+defined_text = {
+	name = cheatideas_new1_row6
+	text = {
+		localization_key = cheatideas_new1_row6
+	}
+}
+defined_text = {
+	name = cheatideas_new1_row7
+	text = {
+		localization_key = cheatideas_new1_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_new2
+	text = {
+		localization_key = cheatideas_new2
+	}
+}
+defined_text = {
+	name = cheatideas_new2_row1
+	text = {
+		localization_key = cheatideas_new2_row1
+	}
+}
+defined_text = {
+	name = cheatideas_new2_row2
+	text = {
+		localization_key = cheatideas_new2_row2
+	}
+}
+defined_text = {
+	name = cheatideas_new2_row3
+	text = {
+		localization_key = cheatideas_new2_row3
+	}
+}
+defined_text = {
+	name = cheatideas_new2_row4
+	text = {
+		localization_key = cheatideas_new2_row4
+	}
+}
+defined_text = {
+	name = cheatideas_new2_row5
+	text = {
+		localization_key = cheatideas_new2_row5
+	}
+}
+defined_text = {
+	name = cheatideas_new2_row6
+	text = {
+		localization_key = cheatideas_new2_row6
+	}
+}
+defined_text = {
+	name = cheatideas_new2_row7
+	text = {
+		localization_key = cheatideas_new2_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_new3
+	text = {
+		localization_key = cheatideas_new3
+	}
+}
+defined_text = {
+	name = cheatideas_new3_row1
+	text = {
+		localization_key = cheatideas_new3_row1
+	}
+}
+defined_text = {
+	name = cheatideas_new3_row2
+	text = {
+		localization_key = cheatideas_new3_row2
+	}
+}
+defined_text = {
+	name = cheatideas_new3_row3
+	text = {
+		localization_key = cheatideas_new3_row3
+	}
+}
+defined_text = {
+	name = cheatideas_new3_row4
+	text = {
+		localization_key = cheatideas_new3_row4
+	}
+}
+defined_text = {
+	name = cheatideas_new3_row5
+	text = {
+		localization_key = cheatideas_new3_row5
+	}
+}
+defined_text = {
+	name = cheatideas_new3_row6
+	text = {
+		localization_key = cheatideas_new3_row6
+	}
+}
+defined_text = {
+	name = cheatideas_new3_row7
+	text = {
+		localization_key = cheatideas_new3_row7
+	}
+}
+
+defined_text = {
+	name = cheatideas_new4
+	text = {
+		localization_key = cheatideas_new4
+	}
+}
+defined_text = {
+	name = cheatideas_new4_row1
+	text = {
+		localization_key = cheatideas_new4_row1
+	}
+}
+defined_text = {
+	name = cheatideas_new4_row2
+	text = {
+		localization_key = cheatideas_new4_row2
+	}
+}
+defined_text = {
+	name = cheatideas_new4_row3
+	text = {
+		localization_key = cheatideas_new4_row3
+	}
+}
+defined_text = {
+	name = cheatideas_new4_row4
+	text = {
+		localization_key = cheatideas_new4_row4
+	}
+}
+defined_text = {
+	name = cheatideas_new4_row5
+	text = {
+		localization_key = cheatideas_new4_row5
+	}
+}
+defined_text = {
+	name = cheatideas_new4_row6
+	text = {
+		localization_key = cheatideas_new4_row6
+	}
+}
+defined_text = {
+	name = cheatideas_new4_row7
+	text = {
+		localization_key = cheatideas_new4_row7
+	}
+}
+cheatideas_page_presets_separator = {
+	text = {
+		localization_key = cheatideas_page_presets_separator
+	}
+}
+defined_text = {
+	name = cheatideas_construction_row0_button
+	text = {
+		localization_key = cheatideas_construction_row0_button
+	}
+}
+defined_text = {
+	name = cheatideas_neutral_option
+	text = {
+		localization_key = cheatideas_neutral_option
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m1k
+	text = {
+		localization_key = cheatideas_percent_m1k
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m100
+	text = {
+		localization_key = cheatideas_percent_m100
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m90
+	text = {
+		localization_key = cheatideas_percent_m90
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m80
+	text = {
+		localization_key = cheatideas_percent_m80
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m70
+	text = {
+		localization_key = cheatideas_percent_m70
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m60
+	text = {
+		localization_key = cheatideas_percent_m60
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m50
+	text = {
+		localization_key = cheatideas_percent_m50
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m40
+	text = {
+		localization_key = cheatideas_percent_m40
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m30
+	text = {
+		localization_key = cheatideas_percent_m30
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m25
+	text = {
+		localization_key = cheatideas_percent_m25
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m20
+	text = {
+		localization_key = cheatideas_percent_m20
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m15
+	text = {
+		localization_key = cheatideas_percent_m15
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m10
+	text = {
+		localization_key = cheatideas_percent_m10
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m8
+	text = {
+		localization_key = cheatideas_percent_m8
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m5
+	text = {
+		localization_key = cheatideas_percent_m5
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m4
+	text = {
+		localization_key = cheatideas_percent_m4
+	}
+}
+defined_text = {
+	name = cheatideas_percent_m2
+	text = {
+		localization_key = cheatideas_percent_m2
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p10k
+	text = {
+		localization_key = cheatideas_percent_p10k
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p5k
+	text = {
+		localization_key = cheatideas_percent_p5k
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p1k
+	text = {
+		localization_key = cheatideas_percent_p1k
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p500
+	text = {
+		localization_key = cheatideas_percent_p500
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p100
+	text = {
+		localization_key = cheatideas_percent_p100
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p90
+	text = {
+		localization_key = cheatideas_percent_p90
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p80
+	text = {
+		localization_key = cheatideas_percent_p80
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p70
+	text = {
+		localization_key = cheatideas_percent_p70
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p64
+	text = {
+		localization_key = cheatideas_percent_p64
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p60
+	text = {
+		localization_key = cheatideas_percent_p60
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p50
+	text = {
+		localization_key = cheatideas_percent_p50
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p40
+	text = {
+		localization_key = cheatideas_percent_p40
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p30
+	text = {
+		localization_key = cheatideas_percent_p30
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p20
+	text = {
+		localization_key = cheatideas_percent_p20
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p16
+	text = {
+		localization_key = cheatideas_percent_p16
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p10
+	text = {
+		localization_key = cheatideas_percent_p10
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p8
+	text = {
+		localization_key = cheatideas_percent_p8
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p4
+	text = {
+		localization_key = cheatideas_percent_p4
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p2
+	text = {
+		localization_key = cheatideas_percent_p2
+	}
+}
+defined_text = {
+	name = cheatideas_percent_p1
+	text = {
+		localization_key = cheatideas_percent_p1
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp10k
+	text = {
+		localization_key = cheatideas_percent_pp10k
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp100
+	text = {
+		localization_key = cheatideas_percent_pp100
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp90
+	text = {
+		localization_key = cheatideas_percent_pp90
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp80
+	text = {
+		localization_key = cheatideas_percent_pp80
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp70
+	text = {
+		localization_key = cheatideas_percent_pp70
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp60
+	text = {
+		localization_key = cheatideas_percent_pp60
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp50
+	text = {
+		localization_key = cheatideas_percent_pp50
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp40
+	text = {
+		localization_key = cheatideas_percent_pp40
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp30
+	text = {
+		localization_key = cheatideas_percent_pp30
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp25
+	text = {
+		localization_key = cheatideas_percent_pp25
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp20
+	text = {
+		localization_key = cheatideas_percent_pp20
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp10
+	text = {
+		localization_key = cheatideas_percent_pp10
+	}
+}
+defined_text = {
+	name = cheatideas_percent_pp5
+	text = {
+		localization_key = cheatideas_percent_pp5
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_m5d0
+	text = {
+		localization_key = cheatideas_fnum_m5d0
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_m1d0
+	text = {
+		localization_key = cheatideas_fnum_m1d0
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_m0d5
+	text = {
+		localization_key = cheatideas_fnum_m0d5
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_m0d25
+	text = {
+		localization_key = cheatideas_fnum_m0d25
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_m0d1
+	text = {
+		localization_key = cheatideas_fnum_m0d1
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_m0d05
+	text = {
+		localization_key = cheatideas_fnum_m0d05
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_m0d025
+	text = {
+		localization_key = cheatideas_fnum_m0d025
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_m0d01
+	text = {
+		localization_key = cheatideas_fnum_m0d01
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_p100d0
+	text = {
+		localization_key = cheatideas_fnum_p100d0
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_p10d0
+	text = {
+		localization_key = cheatideas_fnum_p10d0
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_p5d0
+	text = {
+		localization_key = cheatideas_fnum_p5d0
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_p2d0
+	text = {
+		localization_key = cheatideas_fnum_p2d0
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_p1d0
+	text = {
+		localization_key = cheatideas_fnum_p1d0
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_p0d5
+	text = {
+		localization_key = cheatideas_fnum_p0d5
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_p0d25
+	text = {
+		localization_key = cheatideas_fnum_p0d25
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_p0d1
+	text = {
+		localization_key = cheatideas_fnum_p0d1
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_p0d05
+	text = {
+		localization_key = cheatideas_fnum_p0d05
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_p0d025
+	text = {
+		localization_key = cheatideas_fnum_p0d025
+	}
+}
+defined_text = {
+	name = cheatideas_fnum_p0d01
+	text = {
+		localization_key = cheatideas_fnum_p0d01
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m1
+	text = {
+		localization_key = cheatideas_inum_m1
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m2
+	text = {
+		localization_key = cheatideas_inum_m2
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m4
+	text = {
+		localization_key = cheatideas_inum_m4
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m5
+	text = {
+		localization_key = cheatideas_inum_m5
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m6
+	text = {
+		localization_key = cheatideas_inum_m6
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m8
+	text = {
+		localization_key = cheatideas_inum_m8
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m12
+	text = {
+		localization_key = cheatideas_inum_m12
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m16
+	text = {
+		localization_key = cheatideas_inum_m16
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m18
+	text = {
+		localization_key = cheatideas_inum_m18
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m24
+	text = {
+		localization_key = cheatideas_inum_m24
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m100
+	text = {
+		localization_key = cheatideas_inum_m100
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m200
+	text = {
+		localization_key = cheatideas_inum_m200
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m240
+	text = {
+		localization_key = cheatideas_inum_m240
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m640
+	text = {
+		localization_key = cheatideas_inum_m640
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m800
+	text = {
+		localization_key = cheatideas_inum_m800
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m1k
+	text = {
+		localization_key = cheatideas_inum_m1k
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m2k
+	text = {
+		localization_key = cheatideas_inum_m2k
+	}
+}
+defined_text = {
+	name = cheatideas_inum_m10k
+	text = {
+		localization_key = cheatideas_inum_m10k
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p1
+	text = {
+		localization_key = cheatideas_inum_p1
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p2
+	text = {
+		localization_key = cheatideas_inum_p2
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p3
+	text = {
+		localization_key = cheatideas_inum_p3
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p4
+	text = {
+		localization_key = cheatideas_inum_p4
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p5
+	text = {
+		localization_key = cheatideas_inum_p5
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p6
+	text = {
+		localization_key = cheatideas_inum_p6
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p8
+	text = {
+		localization_key = cheatideas_inum_p8
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p10
+	text = {
+		localization_key = cheatideas_inum_p10
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p12
+	text = {
+		localization_key = cheatideas_inum_p12
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p15
+	text = {
+		localization_key = cheatideas_inum_p15
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p16
+	text = {
+		localization_key = cheatideas_inum_p16
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p24
+	text = {
+		localization_key = cheatideas_inum_p24
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p32
+	text = {
+		localization_key = cheatideas_inum_p32
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p48
+	text = {
+		localization_key = cheatideas_inum_p48
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p50
+	text = {
+		localization_key = cheatideas_inum_p50
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p72
+	text = {
+		localization_key = cheatideas_inum_p72
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p100
+	text = {
+		localization_key = cheatideas_inum_p100
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p120
+	text = {
+		localization_key = cheatideas_inum_p120
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p200
+	text = {
+		localization_key = cheatideas_inum_p200
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p240
+	text = {
+		localization_key = cheatideas_inum_p240
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p250
+	text = {
+		localization_key = cheatideas_inum_p250
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p400
+	text = {
+		localization_key = cheatideas_inum_p400
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p500
+	text = {
+		localization_key = cheatideas_inum_p500
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p480
+	text = {
+		localization_key = cheatideas_inum_p480
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p640
+	text = {
+		localization_key = cheatideas_inum_p640
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p800
+	text = {
+		localization_key = cheatideas_inum_p800
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p960
+	text = {
+		localization_key = cheatideas_inum_p960
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p1k
+	text = {
+		localization_key = cheatideas_inum_p1k
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p10k
+	text = {
+		localization_key = cheatideas_inum_p10k
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p32k
+	text = {
+		localization_key = cheatideas_inum_p32k
+	}
+}
+defined_text = {
+	name = cheatideas_inum_p100k
+	text = {
+		localization_key = cheatideas_inum_p100k

@@ -1,0 +1,3866 @@
+#铁血工造（轻型坦克-两栖坦克，装甲支援车，中坦-现代坦克，重坦-超重坦、陆巡）
+ACMD_tank_organization_1 = {
+	icon = GFX_idea_ACMD_tank_organization
+	background = GFX_ACMD_tank_organization_mio_details_background
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		owner = {
+			has_country_flag = flag_ACMD_on_1
+		}
+	}
+
+	equipment_type = {
+		ACMD_mio_cat_eq_all_armor_equipment
+		#mio_cat_eq_all_light_tank
+		#mio_cat_eq_all_medium_tank
+		#mio_cat_eq_all_heavy_tank
+	}
+	research_categories = {
+		mio_cat_tech_all_armor_and_modules
+		#mio_cat_tech_light_armor_and_modules
+		#mio_cat_tech_medium_armor_and_modules
+		#mio_cat_tech_heavy_armor_and_modules
+	}
+
+	tree_header_text = {
+		text = ACMD_light_tank
+		x = 1
+	}
+	tree_header_text = {
+		text = ACMD_medium_tank
+		x = 4
+	}
+	tree_header_text = {
+		text = ACMD_heavy_tank
+		x = 7
+	}
+
+	initial_trait = {
+		name = ACMD_tank_organization_mio
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.1
+			maximum_speed = 0.1
+			armor_value = 0.15
+			reliability = 0.05
+			fuel_consumption = -0.05
+		}
+	}
+
+	trait = {
+		token = ACMD_tank_organization_mio_light_tank_1
+		name = ACMD_tank_organization_mio_light_tank_1
+		icon = GFX_generic_mio_department_icon_tank_light_tank_armor
+
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_light_tank armored_support_vehicle
+		}
+
+		equipment_bonus = {
+			defense = 0.1
+			armor_value = 0.05
+			soft_attack = 0.05
+		}
+		
+	}
+	trait = {
+		token = ACMD_tank_organization_mio_light_tank_2
+		name = ACMD_tank_organization_mio_light_tank_2
+		icon = GFX_generic_mio_department_icon_tank_light_tank_weapons
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_tank_organization_mio_light_tank_1
+		any_parent = { ACMD_tank_organization_mio_light_tank_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_light_tank armored_support_vehicle
+		}
+
+		equipment_bonus = {
+			breakthrough = 0.15
+		}
+		
+	}
+	trait = {
+		token = ACMD_tank_organization_mio_light_tank_3
+		name = ACMD_tank_organization_mio_light_tank_3
+		icon = GFX_generic_mio_department_icon_tank_light_tank_production
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_light_tank armored_support_vehicle
+		}
+
+		equipment_bonus = {
+			reliability = 0.15
+			build_cost_ic = -0.1
+		}
+	}
+	trait = {
+		token = ACMD_tank_organization_mio_light_tank_4
+		name = ACMD_tank_organization_mio_light_tank_4
+		icon = GFX_generic_mio_department_icon_tank_light_tank_materials
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_tank_organization_mio_light_tank_3
+		any_parent = { ACMD_tank_organization_mio_light_tank_3 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_light_tank armored_support_vehicle
+		}
+
+		equipment_bonus = {
+			fuel_consumption = -0.1
+		}
+	}
+		trait = {
+		token = ACMD_tank_organization_mio_light_tank_5
+		name = ACMD_tank_organization_mio_light_tank_5
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		position = { x=1 y=2 }
+		all_parents = { ACMD_tank_organization_mio_light_tank_2 ACMD_tank_organization_mio_light_tank_4 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_light_tank armored_support_vehicle
+		}
+
+		equipment_bonus = {
+			maximum_speed = 0.12
+		}
+	}
+	trait = {
+		token = ACMD_tank_organization_mio_medium_tank_1
+		name = ACMD_tank_organization_mio_medium_tank_1
+		icon = GFX_generic_mio_department_icon_tank_medium_tank_armor
+
+		position = { x=3 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_medium_tank }
+
+		equipment_bonus = {
+			armor_value = 0.05
+		}
+		
+	}
+	trait = {
+		token = ACMD_tank_organization_mio_medium_tank_2
+		name = ACMD_tank_organization_mio_medium_tank_2
+		icon = GFX_generic_mio_department_icon_tank_medium_tank_weapons
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_tank_organization_mio_medium_tank_1
+		any_parent = { ACMD_tank_organization_mio_medium_tank_1 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_medium_tank }
+
+		equipment_bonus = {
+			breakthrough = 0.15
+			hard_attack = 0.05
+		}
+		
+	}
+	trait = {
+		token = ACMD_tank_organization_mio_medium_tank_3
+		name = ACMD_tank_organization_mio_medium_tank_3
+		icon = GFX_generic_mio_department_icon_tank_medium_tank_production
+		position = { x=5 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_medium_tank }
+
+		equipment_bonus = {
+			reliability = 0.15
+			build_cost_ic = -0.05
+		}
+	}
+	trait = {
+		token = ACMD_tank_organization_mio_medium_tank_4
+		name = ACMD_tank_organization_mio_medium_tank_4
+		icon = GFX_generic_mio_department_icon_tank_medium_tank_at
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_tank_organization_mio_medium_tank_3
+		any_parent = { ACMD_tank_organization_mio_medium_tank_3 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_medium_tank }
+
+		equipment_bonus = {
+			ap_attack = 0.1
+		}
+		
+	}
+	trait = {
+		token = ACMD_tank_organization_mio_medium_tank_5
+		name = ACMD_tank_organization_mio_medium_tank_5
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		position = { x=4 y=2 }
+		all_parents = { ACMD_tank_organization_mio_medium_tank_2 ACMD_tank_organization_mio_medium_tank_4}
+
+		limit_to_equipment_type = { mio_cat_eq_all_medium_tank }
+
+		equipment_bonus = {
+			maximum_speed = 0.05
+			defense = 0.05
+		}
+	}
+
+	trait = {
+		token = ACMD_tank_organization_mio_heavy_tank_1
+		name = ACMD_tank_organization_mio_heavy_tank_1
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_armor
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_heavy_tank land_cruiser_chassis }
+
+		equipment_bonus = {
+			armor_value = 0.20
+			defense = 0.15
+		}
+		
+	}
+	trait = {
+		token = ACMD_tank_organization_mio_heavy_tank_2
+		name = ACMD_tank_organization_mio_heavy_tank_2
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_weapons
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_tank_organization_mio_heavy_tank_1
+		any_parent = { ACMD_tank_organization_mio_heavy_tank_1 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_heavy_tank land_cruiser_chassis }
+
+		equipment_bonus = {
+			breakthrough = 0.1
+			hard_attack = 0.12
+		}
+		
+	}
+	
+	trait = {
+		token = ACMD_tank_organization_mio_heavy_tank_3
+		name = ACMD_tank_organization_mio_heavy_tank_3
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_production
+
+		position = { x=8 y=0 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_heavy_tank land_cruiser_chassis }
+
+		equipment_bonus = {
+			reliability = 0.1
+			fuel_consumption = -0.15
+			build_cost_ic = -0.15
+		}
+		
+	}
+	trait = {
+		token = ACMD_tank_organization_mio_heavy_tank_4
+		name = ACMD_tank_organization_mio_heavy_tank_4
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_tank_organization_mio_heavy_tank_3
+		any_parent = { ACMD_tank_organization_mio_heavy_tank_3 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_heavy_tank land_cruiser_chassis }
+
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+		
+	}
+	trait = {
+		token = ACMD_tank_organization_mio_heavy_tank_5
+		name = ACMD_tank_organization_mio_heavy_tank_5
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_at
+		position = { x=7 y=2 }
+		all_parents = { ACMD_tank_organization_mio_heavy_tank_2 ACMD_tank_organization_mio_heavy_tank_4 }
+
+		limit_to_equipment_type = { mio_cat_eq_all_heavy_tank land_cruiser_chassis }
+
+		equipment_bonus = {
+			soft_attack = 0.12
+			ap_attack = 0.05
+			defense = 0.05
+		}
+	}
+
+	trait = {
+		token = ACMD_tank_organization_mio_1
+		name = ACMD_tank_organization_mio_1
+		icon = GFX_generic_mio_department_icon_tank_general_engine
+		special_trait_background = yes
+
+		position = { x=3 y=3 }
+
+		any_parent = { ACMD_tank_organization_mio_light_tank_5 ACMD_tank_organization_mio_medium_tank_5 ACMD_tank_organization_mio_heavy_tank_5 }
+
+		limit_to_equipment_type = { ACMD_mio_cat_eq_all_armor_equipment }
+
+		equipment_bonus = {
+			reliability = 0.15
+			maximum_speed = 0.15
+			armor_value = 0.2
+			hardness = 0.06
+		}
+		
+	}
+
+	trait = {
+		token = ACMD_tank_organization_mio_3
+		name = ACMD_tank_organization_mio_3
+		icon = GFX_generic_mio_department_icon_tank_general_quality
+		special_trait_background = yes
+
+		position = { x=5 y=3 }
+
+		any_parent = { ACMD_tank_organization_mio_light_tank_5 ACMD_tank_organization_mio_medium_tank_5 ACMD_tank_organization_mio_heavy_tank_5 }
+
+		limit_to_equipment_type = { ACMD_mio_cat_eq_all_armor_equipment }
+
+		equipment_bonus = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+			ap_attack = 0.18
+			maximum_speed = 0.1
+		}
+		
+	}
+
+	trait = {
+		token = ACMD_tank_organization_mio_2
+		name = ACMD_tank_organization_mio_2
+		icon = GFX_generic_mio_department_icon_tank_general_at
+		special_trait_background = yes
+
+		position = { x=4 y=4 }
+
+		all_parents = { ACMD_tank_organization_mio_1 ACMD_tank_organization_mio_3 }
+
+		limit_to_equipment_type = { ACMD_mio_cat_eq_all_armor_equipment }
+
+		equipment_bonus = {
+			defense = 0.2
+			breakthrough = 0.25
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+		
+	}
+
+}
+
+#雷神工业（摩托化装备-自行火箭炮，装甲车，机械化装备-两栖登陆载具）
+ACMD_motorized_mechanized_organization_1 = {
+	icon = GFX_idea_ACMD_motorized_mechanized_organization
+	background = GFX_ACMD_motorized_mechanized_organization_mio_details_background
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		owner = {
+			has_country_flag = flag_ACMD_on_1
+		}
+	}
+
+	equipment_type = {
+		ACMD_mio_cat_eq_all_motorized_equipment
+		ACMD_mio_cat_eq_all_mechanized_equipment
+		ACMD_mio_cat_eq_all_armor_car
+	}
+	research_categories = {
+		mio_cat_tech_all_motorized_mechanized
+		cat_armored_cars
+	}
+
+	tree_header_text = {
+		text = ACMD_motorized
+		x = 1
+	}
+	tree_header_text = {
+		text = ACMD_armored_car
+		x = 4
+	}
+	tree_header_text = {
+		text = ACMD_mechanized
+		x = 7
+	}
+
+	initial_trait = {
+		name = ACMD_motorized_mechanized_organization_mio
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+	}
+
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_motorized_1
+		name = ACMD_motorized_mechanized_organization_mio_motorized_1
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=1 y=0 }
+
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+
+		equipment_bonus = {
+			reliability = 0.15
+		}
+		
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_motorized_2
+		name = ACMD_motorized_mechanized_organization_mio_motorized_2
+		icon = GFX_generic_mio_trait_icon_fuel_consumption
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_motorized_1
+		any_parent = { ACMD_motorized_mechanized_organization_mio_motorized_1 }
+
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+
+		equipment_bonus = {
+			maximum_speed = 0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_motorized_3
+		name = ACMD_motorized_mechanized_organization_mio_motorized_3
+		icon = GFX_generic_mio_trait_icon_breakthrough
+
+		position = { x=1 y=0 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_motorized_2
+		any_parent = { ACMD_motorized_mechanized_organization_mio_motorized_2 }
+
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+
+		equipment_bonus = {
+			breakthrough = 0.035
+		}
+
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_motorized_4
+		name = ACMD_motorized_mechanized_organization_mio_motorized_4
+		icon = GFX_generic_mio_department_icon_motorized_production
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_motorized_3
+		any_parent = { ACMD_motorized_mechanized_organization_mio_motorized_3 }
+
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+
+		equipment_bonus = {
+			fuel_consumption = -0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_motorized_5
+		name = ACMD_motorized_mechanized_organization_mio_motorized_5
+		icon = GFX_generic_mio_department_icon_motorized_engine
+
+		position = { x=1 y=0 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_motorized_4
+		any_parent = { ACMD_motorized_mechanized_organization_mio_motorized_4 }
+
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+
+		equipment_bonus = {
+			build_cost_ic = -0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_motorized_6
+		name = ACMD_motorized_mechanized_organization_mio_motorized_6
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_motorized_5
+		any_parent = { ACMD_motorized_mechanized_organization_mio_motorized_5 }
+
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+		
+		equipment_bonus = {
+			maximum_speed = 0.15
+		}
+
+	}
+
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_mechanized_1
+		name = ACMD_motorized_mechanized_organization_mio_mechanized_1
+		icon = GFX_generic_mio_department_icon_mechanized_production
+
+		position = { x=7 y=0 }
+
+		limit_to_equipment_type = { mechanized_equipment amphibious_mechanized_equipment 
+		}
+		
+		equipment_bonus = {
+			build_cost_ic = -0.12
+		}
+		
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_mechanized_2
+		name = ACMD_motorized_mechanized_organization_mio_mechanized_2
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_mechanized_1
+		any_parent = { ACMD_motorized_mechanized_organization_mio_mechanized_1 }
+
+		limit_to_equipment_type = { mechanized_equipment amphibious_mechanized_equipment 
+		}
+
+		equipment_bonus = {
+			maximum_speed = 0.2
+		}
+
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_mechanized_3
+		name = ACMD_motorized_mechanized_organization_mio_mechanized_3
+		icon = GFX_generic_mio_trait_icon_fuel_consumption
+
+		position = { x=-1 y=0 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_mechanized_2
+		any_parent = { ACMD_motorized_mechanized_organization_mio_mechanized_2 }
+
+		limit_to_equipment_type = { mechanized_equipment amphibious_mechanized_equipment 
+		}
+
+		equipment_bonus = {
+			maximum_speed = 0.12
+			fuel_consumption = -0.03
+		}
+
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_mechanized_4
+		name = ACMD_motorized_mechanized_organization_mio_mechanized_4
+		icon = GFX_generic_mio_trait_icon_ap_attack
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_mechanized_3
+		any_parent = { ACMD_motorized_mechanized_organization_mio_mechanized_3 }
+
+		limit_to_equipment_type = { mechanized_equipment amphibious_mechanized_equipment 
+		}
+
+		equipment_bonus = {
+			ap_attack = 0.1
+			hard_attack = 0.02
+			armor_value = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_mechanized_5
+		name = ACMD_motorized_mechanized_organization_mio_mechanized_5
+		icon = GFX_generic_mio_trait_icon_hardness
+
+		position = { x=-1 y=0 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_mechanized_4
+		any_parent = { ACMD_motorized_mechanized_organization_mio_mechanized_4 }
+
+		limit_to_equipment_type = { mechanized_equipment amphibious_mechanized_equipment 
+		}
+
+		equipment_bonus = {
+			hardness = 0.05
+			breakthrough = 0.035
+			defense = 0.04
+		}
+
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_mechanized_6
+		name = ACMD_motorized_mechanized_organization_mio_mechanized_6
+		icon = GFX_generic_mio_department_icon_mechanized_hull
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_mechanized_5
+		any_parent = { ACMD_motorized_mechanized_organization_mio_mechanized_5 }
+
+		limit_to_equipment_type = { mechanized_equipment amphibious_mechanized_equipment 
+		}
+
+		equipment_bonus = {
+			reliability = 0.09
+		}
+
+	}
+
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_armor_car_1
+		name = ACMD_motorized_mechanized_organization_mio_armor_car_1
+		icon = GFX_generic_mio_department_icon_armored_car_line_efficiency
+
+		position = { x=4 y=0 }
+
+		limit_to_equipment_type = { armored_car_equipment gw_armored_car_equipment }
+
+		equipment_bonus = {
+			build_cost_ic = -0.2
+			reliability = 0.2
+		}
+
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_armor_car_2
+		name = ACMD_motorized_mechanized_organization_mio_armor_car_2
+		icon = GFX_generic_mio_department_icon_tank_general_armor
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_armor_car_1
+		any_parent = { ACMD_motorized_mechanized_organization_mio_armor_car_1 }
+
+		limit_to_equipment_type = { armored_car_equipment gw_armored_car_equipment }
+
+		equipment_bonus = {
+			armor_value = 0.2
+			defense = 0.2
+			breakthrough = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_armor_car_3
+		name = ACMD_motorized_mechanized_organization_mio_armor_car_3
+		icon = GFX_generic_mio_trait_icon_soft_attack
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_armor_car_2
+		any_parent = { ACMD_motorized_mechanized_organization_mio_armor_car_2 }
+
+		limit_to_equipment_type = { armored_car_equipment gw_armored_car_equipment }
+
+		equipment_bonus = {
+			soft_attack = 0.1
+			maximum_speed = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_armor_car_4
+		name = ACMD_motorized_mechanized_organization_mio_armor_car_4
+		icon = GFX_generic_mio_department_icon_armored_car_offense
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_motorized_mechanized_organization_mio_armor_car_3
+		any_parent = { ACMD_motorized_mechanized_organization_mio_armor_car_3 }
+
+		limit_to_equipment_type = { armored_car_equipment gw_armored_car_equipment }
+
+		equipment_bonus = {
+			hard_attack = 0.15
+			ap_attack = 0.1
+		}
+
+	}
+
+	trait = {
+		token = ACMD_motorized_mechanized_organization_mio_motorized_mechanized_1
+		name = ACMD_motorized_mechanized_organization_mio_motorized_mechanized_1
+		icon = GFX_generic_mio_department_icon_motorized_mechanized_engine
+		special_trait_background = yes
+
+		position = { x=4 y=4 }
+		any_parent = { ACMD_motorized_mechanized_organization_mio_armor_car_4 ACMD_motorized_mechanized_organization_mio_motorized_6 ACMD_motorized_mechanized_organization_mio_mechanized_6  }
+
+		equipment_bonus = {
+			reliability = 0.18
+			maximum_speed = 0.18
+			hardness = 0.07
+			soft_attack = 0.05
+			breakthrough = 0.05
+		}
+	}
+
+}
+
+#格里芬&克鲁格（步兵装备，支援装备，直升机，火车，列车炮-超重型列车炮）
+ACMD_infantry_support_organization_1 = {
+	icon = GFX_idea_ACMD_infantry_support_organization
+	background = GFX_ACMD_infantry_support_organization_mio_details_background
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		owner = {
+			has_country_flag = flag_ACMD_on_1
+		}
+	}
+
+	equipment_type = {
+		infantry_equipment
+		support_equipment
+		helicopter_equipment
+		ACMD_mio_cat_eq_all_train_equipment
+		
+	}
+	research_categories = {
+		infantry_weapons
+		support_tech
+		mountaineers_tech
+		marine_tech
+		para_tech
+		#helicopter_tech
+	}
+
+	tree_header_text = {
+		text = ACMD_infantry_equipment
+		x = 1
+	}
+	tree_header_text = {
+		text = ACMD_support_equipment
+		x = 7
+	}
+
+	initial_trait = {
+		name = ACMD_infantry_support_organization_mio
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+		}
+
+		limit_to_equipment_type = {
+			infantry_equipment
+		}
+
+		equipment_bonus = {
+			breakthrough = 0.05
+			soft_attack = 0.03
+		}
+	}
+
+	trait = {
+		token = ACMD_infantry_support_organization_mio_infantry_1
+		name = ACMD_infantry_support_organization_mio_infantry_1
+		icon = GFX_generic_mio_department_icon_infantry_materials
+
+		position = { x=0 y=1 }
+
+		limit_to_equipment_type = { infantry_equipment }
+		
+		equipment_bonus = {
+			build_cost_ic = -0.13
+		}
+
+	}
+	trait = {
+		token = ACMD_infantry_support_organization_mio_infantry_2
+		name = ACMD_infantry_support_organization_mio_infantry_2
+		icon = GFX_generic_mio_trait_icon_defense
+
+		position = { x=1 y=0 }
+
+		limit_to_equipment_type = { infantry_equipment }
+
+		equipment_bonus = {
+			defense = 0.15
+		}
+
+	}
+	
+	trait = {
+		token = ACMD_infantry_support_organization_mio_infantry_3
+		name = ACMD_infantry_support_organization_mio_infantry_3
+		icon = GFX_generic_mio_trait_icon_soft_attack
+
+		position = { x=2 y=1 }
+
+		limit_to_equipment_type = { infantry_equipment }
+		
+		equipment_bonus = {
+			soft_attack = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_infantry_support_organization_mio_infantry_4
+		name = ACMD_infantry_support_organization_mio_infantry_4
+		icon = GFX_generic_mio_trait_icon_hard_attack
+
+		position = { x=0 y=3 }
+
+		limit_to_equipment_type = { infantry_equipment }
+
+		equipment_bonus = {
+			ap_attack = 0.1
+			hard_attack = 0.2
+		}
+
+	}
+
+	
+	trait = {
+		token = ACMD_infantry_support_organization_mio_infantry_5
+		name = ACMD_infantry_support_organization_mio_infantry_5
+		icon = GFX_generic_mio_trait_icon_breakthrough
+
+		position = { x=1 y=4 }
+
+		limit_to_equipment_type = { infantry_equipment }
+		
+		equipment_bonus = {
+			breakthrough = 0.2
+		}
+
+	}
+	trait = {
+		token = ACMD_infantry_support_organization_mio_infantry_6
+		name = ACMD_infantry_support_organization_mio_infantry_6
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=2 y=3 }
+
+		limit_to_equipment_type = { infantry_equipment }
+
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_infantry_support_organization_mio_infantry_7
+		name = ACMD_infantry_support_organization_mio_infantry_7
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=1 y=2 }
+
+		all_parents = { ACMD_infantry_support_organization_mio_infantry_1 ACMD_infantry_support_organization_mio_infantry_2 ACMD_infantry_support_organization_mio_infantry_3 ACMD_infantry_support_organization_mio_infantry_4 ACMD_infantry_support_organization_mio_infantry_5 ACMD_infantry_support_organization_mio_infantry_6 }
+
+		limit_to_equipment_type = { infantry_equipment }
+
+		equipment_bonus = {
+			reliability = 0.05
+		}
+
+	}
+
+	trait = {
+		token = ACMD_infantry_support_organization_mio_support_1
+		name = ACMD_infantry_support_organization_mio_support_1
+		icon = GFX_generic_mio_department_icon_helicopter
+
+		position = { x=6 y=1 }
+
+		limit_to_equipment_type = { helicopter_equipment }
+
+		equipment_bonus = {
+			maximum_speed = 0.22
+			reliability = 0.08
+		}
+
+	}
+	trait = {
+		token = ACMD_infantry_support_organization_mio_support_2
+		name = ACMD_infantry_support_organization_mio_support_2
+		icon = GFX_generic_mio_trait_icon_resources
+
+		position = { x=7 y=0 }
+
+		limit_to_equipment_type = { helicopter_equipment }
+
+		equipment_bonus = {
+			build_cost_ic = -0.1
+			reliability = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_infantry_support_organization_mio_support_3
+		name = ACMD_infantry_support_organization_mio_support_3
+		icon = GFX_generic_mio_trait_icon_max_strength
+
+		position = { x=8 y=1 }
+
+		limit_to_equipment_type = { helicopter_equipment }
+
+		equipment_bonus = {
+			hardness = 0.05
+			armor_value = 0.10
+			defense = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_infantry_support_organization_mio_support_4
+		name = ACMD_infantry_support_organization_mio_support_4
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=6 y=3 }
+
+		limit_to_equipment_type = { support_equipment }
+
+		equipment_bonus = {
+			reliability = 0.25
+		}
+
+	}
+	trait = {
+		token = ACMD_infantry_support_organization_mio_support_5
+		name = ACMD_infantry_support_organization_mio_support_5
+		icon = GFX_generic_mio_department_icon_tank_general_armor
+
+		position = { x=7 y=4 }
+
+		limit_to_equipment_type = { train_equipment }
+
+		equipment_bonus = {
+			armor_value = 0.1
+			air_attack = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_infantry_support_organization_mio_support_6
+		name = ACMD_infantry_support_organization_mio_support_6
+		icon = GFX_generic_mio_department_icon_tank_general_spg
+
+		position = { x=8 y=3 }
+
+		limit_to_equipment_type = { railway_gun_equipment super_heavy_railway_gun_equipment }
+
+		equipment_bonus = {
+			reliability = 0.05
+			maximum_speed = 0.1
+			railway_gun_attack = 0.2
+		}
+
+	}
+	trait = {
+		token = ACMD_infantry_support_organization_mio_support_7
+		name = ACMD_infantry_support_organization_mio_support_7
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+
+		position = { x=7 y=2 }
+
+		any_parent = { ACMD_infantry_support_organization_mio_support_1 ACMD_infantry_support_organization_mio_support_2 ACMD_infantry_support_organization_mio_support_3 ACMD_infantry_support_organization_mio_support_4 ACMD_infantry_support_organization_mio_support_5 ACMD_infantry_support_organization_mio_support_6 }
+
+		limit_to_equipment_type = { helicopter_equipment support_equipment train_equipment railway_gun_equipment super_heavy_railway_gun_equipment }
+
+		equipment_bonus = {
+			build_cost_ic = -0.15
+		}
+
+	}
+
+	trait = {
+		token = ACMD_infantry_support_organization_mio_infantry_support_1
+		name = ACMD_infantry_support_organization_mio_infantry_support_1
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = yes
+
+		position = { x=4 y=1 }
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.11
+			military_industrial_organization_funds_gain = 0.1
+			military_industrial_organization_design_team_assign_cost = -0.3
+		}
+		
+	}
+
+	trait = {
+		token = ACMD_infantry_support_organization_mio_infantry_support_2
+		name = ACMD_infantry_support_organization_mio_infantry_support_2
+		icon = GFX_generic_mio_trait_icon_unique
+		special_trait_background = yes
+
+		position = { x=4 y=2 }
+
+		limit_to_equipment_type = { infantry_equipment }
+
+		any_parent = { ACMD_infantry_support_organization_mio_infantry_7 ACMD_infantry_support_organization_mio_support_7 ACMD_infantry_support_organization_mio_infantry_support_1 ACMD_infantry_support_organization_mio_infantry_support_3 }
+
+		equipment_bonus = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+			defense = 0.15
+			ap_attack = 0.1
+		}
+		
+	}
+
+	trait = {
+		token = ACMD_infantry_support_organization_mio_infantry_support_3
+		name = ACMD_infantry_support_organization_mio_infantry_support_3
+		icon = GFX_generic_mio_trait_icon_ap_attack
+		special_trait_background = yes
+
+		position = { x=4 y=3 }
+
+		limit_to_equipment_type = { infantry_equipment }
+
+		equipment_bonus = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+			breakthrough = 0.05
+			soft_attack = 0.15
+		}
+		
+	}
+
+}
+
+#黑钢国际（火炮-超重型榴弹炮，火箭炮，反坦克炮，防空炮）
+ACMD_artillery_organization_1 = {
+	icon = GFX_idea_ACMD_artillery_organization
+	background = GFX_ACMD_artillery_organization_mio_details_background
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		owner = {
+			has_country_flag = flag_ACMD_on_1
+		}
+	}
+
+	equipment_type = {
+		ACMD_mio_cat_eq_all_artillery_equipment
+		anti_tank_equipment
+		anti_air_equipment
+		rocket_artillery_equipment
+	}
+	research_categories = {
+		mio_cat_all_artillery_equipment
+	}
+
+	tree_header_text = {
+		text = ACMD_artillery_equipment
+		x = 1
+	}
+	tree_header_text = {
+		text = ACMD_anti_air_equipment
+		x = 4
+	}
+	tree_header_text = {
+		text = ACMD_anti_tank_equipment
+		x = 7
+	}
+
+	initial_trait = {
+		name = ACMD_artillery_organization_mio
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+			military_industrial_organization_design_team_assign_cost = -0.15
+		}
+	}
+
+	trait = {
+		token = ACMD_artillery_organization_mio_artillery_1
+		name = ACMD_artillery_organization_mio_artillery_1
+		icon = GFX_generic_mio_trait_icon_soft_attack
+
+		position = { x=0 y=1 }
+
+		limit_to_equipment_type = {
+			artillery_equipment
+			rocket_artillery_equipment
+			super_heavy_artillery_equipment
+		}
+
+		equipment_bonus = {
+			soft_attack = 0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_artillery_2
+		name = ACMD_artillery_organization_mio_artillery_2
+		icon = GFX_generic_mio_trait_icon_hard_attack
+
+		position = { x=0 y=3 }
+
+		limit_to_equipment_type = {
+			artillery_equipment
+			rocket_artillery_equipment
+			super_heavy_artillery_equipment
+		}
+
+		equipment_bonus = {
+			hard_attack = 0.15
+		}
+
+	}
+
+	trait = {
+		token = ACMD_artillery_organization_mio_artillery_3
+		name = ACMD_artillery_organization_mio_artillery_3
+		icon = GFX_generic_mio_trait_icon_breakthrough
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = {
+			artillery_equipment
+			rocket_artillery_equipment
+			super_heavy_artillery_equipment
+		}
+		equipment_bonus = {
+			breakthrough = 0.2
+		}
+		
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_artillery_4
+		name = ACMD_artillery_organization_mio_artillery_4
+		icon = GFX_generic_mio_trait_icon_defense
+
+		position = { x=2 y=4 }
+
+		limit_to_equipment_type = {
+			artillery_equipment
+			rocket_artillery_equipment
+			super_heavy_artillery_equipment
+		}
+
+		
+		equipment_bonus = {
+			defense = 0.2
+		}
+
+
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_artillery_5
+		name = ACMD_artillery_organization_mio_artillery_5
+		icon = GFX_generic_mio_trait_icon_ap_attack
+
+		position = { x=2 y=2 }
+
+		all_parents = { ACMD_artillery_organization_mio_artillery_1 ACMD_artillery_organization_mio_artillery_2 ACMD_artillery_organization_mio_artillery_3 ACMD_artillery_organization_mio_artillery_4 }
+
+		limit_to_equipment_type = {
+			artillery_equipment
+			rocket_artillery_equipment
+			super_heavy_artillery_equipment
+		}
+
+		equipment_bonus = {
+			ap_attack = 0.2
+		}
+
+	}
+
+	trait = {
+		token = ACMD_artillery_organization_mio_anti_air_1
+		name = ACMD_artillery_organization_mio_anti_air_1
+		icon = GFX_generic_mio_trait_icon_soft_attack
+
+		position = { x=3 y=0 }
+
+		limit_to_equipment_type = {
+			anti_air_equipment
+		}
+
+		equipment_bonus = {
+			soft_attack = 0.12
+			defense = 0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_anti_air_2
+		name = ACMD_artillery_organization_mio_anti_air_2
+		icon = GFX_generic_mio_trait_icon_ap_attack
+
+		position = { x=5 y=0 }
+
+		limit_to_equipment_type = {
+			anti_air_equipment
+		}
+
+		equipment_bonus = {
+			ap_attack = 0.03
+		}
+
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_anti_air_3
+		name = ACMD_artillery_organization_mio_anti_air_3
+		icon = GFX_generic_mio_department_icon_anti_air
+
+		position = { x=4 y=1 }
+
+		all_parents = { ACMD_artillery_organization_mio_anti_air_1 ACMD_artillery_organization_mio_anti_air_2 }
+
+		limit_to_equipment_type = {
+			anti_air_equipment
+		}
+
+		equipment_bonus = {
+			air_attack = 0.25
+		}
+
+	}
+
+	trait = {
+		token = ACMD_artillery_organization_mio_anti_tank_1
+		name = ACMD_artillery_organization_mio_anti_tank_1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+
+		position = { x=6 y=0 }
+
+		limit_to_equipment_type = {
+			anti_tank_equipment
+		}
+
+		equipment_bonus = {
+			breakthrough = 0.15
+		}
+		
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_anti_tank_2
+		name = ACMD_artillery_organization_mio_anti_tank_2
+		icon = GFX_generic_mio_trait_icon_defense
+
+		position = { x=6 y=4 }
+
+		limit_to_equipment_type = {
+			anti_tank_equipment
+		}
+
+		equipment_bonus = {
+			defense = 0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_anti_tank_3
+		name = ACMD_artillery_organization_mio_anti_tank_3
+		icon = GFX_generic_mio_trait_icon_soft_attack
+
+		position = { x=8 y=1 }
+
+		limit_to_equipment_type = {
+			anti_tank_equipment
+		}
+
+		equipment_bonus = {
+			soft_attack = 0.2
+		}
+
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_anti_tank_4
+		name = ACMD_artillery_organization_mio_anti_tank_4
+		icon = GFX_generic_mio_trait_icon_hard_attack
+
+		position = { x=8 y=3 }
+
+		limit_to_equipment_type = {
+			anti_tank_equipment
+		}
+
+		
+		equipment_bonus = {
+			hard_attack = 0.2
+		}
+
+
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_anti_tank_5
+		name = ACMD_artillery_organization_mio_anti_tank_5
+		icon = GFX_generic_mio_trait_icon_ap_attack
+
+		position = { x=6 y=2 }
+
+		all_parents = { ACMD_artillery_organization_mio_anti_tank_1 ACMD_artillery_organization_mio_anti_tank_2 ACMD_artillery_organization_mio_anti_tank_3 ACMD_artillery_organization_mio_anti_tank_4 }
+
+		limit_to_equipment_type = {
+			anti_tank_equipment
+		}
+
+		equipment_bonus = {
+			ap_attack = 0.2
+		}
+
+	}
+	
+	trait = {
+		token = ACMD_artillery_organization_mio_all_1
+		name = ACMD_artillery_organization_mio_all_1
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+		special_trait_background = yes
+
+		position = { x=3 y=2 }
+
+		any_parent = { ACMD_artillery_organization_mio_artillery_5 ACMD_artillery_organization_mio_anti_air_3 ACMD_artillery_organization_mio_anti_tank_5 }
+		
+		equipment_bonus = {
+			build_cost_ic = -0.1
+			reliability = 0.1
+		}
+		
+
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_all_2
+		name = ACMD_artillery_organization_mio_all_2
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		special_trait_background = yes
+
+		position = { x=5 y=2 }
+
+		any_parent = { ACMD_artillery_organization_mio_artillery_5 ACMD_artillery_organization_mio_anti_air_3 ACMD_artillery_organization_mio_anti_tank_5 }
+
+		equipment_bonus = {
+			breakthrough = 0.2
+			defense = 0.1
+			soft_attack = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_all_3
+		name = ACMD_artillery_organization_mio_all_3
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		special_trait_background = yes
+
+		position = { x=4 y=3 }
+
+		all_parents = { ACMD_artillery_organization_mio_all_1 ACMD_artillery_organization_mio_all_2 }
+
+		equipment_bonus = {
+			soft_attack = 0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_artillery_organization_mio_all_4
+		name = ACMD_artillery_organization_mio_all_4
+		icon = GFX_generic_mio_trait_icon_hard_attack
+		special_trait_background = yes
+
+		position = { x=4 y=4 }
+
+		any_parent = { ACMD_artillery_organization_mio_all_3 }
+
+		equipment_bonus = {
+			hard_attack = 0.25
+			ap_attack = 0.1
+		}
+
+	}
+
+}
+
+#米利西斯开发公司（所有小型机身-超音速）
+ACMD_mini_plane_organization_1 = {
+	icon = GFX_idea_ACMD_mini_plane_organization
+	background = GFX_ACMD_mini_plane_organization_mio_details_background
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		owner = {
+			has_country_flag = flag_ACMD_on_1
+		}
+	}
+
+	equipment_type = {
+		ACMD_mio_cat_eq_all_mini_plane_fighter 
+        ACMD_mio_cat_eq_all_mini_plane_cas
+		ACMD_mio_cat_eq_all_mini_plane_naval_bomber
+	}
+	research_categories = {
+		mio_cat_all_light_aircraft_and_modules
+		#mio_cat_all_light_fighter_and_modules 
+		#mio_cat_all_cas_and_modules
+		#mio_cat_all_naval_bomber_and_modules
+	}
+
+	tree_header_text = {
+		text = ACMD_high_performance_small_aircraft
+		x = 1
+	}
+	tree_header_text = {
+		text = ACMD_cas_airframe
+		x = 4
+	}
+	tree_header_text = {
+		text = ACMD_naval_airframe
+		x = 7
+	}
+
+	initial_trait = {
+		name = ACMD_mini_plane_organization_mio
+		equipment_bonus = {
+            air_agility = 0.05
+            maximum_speed = 0.05
+            air_attack = 0.05
+			air_ground_attack = 0.05
+			build_cost_ic = -0.1
+        }
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+	}
+
+	trait = {
+		token = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_1
+		name = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_1
+		icon = GFX_generic_mio_department_icon_plane_fighter
+
+		position = { x=0 y=0 }
+		limit_to_equipment_type = {
+			mio_cat_eq_only_light_fighter
+			small_plane_cas_airframe
+			cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			maximum_speed = 0.35
+		}
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_2
+		name = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_2
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_1
+
+		any_parent = { ACMD_mini_plane_organization_mio_high_performance_small_aircraft_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_only_light_fighter
+			small_plane_cas_airframe
+			cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			reliability = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_3
+		name = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_3
+		icon = GFX_generic_mio_trait_icon_air_agility
+
+		position = { x=2 y=0 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_only_light_fighter
+			small_plane_cas_airframe
+			cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			air_agility = 0.25
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_4
+		name = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_4
+		icon = GFX_generic_mio_department_icon_plane_fighter_combat
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_3
+
+		any_parent = { ACMD_mini_plane_organization_mio_high_performance_small_aircraft_3 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_only_light_fighter
+			small_plane_cas_airframe
+			cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			naval_strike_attack = 0.15
+			air_attack = 0.27
+			air_ground_attack = 0.32
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_5
+		name = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_5
+		icon = GFX_generic_mio_department_icon_plane_fighter_engine
+
+		position = { x=1 y=2 }
+
+		all_parents = { ACMD_mini_plane_organization_mio_high_performance_small_aircraft_2 ACMD_mini_plane_organization_mio_high_performance_small_aircraft_4 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_only_light_fighter
+			small_plane_cas_airframe
+			cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			air_range = 0.2
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_6
+		name = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_6
+		icon = GFX_generic_mio_trait_icon_defense
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_mini_plane_organization_mio_high_performance_small_aircraft_5
+
+		any_parent = { ACMD_mini_plane_organization_mio_high_performance_small_aircraft_5 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_only_light_fighter
+			small_plane_cas_airframe
+			cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			air_defence = 0.2
+		}
+
+	}
+
+	trait = {
+		token = ACMD_mini_plane_organization_mio_cas_airframe_1
+		name = ACMD_mini_plane_organization_mio_cas_airframe_1
+		icon = GFX_generic_mio_department_icon_plane_cas_materials
+
+		position = { x=3 y=0 }
+		limit_to_equipment_type = {
+			small_plane_cas_airframe
+    	    cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_cas_airframe_2
+		name = ACMD_mini_plane_organization_mio_cas_airframe_2
+		icon = GFX_generic_mio_trait_icon_air_ground_attack
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_mini_plane_organization_mio_cas_airframe_1
+
+		any_parent = { ACMD_mini_plane_organization_mio_cas_airframe_1 }
+
+		limit_to_equipment_type = {
+			small_plane_cas_airframe
+    	    cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			air_ground_attack = 0.25
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_cas_airframe_3
+		name = ACMD_mini_plane_organization_mio_cas_airframe_3
+		icon = GFX_generic_mio_department_icon_plane_cas_combat
+
+		position = { x=5 y=0 }
+
+		limit_to_equipment_type = {
+			small_plane_cas_airframe
+    	    cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			air_attack = 0.08
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_cas_airframe_4
+		name = ACMD_mini_plane_organization_mio_cas_airframe_4
+		icon = GFX_generic_mio_trait_icon_air_ground_attack
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_mini_plane_organization_mio_cas_airframe_3
+
+		any_parent = { ACMD_mini_plane_organization_mio_cas_airframe_3 }
+
+		limit_to_equipment_type = {
+			small_plane_cas_airframe
+    	    cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			air_ground_attack = 0.25
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_cas_airframe_5
+		name = ACMD_mini_plane_organization_mio_cas_airframe_5
+		icon = GFX_generic_mio_trait_icon_defense
+
+		position = { x=4 y=2 }
+
+		all_parents = { ACMD_mini_plane_organization_mio_cas_airframe_2 ACMD_mini_plane_organization_mio_cas_airframe_4 }
+
+		limit_to_equipment_type = {
+			small_plane_cas_airframe
+    	    cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			air_agility = 0.05
+			air_defence = 0.18
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_cas_airframe_6
+		name = ACMD_mini_plane_organization_mio_cas_airframe_6
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_mini_plane_organization_mio_cas_airframe_5
+
+		any_parent = { ACMD_mini_plane_organization_mio_cas_airframe_5 }
+
+		limit_to_equipment_type = {
+			small_plane_cas_airframe
+    	    cv_small_plane_cas_airframe
+		}
+		equipment_bonus = {
+			reliability = 0.1
+		}
+
+	}
+
+	
+	trait = {
+		token = ACMD_mini_plane_organization_mio_naval_airframe_1
+		name = ACMD_mini_plane_organization_mio_naval_airframe_1
+		icon = GFX_generic_mio_trait_icon_surface_detection
+
+		position = { x=6 y=0 }
+		limit_to_equipment_type = {
+			small_plane_naval_bomber_airframe
+        	cv_small_plane_airframe
+    	    cv_small_plane_cas_airframe
+	        cv_small_plane_naval_bomber_airframe
+		}
+		equipment_bonus = {
+			surface_detection = 0.1
+			air_range = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_naval_airframe_2
+		name = ACMD_mini_plane_organization_mio_naval_airframe_2
+		icon = GFX_generic_mio_department_icon_plane_naval_bomber_materials
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_mini_plane_organization_mio_naval_airframe_1
+
+		any_parent = { ACMD_mini_plane_organization_mio_naval_airframe_1 }
+
+		limit_to_equipment_type = {
+			small_plane_naval_bomber_airframe
+        	cv_small_plane_airframe
+    	    cv_small_plane_cas_airframe
+	        cv_small_plane_naval_bomber_airframe
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_naval_airframe_3
+		name = ACMD_mini_plane_organization_mio_naval_airframe_3
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=8 y=0 }
+
+		limit_to_equipment_type = {
+        	cv_small_plane_airframe
+    	    cv_small_plane_cas_airframe
+	        cv_small_plane_naval_bomber_airframe
+		}
+		equipment_bonus = {
+			reliability = 0.05
+			air_defence = 0.05
+			air_agility = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_naval_airframe_4
+		name = ACMD_mini_plane_organization_mio_naval_airframe_4
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_mini_plane_organization_mio_naval_airframe_3
+
+		any_parent = { ACMD_mini_plane_organization_mio_naval_airframe_3 }
+
+		limit_to_equipment_type = {
+        	cv_small_plane_airframe
+    	    cv_small_plane_cas_airframe
+	        cv_small_plane_naval_bomber_airframe
+		}
+		equipment_bonus = {
+			air_range = 0.05
+			maximum_speed = 0.15
+			fuel_consumption = -0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_naval_airframe_5
+		name = ACMD_mini_plane_organization_mio_naval_airframe_5
+		icon = GFX_generic_mio_trait_icon_air_agility
+
+		position = { x=7 y=2 }
+
+		all_parents = { ACMD_mini_plane_organization_mio_naval_airframe_2 ACMD_mini_plane_organization_mio_naval_airframe_4 }
+
+		limit_to_equipment_type = {
+			small_plane_naval_bomber_airframe
+        	cv_small_plane_airframe
+    	    cv_small_plane_cas_airframe
+	        cv_small_plane_naval_bomber_airframe
+		}
+		equipment_bonus = {
+			reliability = 0.1
+			air_defence = 0.1
+			air_agility = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_mini_plane_organization_mio_naval_airframe_6
+		name = ACMD_mini_plane_organization_mio_naval_airframe_6
+		icon = GFX_generic_mio_trait_icon_air_ground_attack
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_mini_plane_organization_mio_naval_airframe_5
+
+		any_parent = { ACMD_mini_plane_organization_mio_naval_airframe_5 }
+
+		limit_to_equipment_type = {
+			small_plane_naval_bomber_airframe
+        	cv_small_plane_airframe
+    	    cv_small_plane_cas_airframe
+	        cv_small_plane_naval_bomber_airframe
+		}
+		equipment_bonus = {
+			air_attack = 0.05
+			air_ground_attack = 0.05
+		}
+
+	}
+
+	trait = {
+		token = ACMD_mini_plane_organization_mio_mini_plane_1
+		name = ACMD_mini_plane_organization_mio_mini_plane_1
+		icon = GFX_generic_mio_department_icon_plane_fighter_quality
+		special_trait_background = yes
+
+		position = { x=3 y=4 }
+
+		any_parent = { ACMD_mini_plane_organization_mio_high_performance_small_aircraft_6 ACMD_mini_plane_organization_mio_cas_airframe_6 ACMD_mini_plane_organization_mio_naval_airframe_6 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_only_light_fighter
+			small_plane_cas_airframe
+			small_plane_naval_bomber_airframe
+			cv_small_plane_airframe
+			cv_small_plane_cas_airframe
+			cv_small_plane_naval_bomber_airframe
+		}
+
+		equipment_bonus = {
+			air_attack = 0.1
+			air_defence = 0.1
+			air_ground_attack = 0.10
+		}
+
+	}
+
+	trait = {
+		token = ACMD_mini_plane_organization_mio_mini_plane_2
+		name = ACMD_mini_plane_organization_mio_mini_plane_2
+		icon = GFX_generic_mio_department_icon_plane_fighter_quality
+		special_trait_background = yes
+
+		position = { x=5 y=4 }
+
+		any_parent = { ACMD_mini_plane_organization_mio_high_performance_small_aircraft_6 ACMD_mini_plane_organization_mio_cas_airframe_6 ACMD_mini_plane_organization_mio_naval_airframe_6 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_only_light_fighter
+			small_plane_cas_airframe
+			small_plane_naval_bomber_airframe
+			cv_small_plane_airframe
+			cv_small_plane_cas_airframe
+			cv_small_plane_naval_bomber_airframe
+		}
+
+		equipment_bonus = {
+			air_agility = 0.1
+			maximum_speed = 0.17
+			air_range = 0.1
+		}
+
+	}
+
+}
+
+#飞行蒸汽骑士验证部（中型飞机，大型飞机-空天母舰、洲际轰炸机）
+ACMD_huge_plane_organization_1 = {
+	icon = GFX_idea_ACMD_huge_plane_organization
+	background = GFX_ACMD_huge_plane_organization_mio_details_background
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		owner = {
+			has_country_flag = flag_ACMD_on_1
+		}
+	}
+
+	equipment_type = {
+		ACMD_mio_cat_eq_all_medium_plane
+		ACMD_mio_cat_eq_all_large_plane
+        transport_plane_equipment
+		ACMD_mio_cat_eq_all_missile_equipment
+	}
+	research_categories = {
+		mio_cat_all_medium_aircraft_and_modules
+		mio_cat_all_heavy_aircraft_and_modules
+	}
+
+	tree_header_text = {
+		text = ACMD_medium_plane
+		x = 1
+	}
+	tree_header_text = {
+		text = ACMD_large_plane
+		x = 4
+	}
+	tree_header_text = {
+		text = ACMD_missile_equipment
+		x = 7
+	}
+
+	initial_trait = {
+		name = ACMD_huge_plane_organization_mio
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+	}
+
+	trait = {
+		token = ACMD_huge_plane_organization_mio_medium_plane_1
+		name = ACMD_huge_plane_organization_mio_medium_plane_1
+		icon = GFX_generic_mio_trait_icon_armor_value
+
+		position = { x=0 y=0 }
+		limit_to_equipment_type = {
+			mio_cat_eq_all_medium_plane
+		}
+
+		equipment_bonus = {
+			air_defence = 0.3
+		}
+
+
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_medium_plane_2
+		name = ACMD_huge_plane_organization_mio_medium_plane_2
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_medium_plane_1
+
+		any_parent = { ACMD_huge_plane_organization_mio_medium_plane_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_medium_plane
+		}
+
+		equipment_bonus = {
+			maximum_speed = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_medium_plane_3
+		name = ACMD_huge_plane_organization_mio_medium_plane_3
+		icon = GFX_generic_mio_trait_icon_air_agility
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_medium_plane_2
+
+		any_parent = { ACMD_huge_plane_organization_mio_medium_plane_2 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_medium_plane
+		}
+
+		equipment_bonus = {
+			air_agility = 0.15
+		}
+
+	}
+
+	trait = {
+		token = ACMD_huge_plane_organization_mio_medium_plane_4
+		name = ACMD_huge_plane_organization_mio_medium_plane_4
+		icon = GFX_generic_mio_trait_icon_torpedo_attack
+
+		position = { x=2 y=0 }
+		limit_to_equipment_type = {
+			mio_cat_eq_all_medium_plane
+		}
+
+		equipment_bonus = {
+			naval_strike_attack = 0.06
+        	sub_detection = 0.05
+			surface_detection = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_medium_plane_5
+		name = ACMD_huge_plane_organization_mio_medium_plane_5
+		icon = GFX_generic_mio_department_icon_plane_medium_combat
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_medium_plane_4
+
+		any_parent = { ACMD_huge_plane_organization_mio_medium_plane_4 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_medium_plane
+		}
+
+		equipment_bonus = {
+			air_attack = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_medium_plane_6
+		name = ACMD_huge_plane_organization_mio_medium_plane_6
+		icon = GFX_generic_mio_department_icon_plane_medium_engine
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_medium_plane_5
+
+		any_parent = { ACMD_huge_plane_organization_mio_medium_plane_5 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_medium_plane
+		}
+
+		equipment_bonus = {
+			air_range = 0.1
+		}
+
+	}
+
+	trait = {
+		token = ACMD_huge_plane_organization_mio_medium_plane_7
+		name = ACMD_huge_plane_organization_mio_medium_plane_7
+		icon = GFX_generic_mio_department_icon_plane_medium_quality
+
+		position = { x=2 y=3 }
+
+		all_parents = { ACMD_huge_plane_organization_mio_medium_plane_3 ACMD_huge_plane_organization_mio_medium_plane_6 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_medium_plane
+		}
+
+		equipment_bonus = {
+			air_ground_attack = 0.2
+			air_bombing = 0.1
+		}
+
+	}
+
+	trait = {
+		token = ACMD_huge_plane_organization_mio_large_plane_1
+		name = ACMD_huge_plane_organization_mio_large_plane_1
+		icon = GFX_generic_mio_trait_icon_strategic_attack
+	
+		position = { x=3 y=0 }
+		limit_to_equipment_type = {
+			mio_cat_eq_only_strategic_bomber
+			large_plane_maritime_patrol_plane_airframe
+		}
+		
+		equipment_bonus = {
+			air_bombing = 0.15
+		}
+	
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_large_plane_2
+		name = ACMD_huge_plane_organization_mio_large_plane_2
+		icon = GFX_generic_mio_department_icon_plane_general_engine
+	
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_large_plane_1
+	
+		any_parent = { ACMD_huge_plane_organization_mio_large_plane_1 }
+	
+		limit_to_equipment_type = {
+			mio_cat_eq_only_strategic_bomber
+			large_plane_maritime_patrol_plane_airframe
+			#mothership_equipment_0
+		}
+	
+		equipment_bonus = {
+			air_range = 0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_large_plane_3
+		name = ACMD_huge_plane_organization_mio_large_plane_3
+		icon = GFX_generic_mio_trait_icon_air_agility
+	
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_large_plane_2
+	
+		any_parent = { ACMD_huge_plane_organization_mio_large_plane_2 }
+	
+		limit_to_equipment_type = {
+			mio_cat_eq_only_strategic_bomber
+			large_plane_maritime_patrol_plane_airframe
+			#mothership_equipment_0
+		}
+	
+		equipment_bonus = {
+			air_agility = 0.05
+		}
+	}
+	
+	trait = {
+		token = ACMD_huge_plane_organization_mio_large_plane_4
+		name = ACMD_huge_plane_organization_mio_large_plane_4
+		icon = GFX_generic_mio_department_icon_plane_general_line_efficiency
+	
+		position = { x=5 y=0 }
+		limit_to_equipment_type = {
+			mio_cat_eq_only_strategic_bomber
+			large_plane_maritime_patrol_plane_airframe
+			#mothership_equipment_0
+		}
+	
+		equipment_bonus = {
+			reliability = 0.1
+			build_cost_ic = -0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_large_plane_5
+		name = ACMD_huge_plane_organization_mio_large_plane_5
+		icon = GFX_generic_mio_trait_icon_detection
+	
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_large_plane_4
+	
+		any_parent = { ACMD_huge_plane_organization_mio_large_plane_4 }
+	
+		limit_to_equipment_type = {
+			mio_cat_eq_only_strategic_bomber
+			large_plane_maritime_patrol_plane_airframe
+		}
+	
+		equipment_bonus = {
+			sub_detection = 0.05
+			surface_detection = 0.1
+			naval_strike_attack = 0.1
+		}
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_large_plane_6
+		name = ACMD_huge_plane_organization_mio_large_plane_6
+		icon = GFX_generic_mio_trait_icon_defense
+	
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_large_plane_5
+	
+		any_parent = { ACMD_huge_plane_organization_mio_large_plane_5 }
+	
+		limit_to_equipment_type = {
+			mio_cat_eq_only_strategic_bomber
+			large_plane_maritime_patrol_plane_airframe
+			#mothership_equipment_0
+		}
+	
+		equipment_bonus = {
+			air_defence = 0.22
+		}
+	}
+	
+	trait = {
+		token = ACMD_huge_plane_organization_mio_large_plane_7
+		name = ACMD_huge_plane_organization_mio_large_plane_7
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+	
+		position = { x=4 y=3 }
+	
+		all_parents = { ACMD_huge_plane_organization_mio_large_plane_3 ACMD_huge_plane_organization_mio_large_plane_6 }
+	
+		limit_to_equipment_type = {
+			mio_cat_eq_only_strategic_bomber
+			large_plane_maritime_patrol_plane_airframe
+			#mothership_equipment_0
+		}
+	
+		equipment_bonus = {
+			air_attack = 0.05
+		}
+	}
+	
+	trait = {
+		token = ACMD_huge_plane_organization_mio_missile_equipment_1
+		name = ACMD_huge_plane_organization_mio_missile_equipment_1
+		icon = GFX_generic_mio_trait_icon_strategic_attack
+	
+		position = { x=6 y=0 }
+		limit_to_equipment_type = {
+			guided_missile_equipment
+			ballistic_missile_equipment
+			nuclear_missile_equipment
+		}
+		
+		equipment_bonus = {
+			air_bombing = 0.15
+		}
+	
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_missile_equipment_2
+		name = ACMD_huge_plane_organization_mio_missile_equipment_2
+		icon = GFX_generic_mio_trait_icon_naval_range
+	
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_missile_equipment_1
+	
+		any_parent = { ACMD_huge_plane_organization_mio_missile_equipment_1 }
+	
+		limit_to_equipment_type = {
+			ACMD_mio_cat_eq_all_missile_equipment
+		}
+	
+		equipment_bonus = {
+			air_range = 0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_missile_equipment_3
+		name = ACMD_huge_plane_organization_mio_missile_equipment_3
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+	
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_missile_equipment_2
+	
+		any_parent = { ACMD_huge_plane_organization_mio_missile_equipment_2 }
+	
+		limit_to_equipment_type = {
+			ACMD_mio_cat_eq_all_missile_equipment
+		}
+	
+		equipment_bonus = {
+			build_cost_ic = -0.1
+			reliability = 0.1
+		}
+	}
+	
+	trait = {
+		token = ACMD_huge_plane_organization_mio_missile_equipment_4
+		name = ACMD_huge_plane_organization_mio_missile_equipment_4
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+	
+		position = { x=8 y=0 }
+		limit_to_equipment_type = {
+			sam_missile_equipment
+		}
+	
+		equipment_bonus = {
+			air_attack = 0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_missile_equipment_5
+		name = ACMD_huge_plane_organization_mio_missile_equipment_5
+		icon = GFX_generic_mio_trait_icon_air_agility
+	
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_missile_equipment_4
+	
+		any_parent = { ACMD_huge_plane_organization_mio_missile_equipment_4 }
+	
+		limit_to_equipment_type = {
+			ACMD_mio_cat_eq_all_missile_equipment
+		}
+	
+		equipment_bonus = {
+			air_agility = 0.15
+		}
+	}
+	trait = {
+		token = ACMD_huge_plane_organization_mio_missile_equipment_6
+		name = ACMD_huge_plane_organization_mio_missile_equipment_6
+		icon = GFX_generic_mio_trait_icon_surface_detection
+	
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_huge_plane_organization_mio_missile_equipment_5
+	
+		any_parent = { ACMD_huge_plane_organization_mio_missile_equipment_5 }
+	
+		limit_to_equipment_type = {
+			ACMD_mio_cat_eq_all_missile_equipment
+		}
+	
+		equipment_bonus = {
+			naval_strike_attack = 0.1
+			naval_strike_targetting = 0.1
+		}
+	}
+	
+	trait = {
+		token = ACMD_huge_plane_organization_mio_missile_equipment_7
+		name = ACMD_huge_plane_organization_mio_missile_equipment_7
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+	
+		position = { x=6 y=3 }
+	
+		all_parents = { ACMD_huge_plane_organization_mio_missile_equipment_3 ACMD_huge_plane_organization_mio_missile_equipment_6 }
+	
+		limit_to_equipment_type = {
+			ACMD_mio_cat_eq_all_missile_equipment
+		}
+	
+		equipment_bonus = {
+			maximum_speed = 0.1
+		}
+	}
+	
+	trait = {
+		token = ACMD_huge_plane_organization_mio_transport_plane
+		name = ACMD_huge_plane_organization_mio_transport_plane
+		icon = GFX_generic_mio_department_icon_air_transport_technology
+	
+		position = { x=9 y=4 }
+	
+		limit_to_equipment_type = {
+			transport_plane_equipment
+		}
+
+		equipment_bonus = {
+			build_cost_ic = -0.15
+		}
+	
+	}
+		
+	trait = {
+		token = ACMD_huge_plane_organization_mio_huge_plane_1
+		name = ACMD_huge_plane_organization_mio_huge_plane_1
+		icon = GFX_generic_mio_department_icon_plane_general_engine
+		special_trait_background = yes
+	
+		position = { x=3 y=4 }
+
+		any_parent = { ACMD_huge_plane_organization_mio_medium_plane_7 ACMD_huge_plane_organization_mio_large_plane_7 ACMD_huge_plane_organization_mio_missile_equipment_7 }
+	
+		limit_to_equipment_type = {
+			ACMD_mio_cat_eq_all_medium_plane
+			ACMD_mio_cat_eq_all_large_plane
+			ACMD_mio_cat_eq_all_missile_equipment
+		}
+
+		equipment_bonus = {
+			air_range = 0.18
+			reliability = 0.15
+			build_cost_ic = -0.1
+			air_agility = 0.05
+			maximum_speed = 0.17
+		}
+	
+	}
+		
+	trait = {
+		token = ACMD_huge_plane_organization_mio_huge_plane_2
+		name = ACMD_huge_plane_organization_mio_huge_plane_2
+		icon = GFX_generic_mio_department_icon_plane_general_quality
+		special_trait_background = yes
+	
+		position = { x=5 y=4 }
+
+		any_parent = { ACMD_huge_plane_organization_mio_medium_plane_7 ACMD_huge_plane_organization_mio_large_plane_7 ACMD_huge_plane_organization_mio_missile_equipment_7 }
+	
+		limit_to_equipment_type = {
+			mio_cat_eq_all_medium_plane
+			mio_cat_eq_only_strategic_bomber
+			large_plane_maritime_patrol_plane_airframe
+		}
+
+		equipment_bonus = {
+			air_ground_attack = 0.15
+			air_bombing = 0.2
+		}	
+	
+	}
+
+}
+
+#玛多纳（战列舰-超重战、现代战，航母-冰航母、现代航母）
+ACMD_capital_ship_organization_1 = {
+	icon = GFX_idea_ACMD_capital_ship_organization
+	background = GFX_ACMD_capital_ship_organization_mio_details_background
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		owner = {
+			has_country_flag = flag_ACMD_on_1
+		}
+	}
+
+	equipment_type = {
+		mio_cat_eq_all_battleship
+		mio_cat_eq_all_carrier
+	}
+	research_categories = {
+		mio_cat_tech_all_carrier_and_modules
+		mio_cat_tech_all_capital_ship_and_modules
+	}
+
+	tree_header_text = {
+		text = ACMD_battleship
+		x = 2
+	}
+	tree_header_text = {
+		text = ACMD_carrier
+		x = 7
+	}
+
+	initial_trait = {
+		name = ACMD_capital_ship_organization_mio
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+		}
+		equipment_bonus = {
+			max_strength = 0.1
+			build_cost_ic = -0.05
+		}
+	}
+
+	trait = {
+		token = ACMD_capital_ship_organization_mio_battleship_1
+		name = ACMD_capital_ship_organization_mio_battleship_1
+		icon = GFX_generic_mio_trait_icon_surface_visibility
+
+		position = { x=2 y=0 }
+		limit_to_equipment_type = {
+			mio_cat_eq_all_battleship
+		}
+		equipment_bonus = {
+			surface_visibility = -0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_battleship_2
+		name = ACMD_capital_ship_organization_mio_battleship_2
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=-1 y=1 }
+		relative_position_id = ACMD_capital_ship_organization_mio_battleship_1
+
+		any_parent = { ACMD_capital_ship_organization_mio_battleship_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_battleship
+		}
+		equipment_bonus = {
+			naval_speed = 0.18
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_battleship_3
+		name = ACMD_capital_ship_organization_mio_battleship_3
+		icon = GFX_generic_mio_trait_icon_naval_range
+
+		position = { x=1 y=1 }
+		relative_position_id = ACMD_capital_ship_organization_mio_battleship_1
+
+		any_parent = { ACMD_capital_ship_organization_mio_battleship_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_battleship
+		}
+		equipment_bonus = {
+			naval_range = 0.17
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_battleship_4
+		name = ACMD_capital_ship_organization_mio_battleship_4
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+
+		position = { x=-2 y=2 }
+		relative_position_id = ACMD_capital_ship_organization_mio_battleship_1
+
+		any_parent = { ACMD_capital_ship_organization_mio_battleship_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_battleship
+		}
+		equipment_bonus = {
+			anti_air_attack = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_battleship_5
+		name = ACMD_capital_ship_organization_mio_battleship_5
+		icon = GFX_generic_mio_department_icon_ship_capital_ship_offense
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_capital_ship_organization_mio_battleship_4
+
+		any_parent = { ACMD_capital_ship_organization_mio_battleship_4 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_battleship
+		}
+		equipment_bonus = {
+			naval_light_gun_hit_chance_factor = 0.05
+			naval_heavy_gun_hit_chance_factor = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_battleship_6
+		name = ACMD_capital_ship_organization_mio_battleship_6
+		icon = GFX_generic_mio_trait_icon_armor_value
+
+		position = { x=0 y=2 }
+		relative_position_id = ACMD_capital_ship_organization_mio_battleship_1
+
+		any_parent = { ACMD_capital_ship_organization_mio_battleship_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_battleship
+		}
+		equipment_bonus = {
+			armor_value = 0.18
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_battleship_7
+		name = ACMD_capital_ship_organization_mio_battleship_7
+		icon = GFX_generic_mio_trait_icon_max_strength
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_capital_ship_organization_mio_battleship_6
+
+		any_parent = { ACMD_capital_ship_organization_mio_battleship_6 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_battleship
+		}
+		equipment_bonus = {
+			max_strength = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_battleship_8
+		name = ACMD_capital_ship_organization_mio_battleship_8
+		icon = GFX_generic_mio_trait_icon_lg_attack
+		special_trait_background = yes
+
+		position = { x=2 y=2 }
+		relative_position_id = ACMD_capital_ship_organization_mio_battleship_1
+
+		any_parent = { ACMD_capital_ship_organization_mio_battleship_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_battleship
+		}
+		equipment_bonus = {
+			lg_attack = 0.15
+			lg_armor_piercing = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_battleship_9
+		name = ACMD_capital_ship_organization_mio_battleship_9
+		icon = GFX_generic_mio_trait_icon_hg_attack
+		special_trait_background = yes
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_capital_ship_organization_mio_battleship_8
+
+		any_parent = { ACMD_capital_ship_organization_mio_battleship_8 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_battleship
+		}
+		equipment_bonus = {
+			hg_attack = 0.25
+			hg_armor_piercing = 0.15
+		}
+
+	}
+
+	trait = {
+		token = ACMD_capital_ship_organization_mio_carrier_1
+		name = ACMD_capital_ship_organization_mio_carrier_1
+		icon = GFX_generic_mio_department_icon_ship_general_production
+
+		position = { x=7 y=0 }
+		limit_to_equipment_type = {
+			mio_cat_eq_all_carrier
+		}
+
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			max_strength = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_carrier_2
+		name = ACMD_capital_ship_organization_mio_carrier_2
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=-1 y=1 }
+		relative_position_id = ACMD_capital_ship_organization_mio_carrier_1
+
+		any_parent = { ACMD_capital_ship_organization_mio_carrier_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_carrier
+		}
+
+		equipment_bonus = {
+			naval_speed = 0.18
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_carrier_3
+		name = ACMD_capital_ship_organization_mio_carrier_3
+		icon = GFX_generic_mio_trait_icon_naval_range
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_capital_ship_organization_mio_carrier_2
+
+		any_parent = { ACMD_capital_ship_organization_mio_carrier_2 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_carrier
+		}
+
+		equipment_bonus = {
+			naval_range = 0.12
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_carrier_4
+		name = ACMD_capital_ship_organization_mio_carrier_4
+		icon = GFX_generic_mio_trait_icon_fuel_consumption
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_capital_ship_organization_mio_carrier_3
+
+		any_parent = { ACMD_capital_ship_organization_mio_carrier_3 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_carrier
+		}
+
+		equipment_bonus = {
+			fuel_consumption = -0.07
+		}
+
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_carrier_5
+		name = ACMD_capital_ship_organization_mio_carrier_5
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+	
+		position = { x=1 y=1 }
+		relative_position_id = ACMD_capital_ship_organization_mio_carrier_1
+	
+		any_parent = { ACMD_capital_ship_organization_mio_carrier_1 }
+	
+		limit_to_equipment_type = {
+			mio_cat_eq_all_carrier
+		}
+
+		equipment_bonus = {
+			naval_light_gun_hit_chance_factor = 0.05
+			anti_air_attack = 0.05
+			lg_attack = 0.05
+		}
+	
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_carrier_6
+		name = ACMD_capital_ship_organization_mio_carrier_6
+		icon = GFX_generic_mio_department_icon_ship_carrier_offense
+	
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_capital_ship_organization_mio_carrier_5
+	
+		any_parent = { ACMD_capital_ship_organization_mio_carrier_5 }
+	
+		limit_to_equipment_type = {
+			mio_cat_eq_all_carrier
+		}
+
+		equipment_bonus = {
+			anti_air_attack = 0.1
+			lg_attack = 0.05
+		}
+	
+	}
+	trait = {
+		token = ACMD_capital_ship_organization_mio_carrier_7
+		name = ACMD_capital_ship_organization_mio_carrier_7
+		icon = GFX_generic_mio_trait_icon_armor_value
+	
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_capital_ship_organization_mio_carrier_6
+	
+		any_parent = { ACMD_capital_ship_organization_mio_carrier_6 }
+	
+		limit_to_equipment_type = {
+			mio_cat_eq_all_carrier
+		}
+
+		equipment_bonus = {
+			max_strength = 0.1
+			armor_value = 0.05
+		}
+	
+	}
+
+	trait = {
+		token = ACMD_capital_ship_organization_mio_carrier_8
+		name = ACMD_capital_ship_organization_mio_carrier_8
+		icon = GFX_generic_mio_department_icon_ship_carrier_quality
+		special_trait_background = yes
+	
+		position = { x=9 y=0 }
+	
+		limit_to_equipment_type = {
+			mio_cat_eq_all_carrier
+		}
+
+		available = {
+			has_mio_size > 4
+		}
+
+		equipment_bonus = {
+			naval_weather_penalty_factor = -0.1
+			max_strength = 0.05
+			armor_value = 0.05
+			naval_range = 0.06
+		}
+	
+	}
+	
+}
+
+#伊比利亚航海（巡洋-装甲舰、重雷装，驱逐，运输船，浮动港口）
+ACMD_screen_ship_organization_1 = {
+	icon = GFX_idea_ACMD_screen_ship_organization
+	background = GFX_ACMD_screen_ship_organization_mio_details_background
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		owner = {
+			has_country_flag = flag_ACMD_on_1
+		}
+	}
+
+	equipment_type = {
+		mio_cat_eq_all_cruiser
+		mio_cat_eq_all_destroyer
+		ACMD_mio_cat_eq_all_convoy
+	}
+	research_categories = {
+		mio_cat_tech_all_cruiser_and_modules
+		mio_cat_tech_all_destroyer_and_modules
+	}
+
+	tree_header_text = {
+		text = ACMD_cruiser
+		x = 2
+	}
+	tree_header_text = {
+		text = ACMD_destroyer
+		x = 7
+	}
+
+	initial_trait = {
+		name = ACMD_screen_ship_organization_mio
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+		}
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+			mio_cat_eq_all_destroyer
+		}
+		equipment_bonus = {
+			max_strength = 0.05
+			build_cost_ic = -0.05
+		}
+	}
+
+	trait = {
+		token = ACMD_screen_ship_organization_mio_cruiser_1
+		name = ACMD_screen_ship_organization_mio_cruiser_1
+		icon = GFX_generic_mio_department_icon_ship_general_materials
+
+		position = { x=2 y=0 }
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+			build_cost_ic = -0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_cruiser_2
+		name = ACMD_screen_ship_organization_mio_cruiser_2
+		icon = GFX_generic_mio_department_icon_ship_general_engine
+
+		position = { x=-1 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_cruiser_1
+
+		any_parent = { ACMD_screen_ship_organization_mio_cruiser_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+			naval_range = 0.12
+		}
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_cruiser_3
+		name = ACMD_screen_ship_organization_mio_cruiser_3
+		icon = GFX_generic_mio_trait_icon_fuel_consumption
+
+		position = { x=-1 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_cruiser_2
+
+		any_parent = { ACMD_screen_ship_organization_mio_cruiser_2 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+			fuel_consumption = -0.07
+		}
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_cruiser_4
+		name = ACMD_screen_ship_organization_mio_cruiser_4
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_cruiser_3
+
+		any_parent = { ACMD_screen_ship_organization_mio_cruiser_3 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+			naval_speed = 0.2
+		}
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_cruiser_5
+		name = ACMD_screen_ship_organization_mio_cruiser_5
+		icon = GFX_generic_mio_department_icon_ship_capital_ship_offense
+
+		position = { x=0 y=2 }
+		relative_position_id = ACMD_screen_ship_organization_mio_cruiser_1
+
+		any_parent = { ACMD_screen_ship_organization_mio_cruiser_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+			anti_air_attack = 0.2
+			armor_value = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_cruiser_6
+		name = ACMD_screen_ship_organization_mio_cruiser_6
+		icon = GFX_generic_mio_trait_icon_max_strength
+		special_trait_background = yes
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_cruiser_5
+
+		any_parent = { ACMD_screen_ship_organization_mio_cruiser_5 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+			armor_value = 0.15
+			max_strength = 0.2
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_cruiser_7
+		name = ACMD_screen_ship_organization_mio_cruiser_7
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_weapons
+
+		position = { x=1 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_cruiser_1
+
+		any_parent = { ACMD_screen_ship_organization_mio_cruiser_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+			lg_attack = 0.2
+			hg_attack = 0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_cruiser_8
+		name = ACMD_screen_ship_organization_mio_cruiser_8
+		icon = GFX_generic_mio_trait_icon_surface_detection
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_cruiser_7
+
+		any_parent = { ACMD_screen_ship_organization_mio_cruiser_7 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+			anti_air_attack = 0.05
+			naval_light_gun_hit_chance_factor = 0.05
+			naval_heavy_gun_hit_chance_factor = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_cruiser_9
+		name = ACMD_screen_ship_organization_mio_cruiser_9
+		icon = GFX_generic_mio_trait_icon_surface_visibility
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_cruiser_2
+
+		any_parent = { ACMD_screen_ship_organization_mio_cruiser_2 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+			surface_visibility = -0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_cruiser_10
+		name = ACMD_screen_ship_organization_mio_cruiser_10
+		icon = GFX_generic_mio_trait_icon_lg_attack
+
+		position = { x=1 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_cruiser_7
+
+		any_parent = { ACMD_screen_ship_organization_mio_cruiser_7 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+        	lg_armor_piercing = 0.1
+		}
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_cruiser_11
+		name = ACMD_screen_ship_organization_mio_cruiser_11
+		icon = GFX_generic_mio_trait_icon_hg_attack
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_cruiser_10
+
+		any_parent = { ACMD_screen_ship_organization_mio_cruiser_10 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+			hg_armor_piercing = 0.2
+		}
+	}
+
+	
+	trait = {
+		token = ACMD_screen_ship_organization_mio_destroyer_1
+		name = ACMD_screen_ship_organization_mio_destroyer_1
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_materials
+
+		position = { x=7 y=0 }
+		limit_to_equipment_type = {
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			build_cost_ic = -0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_destroyer_2
+		name = ACMD_screen_ship_organization_mio_destroyer_2
+		icon = GFX_generic_mio_department_icon_ship_general_engine
+
+		position = { x=-1 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_destroyer_1
+
+		any_parent = { ACMD_screen_ship_organization_mio_destroyer_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			naval_range = 0.25
+		}
+
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_destroyer_3
+		name = ACMD_screen_ship_organization_mio_destroyer_3
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_destroyer_2
+
+		any_parent = { ACMD_screen_ship_organization_mio_destroyer_2 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			naval_speed = 0.15
+    	    fuel_consumption = -0.02
+		}
+
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_destroyer_4
+		name = ACMD_screen_ship_organization_mio_destroyer_4
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_offense
+
+		position = { x=0 y=2 }
+		relative_position_id = ACMD_screen_ship_organization_mio_destroyer_1
+
+		any_parent = { ACMD_screen_ship_organization_mio_destroyer_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			naval_light_gun_hit_chance_factor = 0.05
+		}
+
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_destroyer_5
+		name = ACMD_screen_ship_organization_mio_destroyer_5
+		icon = GFX_generic_mio_trait_icon_lg_attack
+		special_trait_background = yes
+
+		position = { x=-1 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_destroyer_4
+
+		any_parent = { ACMD_screen_ship_organization_mio_destroyer_4 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			lg_attack = 0.25
+		}
+
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_destroyer_6
+		name = ACMD_screen_ship_organization_mio_destroyer_6
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+		special_trait_background = yes
+
+		position = { x=1 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_destroyer_4
+
+		any_parent = { ACMD_screen_ship_organization_mio_destroyer_4 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			anti_air_attack = 0.4
+		}
+
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_destroyer_7
+		name = ACMD_screen_ship_organization_mio_destroyer_7
+		icon = GFX_generic_mio_trait_icon_mines
+
+		position = { x=1 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_destroyer_1
+
+		any_parent = { ACMD_screen_ship_organization_mio_destroyer_1 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			sub_detection = 0.1
+			sub_attack = 0.05
+			mines_sweeping = 0.05
+		}
+
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_destroyer_8
+		name = ACMD_screen_ship_organization_mio_destroyer_8
+		icon = GFX_generic_mio_trait_icon_max_strength
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_screen_ship_organization_mio_destroyer_7
+
+		any_parent = { ACMD_screen_ship_organization_mio_destroyer_7 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			max_strength = 0.1
+        	surface_visibility = -0.05
+		}
+
+	}
+
+	trait = {
+		token = ACMD_screen_ship_organization_mio_screen_ship
+		name = ACMD_screen_ship_organization_mio_screen_ship
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_quality
+		special_trait_background = yes
+
+		available = {
+			has_mio_size > 4
+		}
+
+		position = { x=3 y=4 }
+
+		limit_to_equipment_type = {
+			mio_cat_eq_all_cruiser
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			mines_planting = 0.05
+			surface_detection = 0.1
+			torpedo_attack = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_screen_ship_organization_mio_convoy
+		name = ACMD_screen_ship_organization_mio_convoy
+		icon = GFX_generic_mio_department_icon_ship_general_production
+		special_trait_background = yes
+
+		position = { x=5 y=4 }
+
+		limit_to_equipment_type = {
+			convoy
+			floating_harbor_equipment
+		}
+
+		equipment_bonus = {
+			build_cost_ic = -0.3
+		}
+
+	}
+}
+
+#阿戈尔深潜局（潜艇-舰队潜艇、巡洋潜艇、核潜艇、袖珍潜艇）
+ACMD_submarine_organization_1 = {
+	icon = GFX_idea_ACMD_submarine_organization
+	background = GFX_ACMD_submarine_organization_mio_details_background
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		owner = {
+			has_country_flag = flag_ACMD_on_1
+		}
+	}
+
+	equipment_type = {
+		ship_hull_submarine
+	}
+	research_categories = {
+		mio_cat_tech_all_submarine_and_modules
+	}
+
+	tree_header_text = {
+		text = ACMD_submarine_save
+		x = 2
+	}
+	tree_header_text = {
+		text = ACMD_submarine_attack
+		x = 6
+	}
+
+	initial_trait = {
+		name = ACMD_submarine_organization_mio
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+		equipment_bonus = {
+			sub_visibility = -0.05
+		}
+	}
+
+	trait = {
+		token = ACMD_submarine_organization_mio_submarine_1
+		name = ACMD_submarine_organization_mio_submarine_1
+		icon = GFX_generic_mio_department_icon_ship_submarine_production
+		special_trait_background = yes
+
+		position = { x=4 y=1 }
+		limit_to_equipment_type = {
+			ship_hull_submarine
+		}
+
+		equipment_bonus = {
+			build_cost_ic = -0.1
+		}
+
+	}
+
+	trait = {
+		token = ACMD_submarine_organization_mio_submarine_2
+		name = ACMD_submarine_organization_mio_submarine_2
+		icon = GFX_generic_mio_trait_icon_max_strength
+
+		position = { x=2 y=0 }
+		limit_to_equipment_type = {
+			ship_hull_submarine
+		}
+
+		equipment_bonus = {
+			max_strength = 0.2
+		}
+
+	}
+	trait = {
+		token = ACMD_submarine_organization_mio_submarine_3
+		name = ACMD_submarine_organization_mio_submarine_3
+		icon = GFX_generic_mio_trait_icon_surface_detection
+
+		position = { x=-2 y=1 }
+		relative_position_id = ACMD_submarine_organization_mio_submarine_2
+
+		any_parent = { ACMD_submarine_organization_mio_submarine_2 }
+
+		limit_to_equipment_type = {
+			ship_hull_submarine
+		}
+
+		equipment_bonus = {
+			surface_detection = 0.06
+		}
+
+	}
+	trait = {
+		token = ACMD_submarine_organization_mio_submarine_4
+		name = ACMD_submarine_organization_mio_submarine_4
+		icon = GFX_generic_mio_trait_icon_sub_visibility
+
+		position = { x=-1 y=2 }
+		relative_position_id = ACMD_submarine_organization_mio_submarine_2
+
+		any_parent = { ACMD_submarine_organization_mio_submarine_2 }
+
+		limit_to_equipment_type = {
+			ship_hull_submarine
+		}
+
+		equipment_bonus = {
+			sub_visibility = -0.14
+		}
+
+	}
+	trait = {
+		token = ACMD_submarine_organization_mio_submarine_5
+		name = ACMD_submarine_organization_mio_submarine_5
+		icon = GFX_generic_mio_trait_icon_surface_visibility
+
+		position = { x=0 y=3 }
+		relative_position_id = ACMD_submarine_organization_mio_submarine_2
+
+		any_parent = { ACMD_submarine_organization_mio_submarine_2 }
+
+		limit_to_equipment_type = {
+			ship_hull_submarine
+		}
+
+		equipment_bonus = {
+			surface_visibility = -0.08
+		}
+
+	}
+
+	trait = {
+		token = ACMD_submarine_organization_mio_submarine_6
+		name = ACMD_submarine_organization_mio_submarine_6
+		icon = GFX_generic_mio_trait_icon_torpedo_attack
+
+		position = { x=6 y=0 }
+		limit_to_equipment_type = {
+			ship_hull_submarine
+		}
+
+		equipment_bonus = {
+			torpedo_attack = 0.15
+		}
+
+	}
+	trait = {
+		token = ACMD_submarine_organization_mio_submarine_7
+		name = ACMD_submarine_organization_mio_submarine_7
+		icon = GFX_generic_mio_trait_icon_mines
+
+		position = { x=2 y=1 }
+		relative_position_id = ACMD_submarine_organization_mio_submarine_6
+
+		any_parent = { ACMD_submarine_organization_mio_submarine_6 }
+
+		limit_to_equipment_type = {
+			ship_hull_submarine
+		}
+
+		equipment_bonus = {
+			mines_planting = 0.2
+		}
+
+	}
+	trait = {
+		token = ACMD_submarine_organization_mio_submarine_8
+		name = ACMD_submarine_organization_mio_submarine_8
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=1 y=2 }
+		relative_position_id = ACMD_submarine_organization_mio_submarine_6
+
+		any_parent = { ACMD_submarine_organization_mio_submarine_6 }
+
+		limit_to_equipment_type = {
+			ship_hull_submarine
+		}
+
+		equipment_bonus = {
+			naval_speed = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_submarine_organization_mio_submarine_9
+		name = ACMD_submarine_organization_mio_submarine_9
+		icon = GFX_generic_mio_trait_icon_naval_range
+
+		position = { x=0 y=3 }
+		relative_position_id = ACMD_submarine_organization_mio_submarine_6
+
+		any_parent = { ACMD_submarine_organization_mio_submarine_6 }
+
+		limit_to_equipment_type = {
+			ship_hull_submarine
+		}
+
+		equipment_bonus = {
+			naval_range = 0.11
+		}
+
+	}
+
+	trait = {
+		token = ACMD_submarine_organization_mio_submarine_10
+		name = ACMD_submarine_organization_mio_submarine_10
+		icon = GFX_generic_mio_department_icon_ship_submarine_quality
+		special_trait_background = yes
+
+		available = {
+			has_mio_size > 3
+		}
+
+		position = { x=4 y=2 }
+
+		on_complete = {
+			custom_effect_tooltip = ACMD_sp_agirian_oscilloscope_tt
+			FROM = {
+				set_country_flag = ACMD_sp_agirian_oscilloscope_flag
+			}
+		}
+
+		equipment_bonus = {
+			build_cost_ic = 0
+		}
+
+	}
+
+}
+
+#菲尔斯因捷尔（自火，自防空，自反坦，超重自行榴弹炮）
+ACMD_assault_guns_organization_1 = {
+	icon = GFX_idea_ACMD_assault_guns_organization
+	background = GFX_ACMD_assault_guns_organization_mio_details_background
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		owner = {
+			has_country_flag = flag_ACMD_on_1
+		}
+	}
+
+	equipment_type = {
+        ACMD_mio_cat_eq_all_assault_guns
+		#light_tank_aa_chassis
+		#light_tank_artillery_chassis
+		#light_tank_destroyer_chassis
+		#medium_tank_aa_chassis
+		#medium_tank_artillery_chassis
+		#medium_tank_destroyer_chassis
+		#heavy_tank_aa_chassis
+		#heavy_tank_artillery_chassis
+		#heavy_tank_destroyer_chassis
+    }
+    research_categories = {
+        mio_cat_tech_all_armor_and_modules
+        mio_cat_all_artillery_equipment
+    }
+
+	tree_header_text = {
+		text = ACMD_light_tank_artillery
+		x = 1
+	}
+	tree_header_text = {
+		text = ACMD_medium_tank_artillery
+		x = 4
+	}
+	tree_header_text = {
+		text = ACMD_heavy_tank_artillery
+		x = 7
+	}
+
+	initial_trait = {
+		name = ACMD_assault_guns_organization_mio
+		equipment_bonus = {
+			soft_attack = 0.07
+			armor_value = 0.03
+			reliability = 0.05
+		}
+	}
+
+	trait = {
+		token = ACMD_assault_guns_organization_mio_assault_guns_1
+		name = ACMD_assault_guns_organization_mio_assault_guns_1
+		icon = GFX_generic_mio_trait_icon_unique
+
+		position = { x=4 y=0 }
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+
+		equipment_bonus = {
+			reliability = 0.12
+			build_cost_ic = -0.1
+		}
+
+	}
+
+	trait = {
+		token = ACMD_assault_guns_organization_mio_light_tank_artillery_1
+		name = ACMD_assault_guns_organization_mio_light_tank_artillery_1
+		icon = GFX_generic_mio_department_icon_tank_light_tank_weapons
+
+		position = { x=1 y=1 }
+		any_parent = { ACMD_assault_guns_organization_mio_assault_guns_1 }
+
+		limit_to_equipment_type = {
+			light_tank_artillery_chassis
+			light_tank_aa_chassis
+			light_tank_destroyer_chassis
+		}
+
+		equipment_bonus = {
+			air_attack = 0.12
+			soft_attack = 0.02
+			maximum_speed = 0.12
+		}
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_light_tank_artillery_2
+		name = ACMD_assault_guns_organization_mio_light_tank_artillery_2
+		icon = GFX_generic_mio_trait_icon_soft_attack
+
+		position = { x=-1 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_light_tank_artillery_1
+
+		any_parent = { ACMD_assault_guns_organization_mio_light_tank_artillery_1 }
+
+		limit_to_equipment_type = {
+			light_tank_artillery_chassis
+			light_tank_aa_chassis
+			light_tank_destroyer_chassis
+		}
+
+		equipment_bonus = {
+			soft_attack = 0.2
+		}
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_light_tank_artillery_3
+		name = ACMD_assault_guns_organization_mio_light_tank_artillery_3
+		icon = GFX_generic_mio_trait_icon_hard_attack
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_light_tank_artillery_2
+
+		any_parent = { ACMD_assault_guns_organization_mio_light_tank_artillery_2 }
+
+		limit_to_equipment_type = {
+			light_tank_artillery_chassis
+			light_tank_aa_chassis
+			light_tank_destroyer_chassis
+		}
+
+		equipment_bonus = {
+			hard_attack = 0.2
+		}
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_light_tank_artillery_4
+		name = ACMD_assault_guns_organization_mio_light_tank_artillery_4
+		icon = GFX_generic_mio_trait_icon_defense
+
+		position = { x=1 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_light_tank_artillery_1
+
+		any_parent = { ACMD_assault_guns_organization_mio_light_tank_artillery_1 }
+
+		limit_to_equipment_type = {
+			light_tank_artillery_chassis
+			light_tank_aa_chassis
+			light_tank_destroyer_chassis
+		}
+
+		equipment_bonus = {
+			defense = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_light_tank_artillery_5
+		name = ACMD_assault_guns_organization_mio_light_tank_artillery_5
+		icon = GFX_generic_mio_trait_icon_breakthrough
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_light_tank_artillery_4
+
+		any_parent = { ACMD_assault_guns_organization_mio_light_tank_artillery_4 }
+
+		limit_to_equipment_type = {
+			light_tank_artillery_chassis
+			light_tank_aa_chassis
+			light_tank_destroyer_chassis
+		}
+
+		equipment_bonus = {
+			breakthrough = 0.15
+		}
+
+	}
+
+	trait = {
+		token = ACMD_assault_guns_organization_mio_medium_tank_artillery_1
+		name = ACMD_assault_guns_organization_mio_medium_tank_artillery_1
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=4 y=1 }
+		any_parent = { ACMD_assault_guns_organization_mio_assault_guns_1 }
+
+		limit_to_equipment_type = {
+			medium_tank_artillery_chassis
+			medium_tank_aa_chassis
+			medium_tank_destroyer_chassis
+			modern_tank_aa_chassis
+			modern_tank_artillery_chassis
+			modern_tank_destroyer_chassis
+		}
+
+		equipment_bonus = {
+			reliability = 0.1
+		}
+
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_medium_tank_artillery_2
+		name = ACMD_assault_guns_organization_mio_medium_tank_artillery_2
+		icon = GFX_generic_mio_trait_icon_soft_attack
+
+		position = { x=-1 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_medium_tank_artillery_1
+
+		any_parent = { ACMD_assault_guns_organization_mio_medium_tank_artillery_1 }
+
+		limit_to_equipment_type = {
+			medium_tank_artillery_chassis
+			medium_tank_aa_chassis
+			medium_tank_destroyer_chassis
+			modern_tank_aa_chassis
+			modern_tank_artillery_chassis
+			modern_tank_destroyer_chassis
+		}
+
+		equipment_bonus = {
+			soft_attack = 0.15
+			hard_attack = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_medium_tank_artillery_3
+		name = ACMD_assault_guns_organization_mio_medium_tank_artillery_3
+		icon = GFX_generic_mio_trait_icon_breakthrough
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_medium_tank_artillery_2
+
+		any_parent = { ACMD_assault_guns_organization_mio_medium_tank_artillery_2 }
+
+		limit_to_equipment_type = {
+			medium_tank_artillery_chassis
+			medium_tank_aa_chassis
+			medium_tank_destroyer_chassis
+			modern_tank_aa_chassis
+			modern_tank_artillery_chassis
+			modern_tank_destroyer_chassis
+		}
+
+		equipment_bonus = {
+			breakthrough = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_medium_tank_artillery_4
+		name = ACMD_assault_guns_organization_mio_medium_tank_artillery_4
+		icon = GFX_generic_mio_trait_icon_armor_value
+
+		position = { x=1 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_medium_tank_artillery_1
+
+		any_parent = { ACMD_assault_guns_organization_mio_medium_tank_artillery_1 }
+
+		limit_to_equipment_type = {
+			medium_tank_artillery_chassis
+			medium_tank_aa_chassis
+			medium_tank_destroyer_chassis
+			modern_tank_aa_chassis
+			modern_tank_artillery_chassis
+			modern_tank_destroyer_chassis
+		}
+
+		equipment_bonus = {
+			defense = 0.1
+			armor_value = 0.1
+		}
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_medium_tank_artillery_5
+		name = ACMD_assault_guns_organization_mio_medium_tank_artillery_5
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_medium_tank_artillery_4
+
+		any_parent = { ACMD_assault_guns_organization_mio_medium_tank_artillery_4 }
+
+		limit_to_equipment_type = {
+			medium_tank_aa_chassis
+			modern_tank_aa_chassis
+		}
+
+		equipment_bonus = {
+			air_attack = 0.12
+		}
+
+	}
+
+	trait = {
+		token = ACMD_assault_guns_organization_mio_heavy_tank_artillery_1
+		name = ACMD_assault_guns_organization_mio_heavy_tank_artillery_1
+		icon = GFX_generic_mio_trait_icon_soft_attack
+
+		position = { x=7 y=1 }
+		any_parent = { ACMD_assault_guns_organization_mio_assault_guns_1 }
+
+		limit_to_equipment_type = {
+			heavy_tank_artillery_chassis
+			heavy_tank_aa_chassis
+			heavy_tank_destroyer_chassis
+			self_propelled_super_heavy_artillery_equipment
+		}
+
+		equipment_bonus = {
+			soft_attack = 0.15
+			hard_attack = 0.1
+		}
+
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_heavy_tank_artillery_2
+		name = ACMD_assault_guns_organization_mio_heavy_tank_artillery_2
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+
+		position = { x=-1 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_heavy_tank_artillery_1
+
+		any_parent = { ACMD_assault_guns_organization_mio_heavy_tank_artillery_1 }
+
+		limit_to_equipment_type = {
+			heavy_tank_aa_chassis
+		}
+
+		equipment_bonus = {
+			air_attack = 0.12
+		}
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_heavy_tank_artillery_3
+		name = ACMD_assault_guns_organization_mio_heavy_tank_artillery_3
+		icon = GFX_generic_mio_trait_icon_armor_value
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_heavy_tank_artillery_2
+
+		any_parent = { ACMD_assault_guns_organization_mio_heavy_tank_artillery_2 }
+
+		limit_to_equipment_type = {
+			heavy_tank_artillery_chassis
+			heavy_tank_aa_chassis
+			heavy_tank_destroyer_chassis
+			self_propelled_super_heavy_artillery_equipment
+		}
+
+		equipment_bonus = {
+			armor_value = 0.05
+			defense = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_heavy_tank_artillery_4
+		name = ACMD_assault_guns_organization_mio_heavy_tank_artillery_4
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=1 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_heavy_tank_artillery_1
+
+		any_parent = { ACMD_assault_guns_organization_mio_heavy_tank_artillery_1 }
+
+		limit_to_equipment_type = {
+			heavy_tank_artillery_chassis
+			heavy_tank_aa_chassis
+			heavy_tank_destroyer_chassis
+			self_propelled_super_heavy_artillery_equipment
+		}
+
+		equipment_bonus = {
+			reliability = 0.05
+		}
+
+	}
+	trait = {
+		token = ACMD_assault_guns_organization_mio_heavy_tank_artillery_5
+		name = ACMD_assault_guns_organization_mio_heavy_tank_artillery_5
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=0 y=1 }
+		relative_position_id = ACMD_assault_guns_organization_mio_heavy_tank_artillery_4
+
+		any_parent = { ACMD_assault_guns_organization_mio_heavy_tank_artillery_4 }
+
+		limit_to_equipment_type = {
+			heavy_tank_artillery_chassis
+			heavy_tank_aa_chassis
+			heavy_tank_destroyer_chassis
+			self_propelled_super_heavy_artillery_equipment
+		}
+
+		equipment_bonus = {
+			maximum_speed = 0.2
+		}
+
+	}
+
+	trait = {
+		token = ACMD_assault_guns_organization_mio_assault_guns_2
+		name = ACMD_assault_guns_organization_mio_assault_guns_2
+		icon = GFX_generic_mio_department_icon_tank_general_quality
+		special_trait_background = yes
+
+		position = { x=4 y=4 }
+
+		any_parent = {
+			ACMD_assault_guns_organization_mio_light_tank_artillery_3
+			ACMD_assault_guns_organization_mio_light_tank_artillery_5
+			ACMD_assault_guns_organization_mio_medium_tank_artillery_3
+			ACMD_assault_guns_organization_mio_medium_tank_artillery_5
+			ACMD_assault_guns_organization_mio_heavy_tank_artillery_3
+			ACMD_assault_guns_organization_mio_heavy_tank_artillery_5
+		}
+
+		equipment_bonus = {
+			defense = 0.15
+			armor_value = 0.15
+			soft_attack = 0.1
+			breakthrough = 0.15
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+
+	}
+
+	trait = {
+		token = ACMD_assault_guns_organization_mio_assault_guns_3
+		name = ACMD_assault_guns_organization_mio_assault_guns_3
+		icon = GFX_generic_mio_trait_icon_unique
+		special_trait_background = yes
+
+		available = {
+			has_mio_size > 3
+		}
+
+		position = { x=9 y=2 }
+
+		on_complete = {
+			custom_effect_tooltip = ACMD_sp_86_vanagandr_tt
+			FROM = {
+				set_country_flag = ACMD_sp_86_vanagandr_flag
+			}
+		}
+
+		equipment_bonus = {
+			defense = 0
+		}
+
+	}
+
+}
+
+

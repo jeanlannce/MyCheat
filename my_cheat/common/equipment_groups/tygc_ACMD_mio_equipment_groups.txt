@@ -1,0 +1,189 @@
+#火炮与超重型火炮
+	ACMD_mio_cat_eq_all_artillery_equipment = {
+		equipment_type = {
+			artillery_equipment
+			super_heavy_artillery_equipment
+		}
+	}
+#所有装甲单位（包括陆巡，不包括装甲车）
+	ACMD_mio_cat_eq_all_armor_equipment = {
+		equipment_type = {
+			armor
+			land_cruiser_equipment
+		}
+	}
+#装甲车
+	ACMD_mio_cat_eq_all_armor_car = {
+		equipment_type = {
+			armored_car_equipment
+			gw_armored_car_equipment
+		}
+	}
+#自行火力单位（包括超重自行榴弹炮）
+	ACMD_mio_cat_eq_all_assault_guns = {
+		equipment_type = {
+			self_propelled_super_heavy_artillery_equipment
+			light_tank_aa_chassis
+			light_tank_artillery_chassis
+			light_tank_destroyer_chassis
+			medium_tank_aa_chassis
+			medium_tank_artillery_chassis
+			medium_tank_destroyer_chassis
+			heavy_tank_aa_chassis
+			heavy_tank_artillery_chassis
+			heavy_tank_destroyer_chassis
+		}
+	}
+#火车和列车炮（包括超重型列车炮）
+	ACMD_mio_cat_eq_all_train_equipment = {
+		equipment_type = {
+			train_equipment
+			railway_gun_equipment
+			super_heavy_railway_gun_equipment
+		}
+	}
+#摩托化单位与机械化单位
+	ACMD_mio_cat_eq_all_motorized_equipment = {
+		equipment_type = {
+			motorized_equipment
+			motorized_rocket_equipment
+		}
+	}
+	ACMD_mio_cat_eq_all_mechanized_equipment = {
+		equipment_type = {
+			mechanized_equipment
+			amphibious_mechanized_equipment
+		}
+	}
+#运输船和浮动码头
+	ACMD_mio_cat_eq_all_convoy = {
+		equipment_type = {
+			convoy
+			floating_harbor_equipment
+		}
+	}
+#小型战斗机
+	ACMD_mio_cat_eq_all_mini_plane_fighter = {
+		equipment_type = {
+			small_plane_airframe_0
+			small_plane_airframe_1
+			small_plane_airframe_2
+			small_plane_airframe_3
+			small_plane_airframe_4
+			small_plane_airframe_5
+			cv_small_plane_airframe_0
+			cv_small_plane_airframe_1
+			cv_small_plane_airframe_2
+			cv_small_plane_airframe_3
+			cv_small_plane_airframe_4
+			fighter_equipment_0
+			fighter_equipment_1
+			fighter_equipment_2
+			fighter_equipment_3
+			cv_fighter_equipment_0
+			cv_fighter_equipment_1
+			cv_fighter_equipment_2
+			cv_fighter_equipment_3
+			jet_fighter_equipment
+			rocket_interceptor_equipment
+		}
+	}
+#小型舔地机
+	ACMD_mio_cat_eq_all_mini_plane_cas = {
+		equipment_type = {
+			small_plane_cas_airframe
+			cv_small_plane_cas_airframe
+		}
+	}
+#小型海轰
+	ACMD_mio_cat_eq_all_mini_plane_naval_bomber = {
+		equipment_type = {
+			small_plane_naval_bomber_airframe
+			cv_small_plane_naval_bomber_airframe
+		}
+	}
+#中型飞机与大型飞机（包括空天母舰、洲际轰炸机）
+	ACMD_mio_cat_eq_all_medium_plane = {
+		equipment_type = {
+			mio_cat_eq_all_medium_plane
+		}
+	}
+	ACMD_mio_cat_eq_all_large_plane = {
+		equipment_type = {
+			mio_cat_eq_only_strategic_bomber
+			large_plane_maritime_patrol_plane_airframe
+		}
+	}
+#导弹
+	ACMD_mio_cat_eq_all_missile_equipment = {
+		equipment_type = {
+			guided_missile_equipment
+			ballistic_missile_equipment
+			nuclear_missile_equipment
+			sam_missile_equipment
+		}
+	}
+#超级武器（只是为了能让这个MIO出现在每一栏中，并没有实际意义）
+	ACMD_mio_cat_eq_super_weapons = {
+		equipment_type = {
+			infantry_equipment
+			support_equipment
+			helicopter_equipment
+			armored_support_vehicle
+			ACMD_mio_cat_eq_all_train_equipment
+			ACMD_mio_cat_eq_all_artillery_equipment
+			anti_tank_equipment
+			anti_air_equipment
+			rocket_artillery_equipment
+			ACMD_mio_cat_eq_all_motorized_equipment
+			ACMD_mio_cat_eq_all_mechanized_equipment
+			armored_car_equipment
+			ACMD_mio_cat_eq_all_armor_equipment
+			ACMD_mio_cat_eq_all_assault_guns
+			ACMD_mio_cat_eq_all_mini_plane_fighter
+			ACMD_mio_cat_eq_all_mini_plane_cas
+			ACMD_mio_cat_eq_all_mini_plane_naval_bomber
+			ACMD_mio_cat_eq_all_medium_plane
+			ACMD_mio_cat_eq_all_large_plane
+			ACMD_mio_cat_eq_all_missile_equipment
+			transport_plane_equipment
+			mio_cat_eq_all_battleship
+			mio_cat_eq_all_carrier
+			mio_cat_eq_all_cruiser
+			mio_cat_eq_all_destroyer
+			ship_hull_submarine
+			ACMD_mio_cat_eq_all_convoy
+		}
+	}
+#全品类
+	ACMD_mio_cat_eq_all_equipment = {
+		equipment_type = {
+			infantry_equipment
+			support_equipment
+			helicopter_equipment
+			armored_support_vehicle
+			ACMD_mio_cat_eq_all_train_equipment
+			ACMD_mio_cat_eq_all_artillery_equipment
+			anti_tank_equipment
+			anti_air_equipment
+			rocket_artillery_equipment
+			ACMD_mio_cat_eq_all_motorized_equipment
+			ACMD_mio_cat_eq_all_mechanized_equipment
+			armored_car_equipment
+			ACMD_mio_cat_eq_all_armor_equipment
+			ACMD_mio_cat_eq_all_assault_guns
+			ACMD_mio_cat_eq_all_mini_plane_fighter
+			ACMD_mio_cat_eq_all_mini_plane_cas
+			ACMD_mio_cat_eq_all_mini_plane_naval_bomber
+			ACMD_mio_cat_eq_all_medium_plane
+			ACMD_mio_cat_eq_all_large_plane
+			ACMD_mio_cat_eq_all_missile_equipment
+			transport_plane_equipment
+			mio_cat_eq_all_battleship
+			mio_cat_eq_all_carrier
+			mio_cat_eq_all_cruiser
+			mio_cat_eq_all_destroyer
+			ship_hull_submarine
+			ACMD_mio_cat_eq_all_convoy
+		}
+	}

@@ -1,0 +1,215 @@
+spriteTypes = {
+#制造商装备集合图标
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_assault_guns
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_assault_guns_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_train_equipment
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_train_equipment_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_mini_plane_fighter
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_mini_plane_fighter_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_mini_plane_cas
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_mini_plane_cas_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_mini_plane_naval_bomber
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_mini_plane_naval_bomber_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_medium_plane
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_medium_plane_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_large_plane
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_large_plane_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_armor_car
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_armor_car_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_motorized_equipment
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_motorized_equipment_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_mechanized_equipment
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_mechanized_equipment_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_convoy
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_convoy_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_missile_equipment
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_missile_equipment_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_artillery_equipment
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_artillery_equipment_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_armor_equipment
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_armor_equipment_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_all_equipment
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_all_equipment_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_super_weapons
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_super_weapons_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_special_units
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_special_units_icon.dds
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_occupation_laws
+		texturefile = gfx/interface/mio/department_icons/ACMD_occupation_laws_icon.dds
+	}
+	
+
+#制造商trait图标
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_FFFKJ
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_FFFKJ_icon.png
+	}
+	spriteType = {
+		name = GFX_ACMD_mio_cat_eq_EPXLJ
+		texturefile = gfx/interface/mio/department_icons/ACMD_mio_cat_eq_EPXLJ_icon.png
+	}
+
+
+#制造商图标与背景
+	spriteType = {
+		name = GFX_idea_ACMD_tank_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_TXGZ_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_tank_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_TXGZ_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_assault_guns_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_FESYJE_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_assault_guns_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_FESYJE_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_motorized_mechanized_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_LSGY_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_motorized_mechanized_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_LSGY_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_infantry_support_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_GLF_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_infantry_support_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_GLF_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_artillery_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_BS_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_artillery_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_BS_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_mini_plane_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_MXLS_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_mini_plane_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_MXLS_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_huge_plane_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_WDLY_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_huge_plane_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_WDLY_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_capital_ship_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_MDN_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_capital_ship_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_MDN_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_screen_ship_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_YBLY_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_screen_ship_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_YBLY_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_submarine_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_AGE_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_submarine_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_AGE_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_product_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_ANTZBGC_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_product_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_ANTZBGC_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_super_weapon_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_FFFKJ_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_super_weapon_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_FFFKJ_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_special_units_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_special_units_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_special_units_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_special_units_background.png
+	}
+
+	spriteType = {
+		name = GFX_idea_ACMD_occupation_laws_organization
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_EPXLJ_ico.png
+	}
+	spriteType = {
+		name = GFX_ACMD_occupation_laws_organization_mio_details_background
+		texturefile = gfx/interface/mio/icon_and_background/ACMD_EPXLJ_background.png
+	}
+
+}

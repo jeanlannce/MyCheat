@@ -1,0 +1,568 @@
+	### ROW1 ###
+	cheatconstruction_row1_m3_trait = {
+		random = no
+		local_resources_factor = 1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row1_m2_trait = {
+		random = no
+		local_resources_factor = 0.5
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row1_m1_trait = {
+		random = no
+		local_resources_factor = 0.25
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row1_0_trait = {
+		random = no
+		local_resources_factor = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row1_1_trait = {
+		random = no
+		local_resources_factor = -0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row1_2_trait = {
+		random = no
+		local_resources_factor = -0.2
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row1_3_trait = {
+		random = no
+		local_resources_factor = -0.4
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row1_4_trait = {
+		random = no
+		local_resources_factor = -0.6
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row1_5_trait = {
+		random = no
+		local_resources_factor = -0.8
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row1_6_trait = {
+		random = no
+		local_resources_factor = -1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	### ROW2 ###
+	cheatconstruction_row2_m3_trait = {
+		random = no
+		local_resources_factor = 1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row2_m2_trait = {
+		random = no
+		local_resources_factor = 0.5
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row2_m1_trait = {
+		random = no
+		local_resources_factor = 0.25
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row2_0_trait = {
+		random = no
+		local_resources_factor = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row2_1_trait = {
+		random = no
+		local_resources_factor = -0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row2_2_trait = {
+		random = no
+		local_resources_factor = -0.2
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row2_3_trait = {
+		random = no
+		local_resources_factor = -0.4
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row2_4_trait = {
+		random = no
+		local_resources_factor = -0.6
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row2_5_trait = {
+		random = no
+		local_resources_factor = -0.8
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row2_6_trait = {
+		random = no
+		local_resources_factor = -1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	### ROW3 ###
+	cheatconstruction_row3_m3_trait = {
+		random = no
+		local_resources_factor = 1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row3_m2_trait = {
+		random = no
+		local_resources_factor = 0.5
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row3_m1_trait = {
+		random = no
+		local_resources_factor = 0.25
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row3_0_trait = {
+		random = no
+		local_resources_factor = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row3_1_trait = {
+		random = no
+		local_resources_factor = -0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row3_2_trait = {
+		random = no
+		local_resources_factor = -0.2
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row3_3_trait = {
+		random = no
+		local_resources_factor = -0.4
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row3_4_trait = {
+		random = no
+		local_resources_factor = -0.6
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row3_5_trait = {
+		random = no
+		local_resources_factor = -0.8
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row3_6_trait = {
+		random = no
+		local_resources_factor = -1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	### ROW4 ###
+	cheatconstruction_row4_m3_trait = {
+		random = no
+		local_resources_factor = 1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row4_m2_trait = {
+		random = no
+		local_resources_factor = 0.5
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row4_m1_trait = {
+		random = no
+		local_resources_factor = 0.25
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row4_0_trait = {
+		random = no
+		local_resources_factor = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row4_1_trait = {
+		random = no
+		local_resources_factor = -0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row4_2_trait = {
+		random = no
+		local_resources_factor = -0.2
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row4_3_trait = {
+		random = no
+		local_resources_factor = -0.4
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row4_4_trait = {
+		random = no
+		local_resources_factor = -0.6
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row4_5_trait = {
+		random = no
+		local_resources_factor = -0.8
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row4_6_trait = {
+		random = no
+		local_resources_factor = -1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	### ROW5 ###
+	cheatconstruction_row5_m3_trait = {
+		random = no
+		local_resources_factor = 1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row5_m2_trait = {
+		random = no
+		local_resources_factor = 0.5
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row5_m1_trait = {
+		random = no
+		local_resources_factor = 0.25
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row5_0_trait = {
+		random = no
+		local_resources_factor = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row5_1_trait = {
+		random = no
+		local_resources_factor = -0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row5_2_trait = {
+		random = no
+		local_resources_factor = -0.2
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row5_3_trait = {
+		random = no
+		local_resources_factor = -0.4
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row5_4_trait = {
+		random = no
+		local_resources_factor = -0.6
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row5_5_trait = {
+		random = no
+		local_resources_factor = -0.8
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row5_6_trait = {
+		random = no
+		local_resources_factor = -1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	### ROW6 ###
+	cheatconstruction_row6_m3_trait = {
+		random = no
+		local_resources_factor = 1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row6_m2_trait = {
+		random = no
+		local_resources_factor = 0.5
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row6_m1_trait = {
+		random = no
+		local_resources_factor = 0.25
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row6_0_trait = {
+		random = no
+		local_resources_factor = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row6_1_trait = {
+		random = no
+		local_resources_factor = -0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row6_2_trait = {
+		random = no
+		local_resources_factor = -0.2
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row6_3_trait = {
+		random = no
+		local_resources_factor = -0.4
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row6_4_trait = {
+		random = no
+		local_resources_factor = -0.6
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row6_5_trait = {
+		random = no
+		local_resources_factor = -0.8
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row6_6_trait = {
+		random = no
+		local_resources_factor = -1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	### ROW7 ###
+	cheatconstruction_row7_m3_trait = {
+		random = no
+		local_resources_factor = 1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row7_m2_trait = {
+		random = no
+		local_resources_factor = 0.5
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row7_m1_trait = {
+		random = no
+		local_resources_factor = 0.25
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row7_0_trait = {
+		random = no
+		local_resources_factor = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row7_1_trait = {
+		random = no
+		local_resources_factor = -0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row7_2_trait = {
+		random = no
+		local_resources_factor = -0.2
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row7_3_trait = {
+		random = no
+		local_resources_factor = -0.4
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row7_4_trait = {
+		random = no
+		local_resources_factor = -0.6
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row7_5_trait = {
+		random = no
+		local_resources_factor = -0.8
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	cheatconstruction_row7_6_trait = {
+		random = no
+		local_resources_factor = -1.0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	

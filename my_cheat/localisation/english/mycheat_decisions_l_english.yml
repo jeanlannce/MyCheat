@@ -1,0 +1,11 @@
+﻿l_english:
+
+#########################################
+### My Cheat - Decisions (English)
+#########################################
+
+ mycheat_category:0 "My Cheat"
+ mycheat_unlock_mio:0 "Unlock Military Industrial Organizations"
+ mycheat_unlock_mio_desc:0 "Unlocks the 17 custom Military Industrial Organizations (MIO) included in this mod. Once unlocked, their research trees become available in the Equipment Designer.\n\n§YIncludes§!: 7 general MIOs (tanks, artillery, infantry equipment, support equipment, motorized/mechanized, raiding fleet, light aircraft) and 10 character-themed MIOs."
+ mycheat_grant_characters:0 "Grant All Characters"
+ mycheat_grant_characters_desc:0 "Recruits all 58 custom characters included in this mod at once.\n\n§YIncludes§!: 35 army commanders (several can also serve as cabinet advisors), 17 political/military advisors, and 6 scientists.\n\n§RThis decision can only be taken once.§!"

@@ -1,0 +1,570 @@
+# My Cheat 独立图标定义（源自 Modifier Icons, workshop 2668048070）
+# 全部重命名为 GFX_mc_* 前缀 + 独立目录，避免与原 mod 或任何其他 mod 冲突
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_mc_ability_cost"
+		texturefile = "gfx/mycheat_texticons/ability_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_air_design_cost"
+		texturefile = "gfx/mycheat_texticons/air_design_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_air_intel"
+		texturefile = "gfx/mycheat_texticons/air_intel_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_air_spirit"
+		texturefile = "gfx/mycheat_texticons/air_spirit_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_air_volunteers_max"
+		texturefile = "gfx/mycheat_texticons/air_volunteers_max_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_anti_air"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_3.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_army_intel"
+		texturefile = "gfx/mycheat_texticons/army_intel_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_army_leader_cost"
+		texturefile = "gfx/mycheat_texticons/army_leader_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_army_spirit"
+		texturefile = "gfx/mycheat_texticons/army_spirit_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_attack_core"
+		texturefile = "gfx/mycheat_texticons/attack_core_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_autonomy"
+		texturefile = "gfx/texticons/autonomy_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_civilian_intel"
+		texturefile = "gfx/mycheat_texticons/civilian_intel_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_combat_width"
+		texturefile = "gfx/mycheat_texticons/combat_width_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_command_power"
+		texturefile = "gfx/mycheat_texticons/command_power_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_command_power_max"
+		texturefile = "gfx/mycheat_texticons/command_power_max_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_compliance"
+		texturefile = "gfx/mycheat_texticons/compliance_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_compliance_gain"
+		texturefile = "gfx/mycheat_texticons/compliance_gain_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_construction_speed"
+		texturefile = "gfx/mycheat_texticons/construction_speed_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_construction_speed_airbase"
+		texturefile = "gfx/mycheat_texticons/construction_speed_airbase_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_construction_speed_facility"
+		texturefile = "gfx/mycheat_texticons/construction_speed_facility_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_construction_speed_landfort"
+		texturefile = "gfx/mycheat_texticons/construction_speed_landfort_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_construction_speed_navalbase"
+		texturefile = "gfx/mycheat_texticons/construction_speed_navalbase_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_construction_speed_reactor"
+		texturefile = "gfx/mycheat_texticons/construction_speed_reactor_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_consumer_goods"
+		texturefile = "gfx/mycheat_texticons/consumer_goods_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_counter_intelligence"
+		texturefile = "gfx/mycheat_texticons/counter_intelligence_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_decryption"
+		texturefile = "gfx/mycheat_texticons/decryption_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_defence_core"
+		texturefile = "gfx/mycheat_texticons/defence_core_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_design_team"
+		texturefile = "gfx/mycheat_texticons/design_team_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_dig_in_speed"
+		texturefile = "gfx/mycheat_texticons/dig_in_speed_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_divisions"
+		texturefile = "gfx/mycheat_texticons/divisions_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_dockyard_output"
+		texturefile = "gfx/mycheat_texticons/dockyard_output_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_drift_defence"
+		texturefile = "gfx/mycheat_texticons/drift_defence_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_efficiency_base"
+		texturefile = "gfx/mycheat_texticons/efficiency_base_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_efficiency_growth"
+		texturefile = "gfx/mycheat_texticons/efficiency_growth_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_encryption"
+		texturefile = "gfx/mycheat_texticons/encryption_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_equipment_conversion"
+		texturefile = "gfx/mycheat_texticons/equipment_conversion_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_experience_loss"
+		texturefile = "gfx/mycheat_texticons/experience_loss_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_experience_neutral"
+		texturefile = "gfx/mycheat_texticons/experience_neutral_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_factory_bombing_defence"
+		texturefile = "gfx/mycheat_texticons/factory_bombing_defence_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_factory_conversion"
+		texturefile = "gfx/mycheat_texticons/factory_conversion_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_factory_output"
+		texturefile = "gfx/mycheat_texticons/factory_output_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_fuel"
+		texturefile = "gfx/texticons/fuel_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_funds"
+		texturefile = "gfx/mycheat_texticons/funds_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_garrison"
+		texturefile = "gfx/mycheat_texticons/garrison_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_improve_relations"
+		texturefile = "gfx/mycheat_texticons/improve_relations_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_industrial_concern_cost"
+		texturefile = "gfx/mycheat_texticons/industrial_concern_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_industrial_manufacturer"
+		texturefile = "gfx/mycheat_texticons/industrial_manufacturer_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_industry"
+		texturefile = "gfx/texticons/industry.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_industry_repair"
+		texturefile = "gfx/mycheat_texticons/industry_repair_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_intel_operatives"
+		texturefile = "gfx/mycheat_texticons/intel_operatives_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_leader_experience_gain"
+		texturefile = "gfx/mycheat_texticons/leader_experience_gain_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_legitimacy"
+		texturefile = "gfx/texticons/legitimacy.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_manpower"
+		texturefile = "gfx/texticons/manpower_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_manufacturer_materiel_cost"
+		texturefile = "gfx/mycheat_texticons/manufacturer_materiel_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_mio_conversion_speed"
+		texturefile = "gfx/mycheat_texticons/mio_conversion_speed_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_mobilisation"
+		texturefile = "gfx/mycheat_texticons/mobilisation_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_navy_design_cost"
+		texturefile = "gfx/mycheat_texticons/navy_design_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_navy_intel"
+		texturefile = "gfx/mycheat_texticons/navy_intel_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_navy_spirit"
+		texturefile = "gfx/mycheat_texticons/navy_spirit_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_operatives_boost_resistance"
+		texturefile = "gfx/mycheat_texticons/operatives_boost_resistance_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_operatives_build_intel_network"
+		texturefile = "gfx/mycheat_texticons/operatives_build_intel_network_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_operatives_detection"
+		texturefile = "gfx/mycheat_texticons/operatives_detection_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_operatives_extract_intel"
+		texturefile = "gfx/mycheat_texticons/operatives_extract_intel_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_org_loss_when_moving"
+		texturefile = "gfx/mycheat_texticons/org_loss_when_moving_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_out_of_supply"
+		texturefile = "gfx/mycheat_texticons/out_of_supply_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_planning_max"
+		texturefile = "gfx/mycheat_texticons/planning_max_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_planning_speed"
+		texturefile = "gfx/mycheat_texticons/planning_speed_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_political_power"
+		texturefile = "gfx/mycheat_texticons/political_power_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_population"
+		texturefile = "gfx/texticons/population_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_research_speed"
+		texturefile = "gfx/mycheat_texticons/research_speed_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_research_speed_equipment"
+		texturefile = "gfx/mycheat_texticons/research_speed_equipment_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_research_speed_fighter"
+		texturefile = "gfx/mycheat_texticons/research_speed_fighter_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_research_speed_naval"
+		texturefile = "gfx/mycheat_texticons/research_speed_naval_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_research_speed_nuclear"
+		texturefile = "gfx/mycheat_texticons/research_speed_nuclear_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_research_speed_radar"
+		texturefile = "gfx/mycheat_texticons/research_speed_radar_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_research_speed_rocket"
+		texturefile = "gfx/mycheat_texticons/research_speed_rocket_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_resources"
+		texturefile = "gfx/mycheat_texticons/resources_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_scientist"
+		texturefile = "gfx/mycheat_texticons/scientist_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_slot"
+		texturefile = "gfx/mycheat_texticons/slot_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_special_project"
+		texturefile = "gfx/mycheat_texticons/special_project_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_special_project_nuclear"
+		texturefile = "gfx/mycheat_texticons/special_project_nuclear_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_spy_network"
+		texturefile = "gfx/mycheat_texticons/spy_network_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_stability"
+		texturefile = "gfx/texticons/stability_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_supply_consumption"
+		texturefile = "gfx/mycheat_texticons/supply_consumption_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_supply_grace"
+		texturefile = "gfx/mycheat_texticons/supply_grace_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_surrender"
+		texturefile = "gfx/mycheat_texticons/surrender_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_tank_design_cost"
+		texturefile = "gfx/mycheat_texticons/tank_design_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_terrain_penalty"
+		texturefile = "gfx/mycheat_texticons/terrain_penalty_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_trade"
+		texturefile = "gfx/mycheat_texticons/trade_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_training"
+		texturefile = "gfx/mycheat_texticons/training_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_war_goal"
+		texturefile = "gfx/mycheat_texticons/war_goal_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_war_support_modifiericons"
+		texturefile = "gfx/mycheat_texticons/war_support_modifiericons_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_world_tension"
+		texturefile = "gfx/mycheat_texticons/world_tension_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_world_tension_wargoal"
+		texturefile = "gfx/mycheat_texticons/world_tension_wargoal_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+}

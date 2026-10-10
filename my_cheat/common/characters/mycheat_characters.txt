@@ -1,0 +1,1752 @@
+# My Cheat —— 58 个二次元角色（静态定义，源自 TYGC，id 加 mc_ 前缀避免冲突）
+# 为什么用静态定义：generate_character 只能用于 history 文件（开局），
+# 而我们需要在运行时（决议）发放角色 —— 运行时用 recruit_character。
+
+characters = {
+
+	mc_ACMD_ALN = {
+		name = "Name_ACMD_ALN"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_ALN_large.png"
+				small = "gfx/portraits/small/ACMD_ALN_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_ALN_large.png"
+				small = "gfx/portraits/small/ACMD_ALN_small.png"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader career_officer infantry_expert infantry_leader commando }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_ALN
+			traits = { Thick_scrolls }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_ABLN = {
+		name = "Name_ACMD_ABLN"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_ABLN_large.png"
+				small = "gfx/portraits/small/ACMD_ABLN_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_ABLN_large.png"
+				small = "gfx/portraits/small/ACMD_ABLN_small.png"
+			}
+		}
+		corps_commander={
+			traits={ war_hero harsh_leader fortress_buster organizer combined_arms_expert }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_ABLN
+			traits = { Leader_of_the_Dublinn_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_GLDY = {
+		name = "Name_ACMD_GLDY"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_GLDY_large.png"
+				small = "gfx/portraits/small/ACMD_GLDY_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_GLDY_large.png"
+				small = "gfx/portraits/small/ACMD_GLDY_small.png"
+			}
+		}
+		corps_commander={
+			traits={ war_hero trait_cautious naval_invader fortress_buster naval_liason }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = idea_ACMD_GLDY
+			traits = { Archon_of_Agor_Techno }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_HYSS = {
+		name = "Name_ACMD_HYSS"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_HYSS_large.png"
+				small = "gfx/portraits/small/ACMD_HYSS_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_HYSS_large.png"
+				small = "gfx/portraits/small/ACMD_HYSS_small.png"
+			}
+		}
+		corps_commander={
+			traits={ old_guard trait_reckless commando guerilla_fighter adaptable }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_HYSS
+			traits = { Black_Rock_Shooter }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_AETE = {
+		name = "Name_ACMD_AETE"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_AETE_large.png"
+				small = "gfx/portraits/small/ACMD_AETE_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_AETE_large.png"
+				small = "gfx/portraits/small/ACMD_AETE_small.png"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist war_hero panzer_leader bearer_of_artillery }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = theorist
+			idea_token = idea_ACMD_AETE
+			ledger = army
+			traits = { Princess_military_uniform }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_MY = {
+		name = "Name_ACMD_MY"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_MY_large.png"
+				small = "gfx/portraits/small/ACMD_MY_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_MY_large.png"
+				small = "gfx/portraits/small/ACMD_MY_small.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious infantry_officer urban_assault_specialist fortress_buster bearer_of_artillery }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_MY
+			traits = { Shooting_genius }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_ALSTY = {
+		name = "Name_ACMD_ALSTY"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_ALSTY_large.png"
+				small = "gfx/portraits/small/ACMD_ALSTY_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_ALSTY_large.png"
+				small = "gfx/portraits/small/ACMD_ALSTY_small.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_ALSTY
+			traits = { Scam_genius_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_SL = {
+		name = "Name_ACMD_SL"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_SL_large.png"
+				small = "gfx/portraits/small/ACMD_SL_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_SL_large.png"
+				small = "gfx/portraits/small/ACMD_SL_small.png"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader infantry_officer commando trickster infantry_expert }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_SL
+			traits = { ACMD_Apostle }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_SN = {
+		name = "Name_ACMD_SN"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_SN_large.png"
+				small = "gfx/portraits/small/ACMD_SN_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_SN_large.png"
+				small = "gfx/portraits/small/ACMD_SN_small.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious old_guard trickster urban_assault_specialist camouflage_expert }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_SN
+			traits = { Ice_Sniper }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_SX = {
+		name = "Name_ACMD_SX"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_SX_large.png"
+				small = "gfx/portraits/small/ACMD_SX_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_SX_large.png"
+				small = "gfx/portraits/small/ACMD_SX_small.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer winter_expert organizer combined_arms_expert }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_SX
+			traits = { Icefield_Valkyrie_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_WM = {
+		name = "Name_ACMD_WM"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_WM_large.png"
+				small = "gfx/portraits/small/ACMD_WM_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_WM_large.png"
+				small = "gfx/portraits/small/ACMD_WM_small.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless infantry_officer adaptable infantry_expert guerilla_fighter }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_WM
+			traits = { ACMD_Kabaneri  }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_X = {
+		name = "Name_ACMD_X"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_X_large.png"
+				small = "gfx/portraits/small/ACMD_X_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_X_large.png"
+				small = "gfx/portraits/small/ACMD_X_small.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious old_guard trickster scavenger camouflage_expert }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_X
+			traits = { The_Great_Painter_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_TLL = {
+		name = "Name_ACMD_TLL"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_TLL_large.png"
+				small = "gfx/portraits/small/ACMD_TLL_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_TLL_large.png"
+				small = "gfx/portraits/small/ACMD_TLL_small.png"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist war_hero skilled_staffer panzer_expert hot_expert }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_TLL
+			traits = { Revolutionaries_in_fire_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_QLY = {
+		name = "Name_ACMD_QLY"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_QLY_large.png"
+				small = "gfx/portraits/small/ACMD_QLY_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_QLY_large.png"
+				small = "gfx/portraits/small/ACMD_QLY_small.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer war_hero combined_arms_expert organizer skilled_staffer }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_QLY
+			traits = { Desireless_and_loyal }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_JK = {
+		name = "Name_ACMD_JK"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_JK_large.png"
+				small = "gfx/portraits/small/ACMD_JK_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_JK_large.png"
+				small = "gfx/portraits/small/ACMD_JK_small.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless infantry_officer camouflage_expert trickster adaptable }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_JK
+			traits = { Jack_the_Ripper_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_ASDS = {
+		name = "Name_ACMD_ASDS"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_ASDS_large.png"
+				small = "gfx/portraits/small/ACMD_ASDS_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_ASDS_large.png"
+				small = "gfx/portraits/small/ACMD_ASDS_small.png"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist war_hero winter_expert organizer }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = idea_ACMD_ASDS
+			traits = { General_of_Ice_1 }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_TY = {
+		name = "Name_ACMD_TY"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_TY_large.png"
+				small = "gfx/portraits/small/ACMD_TY_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_TY_large.png"
+				small = "gfx/portraits/small/ACMD_TY_small.png"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist harsh_leader guerilla_fighter panzer_leader }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = air_chief
+			idea_token = idea_ACMD_TY
+			traits = { The_Devil_of_the_Rhine }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_GYZB = {
+		name = "Name_ACMD_GYZB"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_GYZB_large.png"
+				small = "gfx/portraits/small/ACMD_GYZB_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_GYZB_large.png"
+				small = "gfx/portraits/small/ACMD_GYZB_small.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_GYZB
+			traits = { ACMD_Sherry_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_BCS = {
+		name = "Name_ACMD_BCS"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_BCS_large.png"
+				small = "gfx/portraits/small/ACMD_BCS_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_BCS_large.png"
+				small = "gfx/portraits/small/ACMD_BCS_small.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_BCS
+			traits = { Great_Library_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_YLS = {
+		name = "Name_ACMD_YLS"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_YLS_large.png"
+				small = "gfx/portraits/small/ACMD_YLS_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_YLS_large.png"
+				small = "gfx/portraits/small/ACMD_YLS_small.png"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly bold seawolf concealment_expert marksman }
+			skill = 1
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_YLS
+			traits = { Two_selves }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_TLX = {
+		name = "Name_ACMD_TLX"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_TLX_large.png"
+				small = "gfx/portraits/small/ACMD_TLX_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_TLX_large.png"
+				small = "gfx/portraits/small/ACMD_TLX_small.png"
+			}
+		}
+		navy_leader={
+			traits={ naval_lineage gentlemanly cruiser_captain search_pattern_expert safety_first }
+			skill = 1
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_TLX
+			traits = { Royal_Maid }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_FNN = {
+		name = "Name_ACMD_FNN"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_FNN_large.png"
+				small = "gfx/portraits/small/ACMD_FNN_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_FNN_large.png"
+				small = "gfx/portraits/small/ACMD_FNN_small.png"
+			}
+		}
+		navy_leader={
+			traits={ gunnery_expert media_personality big_guns_expert ironside superior_tactician }
+			skill = 1
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id= -1
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = idea_ACMD_FNN
+			traits = { Demon_God_of_Water }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_FLL = {
+		name = "Name_ACMD_FLL"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_FLL_large.png"
+				small = "gfx/portraits/small/ACMD_FLL_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_FLL_large.png"
+				small = "gfx/portraits/small/ACMD_FLL_small.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer cavalry_officer fortress_buster adaptable scavenger }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = air_chief
+			idea_token = idea_ACMD_FLL
+			traits = { Buried_Frilyn }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_LMY = {
+		name = "Name_ACMD_LMY"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_LMY_large.png"
+				small = "gfx/portraits/small/ACMD_LMY_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_LMY_large.png"
+				small = "gfx/portraits/small/ACMD_LMY_small.png"
+			}
+		}
+		corps_commander={
+			traits={ war_hero commando organizer guerilla_fighter }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id= -1
+		}
+		advisor={
+			slot = air_chief
+			idea_token = idea_ACMD_LMY
+			traits = { Principle_of_the_Ring }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_LDJJ = {
+		name = "Name_ACMD_LDJJ"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_LDJJ_large.png"
+				small = "gfx/portraits/small/ACMD_LDJJ_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_LDJJ_large.png"
+				small = "gfx/portraits/small/ACMD_LDJJ_small.png"
+			}
+		}
+		corps_commander={
+			traits={ old_guard inflexible_strategist fortress_buster panzer_leader }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_LDJJ
+			traits = { Raiden_Shogun }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_YE = {
+		name = "Name_ACMD_YE"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_YE_large.png"
+				small = "gfx/portraits/small/ACMD_YE_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_YE_large.png"
+				small = "gfx/portraits/small/ACMD_YE_small.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless infantry_officer trickster commando infantry_expert }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_YE
+			traits = { Princess_of_Thorns_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_JM = {
+		name = "Name_ACMD_JM"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_JM_large.png"
+				small = "gfx/portraits/small/ACMD_JM_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_JM_large.png"
+				small = "gfx/portraits/small/ACMD_JM_small.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious cavalry_officer trickster camouflage_expert urban_assault_specialist }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_JM
+			traits = { Zabaniya_JM_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_SLY = {
+		name = "Name_ACMD_SLY"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_SLY_large.png"
+				small = "gfx/portraits/small/ACMD_SLY_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_SLY_large.png"
+				small = "gfx/portraits/small/ACMD_SLY_small.png"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist trait_cautious old_guard organizer }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_SLY
+			traits = { Director_of_Defence_Section }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_MQM = {
+		name = "Name_ACMD_MQM"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_MQM_large.png"
+				small = "gfx/portraits/small/ACMD_MQM_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_MQM_large.png"
+				small = "gfx/portraits/small/ACMD_MQM_small.png"
+			}
+		}
+		corps_commander={
+			traits={ media_personality harsh_leader career_officer politically_connected commando organizer }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_MQM
+			traits = { Domination_of_demons }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_KLT = {
+		name = "Name_ACMD_KLT"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_KLT_large.png"
+				small = "gfx/portraits/small/ACMD_KLT_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_KLT_large.png"
+				small = "gfx/portraits/small/ACMD_KLT_small.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious infantry_officer camouflage_expert trickster urban_assault_specialist }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_KLT
+			traits = { ACMD_Opal }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_LYS = {
+		name = "Name_ACMD_LYS"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_LYS_large.png"
+				small = "gfx/portraits/small/ACMD_LYS_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_LYS_large.png"
+				small = "gfx/portraits/small/ACMD_LYS_small.png"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader infantry_officer commando infantry_expert urban_assault_specialist }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_LYS
+			traits = { Eye_of_Death }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_YQ = {
+		name = "Name_ACMD_YQ"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_YQ_large.png"
+				small = "gfx/portraits/small/ACMD_YQ_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_YQ_large.png"
+				small = "gfx/portraits/small/ACMD_YQ_small.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_YQ
+			traits = { ACMD_Egoist_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_SND = {
+		name = "Name_ACMD_SND"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_SND_large.png"
+				small = "gfx/portraits/small/ACMD_SND_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_SND_large.png"
+				small = "gfx/portraits/small/ACMD_SND_small.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_SND
+			traits = { S192_9W_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_MLJ = {
+		name = "Name_ACMD_MLJ"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_MLJ_large.png"
+				small = "gfx/portraits/small/ACMD_MLJ_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_MLJ_large.png"
+				small = "gfx/portraits/small/ACMD_MLJ_small.png"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist career_officer war_hero armor_officer }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = idea_ACMD_MLJ
+			traits = { Bloody_Regina_1 }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_LNY = {
+		name = "Name_ACMD_LNY"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_LNY_large.png"
+				small = "gfx/portraits/small/ACMD_LNY_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_LNY_large.png"
+				small = "gfx/portraits/small/ACMD_LNY_small.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless old_guard trickster commando infantry_expert }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_LNY
+			traits = { ACMD_Beheading }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_BLLM = {
+		name = "Name_ACMD_BLLM"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_BLLM_large.png"
+				small = "gfx/portraits/small/ACMD_BLLM_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_BLLM_large.png"
+				small = "gfx/portraits/small/ACMD_BLLM_small.png"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected trait_cautious ranger organizer camouflage_expert }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_BLLM
+			traits = { Green_hills_people_go_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_QLN = {
+		name = "Name_ACMD_QLN"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_QLN_large.png"
+				small = "gfx/portraits/small/ACMD_QLN_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_QLN_large.png"
+				small = "gfx/portraits/small/ACMD_QLN_small.png"
+			}
+		}
+		navy_leader={
+			traits={ bold cuts_corners arctic_water_expert blockade_runner crisis_magician }
+			skill = 1
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id= -1
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = idea_ACMD_QLN
+			traits = { Goblins_of_lake }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_MRX = {
+		name = "Name_ACMD_MRX"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_MRX_large.png"
+				small = "gfx/portraits/small/ACMD_MRX_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_MRX_large.png"
+				small = "gfx/portraits/small/ACMD_MRX_small.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless harsh_leader armor_officer combined_arms_expert panzer_leader }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_MRX
+			traits = { Second_Qualifier }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_LBL = {
+		name = "Name_ACMD_LBL"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_LBL_large.png"
+				small = "gfx/portraits/small/ACMD_LBL_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_LBL_large.png"
+				small = "gfx/portraits/small/ACMD_LBL_small.png"
+			}
+		}
+		navy_leader={
+			traits={ politically_connected blue_water_expert fleet_protector search_pattern_expert smoke_screen_expert }
+			skill = 1
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id= -1
+		}
+		advisor={
+			slot = theorist
+			idea_token = idea_ACMD_LBL
+			traits = { First_Qualifier }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_ZTXZ = {
+		name = "Name_ACMD_ZTXZ"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_ZTXZ_large.png"
+				small = "gfx/portraits/small/ACMD_ZTXZ_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_ZTXZ_large.png"
+				small = "gfx/portraits/small/ACMD_ZTXZ_small.png"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist war_hero skilled_staffer combined_arms_expert }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = idea_ACMD_ZTXZ
+			traits = { ACMD_Beelzebub_1 }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_SNL = {
+		name = "Name_ACMD_SNL"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_SNL_large.png"
+				small = "gfx/portraits/small/ACMD_SNL_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_SNL_large.png"
+				small = "gfx/portraits/small/ACMD_SNL_small.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless harsh_leader fortress_buster infantry_leader bearer_of_artillery }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_SNL
+			traits = { ACMD_Draco }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_TYMT = {
+		name = "Name_ACMD_TYMT"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_TYMT_large.png"
+				small = "gfx/portraits/small/ACMD_TYMT_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_TYMT_large.png"
+				small = "gfx/portraits/small/ACMD_TYMT_small.png"
+			}
+		}
+		navy_leader={
+			traits={ aviation_enthusiast media_personality safety_first blockade_runner blue_water_expert }
+			skill = 1
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id= -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_TYMT
+			traits = { Mother_of_all_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_HK = {
+		name = "Name_ACMD_HK"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_HK_large.png"
+				small = "gfx/portraits/small/ACMD_HK_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_HK_large.png"
+				small = "gfx/portraits/small/ACMD_HK_small.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_cautious infantry_officer urban_assault_specialist infantry_expert }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_HK
+			traits = { ACMD_HK416 }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_UMP = {
+		name = "Name_ACMD_UMP"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_UMP_large.png"
+				small = "gfx/portraits/small/ACMD_UMP_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_UMP_large.png"
+				small = "gfx/portraits/small/ACMD_UMP_small.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_cautious infantry_officer urban_assault_specialist infantry_leader }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_UMP
+			traits = { ACMD_UMP45 }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_LMLYSKLT = {
+		name = "Name_ACMD_LMLYSKLT"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_LMLYSKLT_large.png"
+				small = "gfx/portraits/small/ACMD_LMLYSKLT_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_LMLYSKLT_large.png"
+				small = "gfx/portraits/small/ACMD_LMLYSKLT_small.png"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader politically_connected commando infantry_expert expert_improviser }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_LMLYSKLT
+			traits = { Master_of_the_Scarlet_Devil_Mansion }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_SLYXY = {
+		name = "Name_ACMD_SLYXY"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_SLYXY_large.png"
+				small = "gfx/portraits/small/ACMD_SLYXY_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_SLYXY_large.png"
+				small = "gfx/portraits/small/ACMD_SLYXY_small.png"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader trait_cautious trickster infantry_expert urban_assault_specialist }
+			skill = 1
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id= -1
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_ACMD_SLYXY
+			traits = { The_Scarlet_Devil_Mansion_Head_Maid }
+			cost = 50
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_TLS = {
+		name = "Name_ACMD_TLS"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_TLS_large.png"
+				small = "gfx/portraits/small/ACMD_TLS_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_TLS_large.png"
+				small = "gfx/portraits/small/ACMD_TLS_small.png"
+			}
+		}
+		navy_leader={
+			traits={ chief_engineer navy_career_officer silent_hunter torpedo_expert seawolf }
+			skill = 1
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id= -1
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = idea_ACMD_TLS
+			traits = { Tuatha_de_Danaan }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_TLS_SC = {
+		name = "Name_ACMD_TLS_SC"
+		portraits = {
+			army = {
+				large = "gfx/portraits/large/science/ACMD_TLS_SC_large.png"
+			}
+			civilian = {
+				large = "gfx/portraits/large/science/ACMD_TLS_SC_large.png"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_brilliant_theorist scientist_trait_gifted_engineer scientist_trait_resourceful scientist_trait_submarine_specialist }
+			skills = {
+				specialization_naval = 1
+			}
+		}
+	}
+
+	mc_ACMD_PQL = {
+		name = "Name_ACMD_PQL"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_PQL_large.png"
+				small = "gfx/portraits/small/ACMD_PQL_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_PQL_large.png"
+				small = "gfx/portraits/small/ACMD_PQL_small.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = idea_ACMD_PQL
+			traits = { Innate_Mage_1 }
+			cost = 100
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_PQL_SC = {
+		name = "Name_ACMD_PQL_SC"
+		portraits = {
+			army = {
+				large = "gfx/portraits/large/science/ACMD_PQL_SC_large.png"
+			}
+			civilian = {
+				large = "gfx/portraits/large/science/ACMD_PQL_SC_large.png"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_brilliant_theorist scientist_trait_bright scientist_trait_electronics_specialist scientist_trait_aircraft_specialist }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+
+	mc_ACMD_MLHLQ = {
+		name = "Name_ACMD_MLHLQ"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_MLHLQ_large.png"
+				small = "gfx/portraits/small/ACMD_MLHLQ_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_MLHLQ_large.png"
+				small = "gfx/portraits/small/ACMD_MLHLQ_small.png"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = idea_ACMD_MLHLQ
+			traits = { Genius_Science_Girl }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_MLHLQ_SC = {
+		name = "Name_ACMD_MLHLQ_SC"
+		portraits = {
+			army = {
+				large = "gfx/portraits/large/science/ACMD_MLHLQ_SC_large.png"
+			}
+			civilian = {
+				large = "gfx/portraits/large/science/ACMD_MLHLQ_SC_large.png"
+			}
+		}
+		scientist = {
+			traits = {  scientist_trait_genius scientist_trait_fast_learner scientist_trait_nuclear_specialist scientist_trait_nuclear_warfare_expert }
+			skills = {
+				specialization_nuclear = 1
+			}
+		}
+	}
+
+	mc_ACMD_MS = {
+		name = "Name_ACMD_MS"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_MS_large.png"
+				small = "gfx/portraits/small/ACMD_MS_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_MS_large.png"
+				small = "gfx/portraits/small/ACMD_MS_small.png"
+			}
+		}
+		navy_leader={
+			traits={ chief_engineer naval_lineage safety_first crisis_magician ironside }
+			skill = 1
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id= -1
+		}
+		advisor={
+			slot = theorist
+			idea_token = idea_ACMD_MS
+			traits = { ACMD_Port_logistics }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_MS_SC = {
+		name = "Name_ACMD_MS_SC"
+		portraits = {
+			army = {
+				large = "gfx/portraits/large/science/ACMD_MS_SC_large.png"
+			}
+			civilian = {
+				large = "gfx/portraits/large/science/ACMD_MS_SC_large.png"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_genius scientist_trait_brilliant_theorist scientist_trait_surface_ship_specialist scientist_trait_submarine_specialist }
+			skills = {
+				specialization_naval = 1
+			}
+		}
+	}
+
+	mc_ACMD_CMLZ = {
+		name = "Name_ACMD_CMLZ"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_CMLZ_large.png"
+				small = "gfx/portraits/small/ACMD_CMLZ_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_CMLZ_large.png"
+				small = "gfx/portraits/small/ACMD_CMLZ_small.png"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = idea_ACMD_CMLZ
+			traits = { Head_of_the_EVA_program }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_CMLZ_SC = {
+		name = "Name_ACMD_CMLZ_SC"
+		portraits = {
+			army = {
+				large = "gfx/portraits/large/science/ACMD_CMLZ_SC_large.png"
+			}
+			civilian = {
+				large = "gfx/portraits/large/science/ACMD_CMLZ_SC_large.png"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_genius scientist_trait_brilliant_theorist scientist_trait_armored_specialist scientist_trait_artillery_specialist }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+
+	mc_ACMD_CLST = {
+		name = "Name_ACMD_CLST"
+		portraits = {
+			civilian = {
+				large = "gfx/portraits/large/general/ACMD_CLST_large.png"
+				small = "gfx/portraits/small/ACMD_CLST_small.png"
+			}
+			army = {
+				large = "gfx/portraits/large/general/ACMD_CLST_large.png"
+				small = "gfx/portraits/small/ACMD_CLST_small.png"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = idea_ACMD_CLST
+			traits = { General_Jurisdiction }
+			cost = 75
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	mc_ACMD_CLST_SC = {
+		name = "Name_ACMD_CLST_SC"
+		portraits = {
+			army = {
+				large = "gfx/portraits/large/science/ACMD_CLST_SC_large.png"
+			}
+			civilian = {
+				large = "gfx/portraits/large/science/ACMD_CLST_SC_large.png"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_bright scientist_trait_fast_learner scientist_trait_aircraft_specialist scientist_trait_rocketry_specialist }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+
+
+}

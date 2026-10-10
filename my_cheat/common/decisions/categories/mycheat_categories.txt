@@ -1,0 +1,8 @@
+mycheat_category = {
+	icon = generic_political_discourse
+	priority = 100
+
+	visible = {
+		is_ai = no
+	}
+}

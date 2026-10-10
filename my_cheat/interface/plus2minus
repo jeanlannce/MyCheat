@@ -1,0 +1,2051 @@
+		############
+		### ROW1 ###
+		############
+		instantTextboxType = {
+			name = "cheatideas_construction_row1_text"
+			position = { x = 30 y = 50 }
+			font = "hoi_18mbs"
+			text = "[cheatideas_construction_row1]"
+			maxWidth = 250
+			maxHeight = 23
+			alwaystransparent = yes
+		}
+		### (BUTTON #-3) ###
+		buttonType = {
+			name = "cheatideas_construction_row1_button_m3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 30 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row1_button_m3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 30 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row1_button_m3text"
+			position = { x = 31 y = 72 }
+
+			font = "cg_16b"
+			text = "+100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-2) ###
+		buttonType = {
+			name = "cheatideas_construction_row1_button_m2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 65 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row1_button_m2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 65 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row1_button_m2text"
+			position = { x = 66 y = 72 }
+
+			font = "cg_16b"
+			text = "+50%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-1) ###
+		buttonType = {
+			name = "cheatideas_construction_row1_button_m1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 100 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row1_button_m1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 100 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row1_button_m1text"
+			position = { x = 101 y = 72 }
+
+			font = "cg_16b"
+			text = "+25%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #0) ###
+		buttonType = {
+			name = "cheatideas_construction_row1_button_0"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 135 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row1_button_0p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 135 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row1_button_0text"
+			position = { x = 143 y = 71 }
+
+			font = "cg_16b"
+			text = "-/-"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #1) ###
+		buttonType = {
+			name = "cheatideas_construction_row1_button_1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 170 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row1_button_1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 170 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row1_button_1text"
+			position = { x = 171 y = 72 }
+
+			font = "cg_16b"
+			text = "-10%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #2) ###
+		buttonType = {
+			name = "cheatideas_construction_row1_button_2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 205 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row1_button_2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 205 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row1_button_2text"
+			position = { x = 206 y = 72 }
+
+			font = "cg_16b"
+			text = "-20%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #3) ###
+		buttonType = {
+			name = "cheatideas_construction_row1_button_3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 240 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row1_button_3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 240 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row1_button_3text"
+			position = { x = 241 y = 72 }
+
+			font = "cg_16b"
+			text = "-40%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #4) ###
+		buttonType = {
+			name = "cheatideas_construction_row1_button_4"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 275 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row1_button_4p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 275 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row1_button_4text"
+			position = { x = 276 y = 72 }
+
+			font = "cg_16b"
+			text = "-60%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #5) ###
+		buttonType = {
+			name = "cheatideas_construction_row1_button_5"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 310 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row1_button_5p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 310 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row1_button_5text"
+			position = { x = 311 y = 72 }
+
+			font = "cg_16b"
+			text = "-80%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #6) ###
+		buttonType = {
+			name = "cheatideas_construction_row1_button_6"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 345 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row1_button_6p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 345 y = 73 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row1_button_6text"
+			position = { x = 346 y = 72 }
+
+			font = "cg_16b"
+			text = "-100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+
+		############
+		### ROW2 ###
+		############
+		instantTextboxType = {
+			name = "cheatideas_construction_row2_text"
+			position = { x = 30 y = 103 }
+			font = "hoi_18mbs"
+			text = "[cheatideas_construction_row2]"
+			maxWidth = 250
+			maxHeight = 23
+			alwaystransparent = yes
+		}
+		### (BUTTON #-3) ###
+		buttonType = {
+			name = "cheatideas_construction_row2_button_m3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 30 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row2_button_m3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 30 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row2_button_m3text"
+			position = { x = 31 y = 125 }
+
+			font = "cg_16b"
+			text = "+100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-2) ###
+		buttonType = {
+			name = "cheatideas_construction_row2_button_m2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 65 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row2_button_m2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 65 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row2_button_m2text"
+			position = { x = 66 y = 125 }
+
+			font = "cg_16b"
+			text = "+50%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-1) ###
+		buttonType = {
+			name = "cheatideas_construction_row2_button_m1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 100 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row2_button_m1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 100 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row2_button_m1text"
+			position = { x = 101 y = 125 }
+
+			font = "cg_16b"
+			text = "+25%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #0) ###
+		buttonType = {
+			name = "cheatideas_construction_row2_button_0"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 135 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row2_button_0p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 135 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row2_button_0text"
+			position = { x = 143 y = 125 }
+
+			font = "cg_16b"
+			text = "-/-"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #1) ###
+		buttonType = {
+			name = "cheatideas_construction_row2_button_1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 170 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row2_button_1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 170 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row2_button_1text"
+			position = { x = 174 y = 125 }
+
+			font = "cg_16b"
+			text = "-10%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #2) ###
+		buttonType = {
+			name = "cheatideas_construction_row2_button_2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 205 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row2_button_2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 205 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row2_button_2text"
+			position = { x = 209 y = 125 }
+
+			font = "cg_16b"
+			text = "-20%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #3) ###
+		buttonType = {
+			name = "cheatideas_construction_row2_button_3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 240 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row2_button_3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 240 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row2_button_3text"
+			position = { x = 244 y = 125 }
+
+			font = "cg_16b"
+			text = "-40%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #4) ###
+		buttonType = {
+			name = "cheatideas_construction_row2_button_4"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 275 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row2_button_4p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 275 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row2_button_4text"
+			position = { x = 279 y = 125 }
+
+			font = "cg_16b"
+			text = "-60%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #5) ###
+		buttonType = {
+			name = "cheatideas_construction_row2_button_5"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 310 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row2_button_5p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 310 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row2_button_5text"
+			position = { x = 311 y = 125 }
+
+			font = "cg_16b"
+			text = "-80%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #6) ###
+		buttonType = {
+			name = "cheatideas_construction_row2_button_6"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 345 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row2_button_6p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 345 y = 126 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row2_button_6text"
+			position = { x = 346 y = 125 }
+
+			font = "cg_16b"
+			text = "-100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		
+		############
+		### ROW3 ###
+		############
+		instantTextboxType = {
+			name = "cheatideas_construction_row3_text"
+			position = { x = 30 y = 156 }
+			font = "hoi_18mbs"
+			text = "[cheatideas_construction_row3]"
+			maxWidth = 250
+			maxHeight = 23
+			alwaystransparent = yes
+		}
+		### (BUTTON #-3) ###
+		buttonType = {
+			name = "cheatideas_construction_row3_button_m3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 30 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row3_button_m3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 30 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row3_button_m3text"
+			position = { x = 31 y = 178 }
+
+			font = "cg_16b"
+			text = "+100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-2) ###
+		buttonType = {
+			name = "cheatideas_construction_row3_button_m2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 65 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row3_button_m2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 65 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row3_button_m2text"
+			position = { x = 66 y = 178 }
+
+			font = "cg_16b"
+			text = "+50%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-1) ###
+		buttonType = {
+			name = "cheatideas_construction_row3_button_m1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 100 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row3_button_m1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 100 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row3_button_m1text"
+			position = { x = 101 y = 178 }
+
+			font = "cg_16b"
+			text = "+25%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #0) ###
+		buttonType = {
+			name = "cheatideas_construction_row3_button_0"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 135 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row3_button_0p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 135 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row3_button_0text"
+			position = { x = 143 y = 177 }
+
+			font = "cg_16b"
+			text = "-/-"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #1) ###
+		buttonType = {
+			name = "cheatideas_construction_row3_button_1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 170 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row3_button_1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 170 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row3_button_1text"
+			position = { x = 174 y = 178 }
+
+			font = "cg_16b"
+			text = "-10%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #2) ###
+		buttonType = {
+			name = "cheatideas_construction_row3_button_2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 205 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row3_button_2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 205 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row3_button_2text"
+			position = { x = 209 y = 178 }
+
+			font = "cg_16b"
+			text = "-20%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #3) ###
+		buttonType = {
+			name = "cheatideas_construction_row3_button_3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 240 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row3_button_3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 240 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row3_button_3text"
+			position = { x = 244 y = 178 }
+
+			font = "cg_16b"
+			text = "-40%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #4) ###
+		buttonType = {
+			name = "cheatideas_construction_row3_button_4"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 275 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row3_button_4p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 275 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row3_button_4text"
+			position = { x = 279 y = 178 }
+
+			font = "cg_16b"
+			text = "-60%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #5) ###
+		buttonType = {
+			name = "cheatideas_construction_row3_button_5"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 310 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row3_button_5p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 310 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row3_button_5text"
+			position = { x = 311 y = 178 }
+
+			font = "cg_16b"
+			text = "-80%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #6) ###
+		buttonType = {
+			name = "cheatideas_construction_row3_button_6"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 345 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row3_button_6p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 345 y = 179 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row3_button_6text"
+			position = { x = 346 y = 178 }
+
+			font = "cg_16b"
+			text = "-100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		
+		############
+		### ROW4 ###
+		############
+		instantTextboxType = {
+			name = "cheatideas_construction_row4_text"
+			position = { x = 30 y = 209 }
+			font = "hoi_18mbs"
+			text = "[cheatideas_construction_row4]"
+			maxWidth = 250
+			maxHeight = 23
+			alwaystransparent = yes
+		}
+		### (BUTTON #-3) ###
+		buttonType = {
+			name = "cheatideas_construction_row4_button_m3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 30 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row4_button_m3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 30 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row4_button_m3text"
+			position = { x = 31 y = 231 }
+
+			font = "cg_16b"
+			text = "+100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-2) ###
+		buttonType = {
+			name = "cheatideas_construction_row4_button_m2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 65 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row4_button_m2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 65 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row4_button_m2text"
+			position = { x = 66 y = 231 }
+
+			font = "cg_16b"
+			text = "+50%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-1) ###
+		buttonType = {
+			name = "cheatideas_construction_row4_button_m1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 100 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row4_button_m1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 100 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row4_button_m1text"
+			position = { x = 101 y = 231 }
+
+			font = "cg_16b"
+			text = "+25%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #0) ###
+		buttonType = {
+			name = "cheatideas_construction_row4_button_0"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 135 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row4_button_0p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 135 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row4_button_0text"
+			position = { x = 143 y = 230 }
+
+			font = "cg_16b"
+			text = "-/-"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #1) ###
+		buttonType = {
+			name = "cheatideas_construction_row4_button_1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 170 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row4_button_1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 170 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row4_button_1text"
+			position = { x = 174 y = 231 }
+
+			font = "cg_16b"
+			text = "-10%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #2) ###
+		buttonType = {
+			name = "cheatideas_construction_row4_button_2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 205 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row4_button_2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 205 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row4_button_2text"
+			position = { x = 209 y = 231 }
+
+			font = "cg_16b"
+			text = "-20%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #3) ###
+		buttonType = {
+			name = "cheatideas_construction_row4_button_3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 240 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row4_button_3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 240 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row4_button_3text"
+			position = { x = 244 y = 231 }
+
+			font = "cg_16b"
+			text = "-40%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #4) ###
+		buttonType = {
+			name = "cheatideas_construction_row4_button_4"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 275 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row4_button_4p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 275 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row4_button_4text"
+			position = { x = 279 y = 231 }
+
+			font = "cg_16b"
+			text = "-60%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #5) ###
+		buttonType = {
+			name = "cheatideas_construction_row4_button_5"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 310 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row4_button_5p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 310 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row4_button_5text"
+			position = { x = 311 y = 231 }
+
+			font = "cg_16b"
+			text = "-80%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #6) ###
+		buttonType = {
+			name = "cheatideas_construction_row4_button_6"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 345 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row4_button_6p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 345 y = 232 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row4_button_6text"
+			position = { x = 346 y = 231 }
+
+			font = "cg_16b"
+			text = "-100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		
+		############
+		### ROW5 ###
+		############
+		instantTextboxType = {
+			name = "cheatideas_construction_row5_text"
+			position = { x = 30 y = 262 }
+			font = "hoi_18mbs"
+			text = "[cheatideas_construction_row5]"
+			maxWidth = 250
+			maxHeight = 23
+			alwaystransparent = yes
+		}
+		### (BUTTON #-3) ###
+		buttonType = {
+			name = "cheatideas_construction_row5_button_m3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 30 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row5_button_m3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 30 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row5_button_m3text"
+			position = { x = 31 y = 284 }
+
+			font = "cg_16b"
+			text = "+100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-2) ###
+		buttonType = {
+			name = "cheatideas_construction_row5_button_m2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 65 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row5_button_m2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 65 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row5_button_m2text"
+			position = { x = 66 y = 284 }
+
+			font = "cg_16b"
+			text = "+50%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-1) ###
+		buttonType = {
+			name = "cheatideas_construction_row5_button_m1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 100 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row5_button_m1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 100 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row5_button_m1text"
+			position = { x = 101 y = 284 }
+
+			font = "cg_16b"
+			text = "+25%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #0) ###
+		buttonType = {
+			name = "cheatideas_construction_row5_button_0"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 135 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row5_button_0p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 135 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row5_button_0text"
+			position = { x = 143 y = 283 }
+
+			font = "cg_16b"
+			text = "-/-"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #1) ###
+		buttonType = {
+			name = "cheatideas_construction_row5_button_1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 170 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row5_button_1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 170 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row5_button_1text"
+			position = { x = 174 y = 284 }
+
+			font = "cg_16b"
+			text = "-10%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #2) ###
+		buttonType = {
+			name = "cheatideas_construction_row5_button_2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 205 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row5_button_2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 205 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row5_button_2text"
+			position = { x = 209 y = 284 }
+
+			font = "cg_16b"
+			text = "-20%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #3) ###
+		buttonType = {
+			name = "cheatideas_construction_row5_button_3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 240 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row5_button_3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 240 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row5_button_3text"
+			position = { x = 244 y = 284 }
+
+			font = "cg_16b"
+			text = "-40%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #4) ###
+		buttonType = {
+			name = "cheatideas_construction_row5_button_4"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 275 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row5_button_4p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 275 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row5_button_4text"
+			position = { x = 279 y = 284 }
+
+			font = "cg_16b"
+			text = "-60%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #5) ###
+		buttonType = {
+			name = "cheatideas_construction_row5_button_5"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 310 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row5_button_5p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 310 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row5_button_5text"
+			position = { x = 311 y = 284 }
+
+			font = "cg_16b"
+			text = "-80%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #6) ###
+		buttonType = {
+			name = "cheatideas_construction_row5_button_6"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 345 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row5_button_6p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 345 y = 285 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row5_button_6text"
+			position = { x = 346 y = 284 }
+
+			font = "cg_16b"
+			text = "-100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		
+		############
+		### ROW6 ###
+		############
+		instantTextboxType = {
+			name = "cheatideas_construction_row6_text"
+			position = { x = 30 y = 315 }
+			font = "hoi_18mbs"
+			text = "[cheatideas_construction_row6]"
+			maxWidth = 250
+			maxHeight = 23
+			alwaystransparent = yes
+		}
+		### (BUTTON #-3) ###
+		buttonType = {
+			name = "cheatideas_construction_row6_button_m3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 30 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row6_button_m3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 30 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row6_button_m3text"
+			position = { x = 31 y = 337 }
+
+			font = "cg_16b"
+			text = "+100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-2) ###
+		buttonType = {
+			name = "cheatideas_construction_row6_button_m2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 65 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row6_button_m2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 65 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row6_button_m2text"
+			position = { x = 66 y = 337 }
+
+			font = "cg_16b"
+			text = "+50%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-1) ###
+		buttonType = {
+			name = "cheatideas_construction_row6_button_m1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 100 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row6_button_m1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 100 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row6_button_m1text"
+			position = { x = 101 y = 337 }
+
+			font = "cg_16b"
+			text = "+25%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #0) ###
+		buttonType = {
+			name = "cheatideas_construction_row6_button_0"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 135 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row6_button_0p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 135 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row6_button_0text"
+			position = { x = 143 y = 336 }
+
+			font = "cg_16b"
+			text = "-/-"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #1) ###
+		buttonType = {
+			name = "cheatideas_construction_row6_button_1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 170 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row6_button_1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 170 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row6_button_1text"
+			position = { x = 174 y = 337 }
+
+			font = "cg_16b"
+			text = "-10%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #2) ###
+		buttonType = {
+			name = "cheatideas_construction_row6_button_2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 205 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row6_button_2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 205 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row6_button_2text"
+			position = { x = 209 y = 337 }
+
+			font = "cg_16b"
+			text = "-20%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #3) ###
+		buttonType = {
+			name = "cheatideas_construction_row6_button_3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 240 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row6_button_3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 240 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row6_button_3text"
+			position = { x = 244 y = 337 }
+
+			font = "cg_16b"
+			text = "-40%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #4) ###
+		buttonType = {
+			name = "cheatideas_construction_row6_button_4"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 275 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row6_button_4p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 275 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row6_button_4text"
+			position = { x = 279 y = 337 }
+
+			font = "cg_16b"
+			text = "50%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #5) ###
+		buttonType = {
+			name = "cheatideas_construction_row6_button_5"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 310 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row6_button_5p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 310 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row6_button_5text"
+			position = { x = 311 y = 337 }
+
+			font = "cg_16b"
+			text = "-80%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #6) ###
+		buttonType = {
+			name = "cheatideas_construction_row6_button_6"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 345 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row6_button_6p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 345 y = 338 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row6_button_6text"
+			position = { x = 346 y = 337 }
+
+			font = "cg_16b"
+			text = "-100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		
+		############
+		### ROW7 ###
+		############
+		instantTextboxType = {
+			name = "cheatideas_construction_row7_text"
+			position = { x = 30 y = 368 }
+			font = "hoi_18mbs"
+			text = "[cheatideas_construction_row7]"
+			maxWidth = 250
+			maxHeight = 23
+			alwaystransparent = yes
+		}
+		### (BUTTON #-3) ###
+		buttonType = {
+			name = "cheatideas_construction_row7_button_m3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 30 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row7_button_m3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 30 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row7_button_m3text"
+			position = { x = 31 y = 390 }
+
+			font = "cg_16b"
+			text = "+100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-2) ###
+		buttonType = {
+			name = "cheatideas_construction_row7_button_m2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 65 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row7_button_m2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 65 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row7_button_m2text"
+			position = { x = 66 y = 390 }
+
+			font = "cg_16b"
+			text = "+50%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #-1) ###
+		buttonType = {
+			name = "cheatideas_construction_row7_button_m1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 100 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row7_button_m1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 100 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row7_button_m1text"
+			position = { x = 101 y = 390 }
+
+			font = "cg_16b"
+			text = "+25%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #0) ###
+		buttonType = {
+			name = "cheatideas_construction_row7_button_0"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 135 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row7_button_0p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 135 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row7_button_0text"
+			position = { x = 143 y = 389 }
+
+			font = "cg_16b"
+			text = "-/-"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #1) ###
+		buttonType = {
+			name = "cheatideas_construction_row7_button_1"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 170 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row7_button_1p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 170 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row7_button_1text"
+			position = { x = 174 y = 390 }
+
+			font = "cg_16b"
+			text = "-10%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #2) ###
+		buttonType = {
+			name = "cheatideas_construction_row7_button_2"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 205 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row7_button_2p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 205 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row7_button_2text"
+			position = { x = 209 y = 390 }
+
+			font = "cg_16b"
+			text = "-20%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #3) ###
+		buttonType = {
+			name = "cheatideas_construction_row7_button_3"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 240 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row7_button_3p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 240 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row7_button_3text"
+			position = { x = 244 y = 390 }
+
+			font = "cg_16b"
+			text = "-40%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #4) ###
+		buttonType = {
+			name = "cheatideas_construction_row7_button_4"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 275 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row7_button_4p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 275 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row7_button_4text"
+			position = { x = 279 y = 390 }
+
+			font = "cg_16b"
+			text = "-60%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #5) ###
+		buttonType = {
+			name = "cheatideas_construction_row7_button_5"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 310 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row7_button_5p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 310 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row7_button_5text"
+			position = { x = 311 y = 390 }
+
+			font = "cg_16b"
+			text = "-80%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		### (BUTTON #6) ###
+		buttonType = {
+			name = "cheatideas_construction_row7_button_6"
+			quadTextureSprite = "GFX_cheatideasic_empty_icon"
+			position = { x = 345 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "cheatideas_construction_row7_button_6p"
+			quadTextureSprite = "GFX_cheatideasic_empty_picon"
+			position = { x = 345 y = 391 }
+
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "cheatideas_construction_row7_button_6text"
+			position = { x = 346 y = 390 }
+
+			font = "cg_16b"
+			text = "-100%"
+			maxWidth = 250
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+	}
