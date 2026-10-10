@@ -102,4 +102,39 @@ mycheat_category = {
 			recruit_character = mc_ACMD_CLST_SC
 		}
 	}
+
+	##################################################################
+	### 添加科研突破点：触发「科技突破」事件链                      ###
+	### 先选学科（陆/海/空/物理/全都要），再选档位(+1/+2/+3/+5/+20)###
+	##################################################################
+	mycheat_add_breakthrough = {
+		icon = generic_research
+		cost = 0
+
+		available = {
+			is_ai = no
+		}
+
+		complete_effect = {
+			country_event = { id = mycheat.breakthrough  days = 0 }
+		}
+	}
+
+	##################################################################
+	### 添加战略资源：触发「挖矿」事件                              ###
+	### 3 档：+50 / +100 / +50000（7 种资源全刷首都）              ###
+	##################################################################
+	mycheat_add_resources = {
+		icon = generic_construction
+		cost = 0
+
+		available = {
+			is_ai = no
+			has_full_control_of_state = CAPITAL
+		}
+
+		complete_effect = {
+			country_event = { id = mycheat.mining  days = 0 }
+		}
+	}
 }

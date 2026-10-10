@@ -9,3 +9,40 @@
  mycheat_unlock_mio_desc:0 "Unlocks the 17 custom Military Industrial Organizations (MIO) included in this mod. Once unlocked, their research trees become available in the Equipment Designer.\n\n§YIncludes§!: 7 general MIOs (tanks, artillery, infantry equipment, support equipment, motorized/mechanized, raiding fleet, light aircraft) and 10 character-themed MIOs."
  mycheat_grant_characters:0 "Grant All Characters"
  mycheat_grant_characters_desc:0 "Recruits all 58 custom characters included in this mod at once.\n\n§YIncludes§!: 35 army commanders (several can also serve as cabinet advisors), 17 political/military advisors, and 6 scientists.\n\n§RThis decision can only be taken once.§!"
+
+ mycheat_add_breakthrough:0 "Add Research Breakthrough Points"
+ mycheat_add_breakthrough_desc:0 "Adds research breakthrough points to a special project specialization.\n\nFirst pick the specialization (Land / Naval / Air / Nuclear / All), then pick the amount (+1 / +2 / +3 / +5 / +20)."
+ mycheat_add_resources:0 "Add Strategic Resources"
+ mycheat_add_resources_desc:0 "Spawns a large amount of strategic resources in your capital state.\n\nThree tiers: +50 / +100 / +50000.\n\nCovers all 7 resources: oil, steel, aluminium, rubber, tungsten, chromium, coal.\n\n§RRequires full control of the capital state.§!"
+
+#########################################
+### Events: Research Breakthrough
+#########################################
+ mycheat.breakthrough.t:0 "Technological Breakthrough"
+ mycheat.breakthrough.d:0 "Choose the specialization to add breakthrough points to:"
+ mycheat.breakthrough.opt_land:0 "§YLand§! specialization"
+ mycheat.breakthrough.opt_naval:0 "§YNaval§! specialization"
+ mycheat.breakthrough.opt_air:0 "§YAir§! specialization"
+ mycheat.breakthrough.opt_nuclear:0 "§YNuclear§! specialization"
+ mycheat.breakthrough.opt_all:0 "§GAll§! specializations"
+
+ mycheat.breakthrough_land.d:0 "Choose the amount of Land breakthrough points:"
+ mycheat.breakthrough_naval.d:0 "Choose the amount of Naval breakthrough points:"
+ mycheat.breakthrough_air.d:0 "Choose the amount of Air breakthrough points:"
+ mycheat.breakthrough_nuclear.d:0 "Choose the amount of Nuclear breakthrough points:"
+ mycheat.breakthrough_all.d:0 "Choose the amount of breakthrough points (§Gadded to all specializations§!):"
+
+ mycheat.bp_1:0 "Add §Y1§! point"
+ mycheat.bp_2:0 "Add §Y2§! points"
+ mycheat.bp_3:0 "Add §Y3§! points"
+ mycheat.bp_5:0 "Add §Y5§! points"
+ mycheat.bp_20:0 "Add §Y20§! points"
+
+#########################################
+### Events: Strategic Resources
+#########################################
+ mycheat.mining.t:0 "Mining"
+ mycheat.mining.d:0 "Extract strategic resources in the capital state. Choose the scale:"
+ mycheat.mining.small:0 "A little here and there (§Y+50§! each)"
+ mycheat.mining.medium:0 "So what? (§Y+100§! each)"
+ mycheat.mining.huge:0 "No holding back (§Y+50000§! each)"

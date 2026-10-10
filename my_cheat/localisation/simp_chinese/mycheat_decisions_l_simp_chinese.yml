@@ -9,3 +9,40 @@
  mycheat_unlock_mio_desc:0 "解锁本 mod 携带的 17 家特殊军工企业（MIO），解锁后可在「装备设计」界面正常研究其科技树。\n\n§Y包含§!：坦克、火炮、步兵装备、支援装备、摩托化/机械化、袭击舰、轻型飞机共 7 家通用军工企业，以及 10 家二次元专属军工企业。"
  mycheat_grant_characters:0 "获得全部角色"
  mycheat_grant_characters_desc:0 "一次性招募本 mod 携带的 58 名特殊角色。\n\n§Y包含§!：35 名陆军将领（其中多人可兼任内阁顾问）、17 名政治/军事顾问、6 名科学家。\n\n§R此决议只能执行一次。§!"
+
+ mycheat_add_breakthrough:0 "添加科研突破点"
+ mycheat_add_breakthrough_desc:0 "为特殊项目的某个学科添加科研突破点。\n\n先选择学科（陆军 / 海军 / 空军 / 核物理 / 全部），再选择添加数量（+1 / +2 / +3 / +5 / +20）。"
+ mycheat_add_resources:0 "添加战略资源"
+ mycheat_add_resources_desc:0 "在首都地区刷出大量战略资源。\n\n三档：小开不算开（+50）/ 那咋了（+100）/ 演都不演了（+50000）。\n\n覆盖石油、钢铁、铝、橡胶、钨、铬、煤共 7 种资源。\n\n§R需要完全控制首都地区。§!"
+
+#########################################
+### 事件：科研突破点
+#########################################
+ mycheat.breakthrough.t:0 "科技突破"
+ mycheat.breakthrough.d:0 "选择要添加科研突破点的学科："
+ mycheat.breakthrough.opt_land:0 "§Y陆军§! 学科"
+ mycheat.breakthrough.opt_naval:0 "§Y海军§! 学科"
+ mycheat.breakthrough.opt_air:0 "§Y空军§! 学科"
+ mycheat.breakthrough.opt_nuclear:0 "§Y核物理§! 学科"
+ mycheat.breakthrough.opt_all:0 "§G全部§! 学科"
+
+ mycheat.breakthrough_land.d:0 "选择要添加的陆军突破点数量："
+ mycheat.breakthrough_naval.d:0 "选择要添加的海军突破点数量："
+ mycheat.breakthrough_air.d:0 "选择要添加的空军突破点数量："
+ mycheat.breakthrough_nuclear.d:0 "选择要添加的核物理突破点数量："
+ mycheat.breakthrough_all.d:0 "选择要添加的突破点数量（§G同时加到全部学科§!）："
+
+ mycheat.bp_1:0 "添加 §Y1§! 点"
+ mycheat.bp_2:0 "添加 §Y2§! 点"
+ mycheat.bp_3:0 "添加 §Y3§! 点"
+ mycheat.bp_5:0 "添加 §Y5§! 点"
+ mycheat.bp_20:0 "添加 §Y20§! 点"
+
+#########################################
+### 事件：战略资源
+#########################################
+ mycheat.mining.t:0 "挖矿"
+ mycheat.mining.d:0 "在首都地区开采战略资源，选择开采规模："
+ mycheat.mining.small:0 "小开不算开（每种 §Y+50§!）"
+ mycheat.mining.medium:0 "那咋了（每种 §Y+100§!）"
+ mycheat.mining.huge:0 "演都不演了（每种 §Y+50000§!）"
