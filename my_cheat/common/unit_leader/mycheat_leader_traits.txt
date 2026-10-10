@@ -1,0 +1,110 @@
+# My Cheat —— 将领特质（整合自 TYGC「这是什么，点一下」事件）
+# 来源：通用国策强化 v1.11 (workshop 3261530766) 的 tygc_leader_traits.txt
+# 包含 5 个陆地/海军星级与属性特质
+
+leader_traits = {
+	star_5 = { 
+		type = land
+		trait_type = personality_trait
+		modifier = {
+			
+		}
+		non_shared_modifier = {
+			experience_gain_factor = 0.25
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	star_5_2 = { 
+		type = navy
+		trait_type = personality_trait
+		modifier = {
+			
+		}
+		non_shared_modifier = {
+			experience_gain_factor = 0.25
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	traits_att = { 
+		type = land
+		trait_type = personality_trait
+		attack_skill = 2
+		modifier = {
+			army_attack_factor = 0.15
+			army_defence_factor = 0.1
+			army_speed_factor = 0.05
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	traits_att2 = { 
+		type = land
+		trait_type = personality_trait
+		attack_skill = 2
+		modifier = {
+			army_attack_factor = 0.1
+			army_morale_factor = 0.2
+			army_speed_factor = 0.1
+			org_loss_when_moving = -0.2
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	traits_att3 = { 
+		type = land
+		trait_type = personality_trait
+		attack_skill = 2
+		modifier = {
+			army_attack_factor = 0.1
+			army_defence_factor = 0.05
+			breakthrough_factor = 0.1
+			army_speed_factor = 0.1
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	traits_att4 = { 
+		type = land
+		trait_type = personality_trait
+		attack_skill = 2
+		modifier = {
+			army_attack_factor = 0.1
+			breakthrough_factor = 0.05
+			cavalry_attack_factor = 0.2
+			army_speed_factor = 0.15
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	traits_def = { 
+		type = land
+		trait_type = personality_trait
+		defense_skill = 2
+		modifier = {
+			army_defence_factor = 0.15
+			attrition = -0.15
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	traits_jianniang = { 
+		type = navy
+		trait_type = personality_trait
+		attack_skill = 2
+		defense_skill = 2
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+}

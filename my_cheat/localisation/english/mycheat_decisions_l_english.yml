@@ -12,6 +12,8 @@
 
  mycheat_add_breakthrough:0 "Add Research Breakthrough Points"
  mycheat_add_breakthrough_desc:0 "Adds research breakthrough points to a special project specialization.\n\nFirst pick the specialization (Land / Naval / Air / Nuclear / All), then pick the amount (+1 / +2 / +3 / +5 / +20)."
+ mycheat_extra_leaders:0 "What Is This? Click It"
+ mycheat_extra_leaders_desc:0 "Grants §Y12 anime commanders§! (integrated from the TYGC event of the same name).\n\n§Y10 army commanders§!: Amiya, Shiroko, Sonetto, March 7th, Lucia Dawn, Kiana, Kasumi Toyama, Lyfe, Anby, Special Week\n§Y2 navy leaders§!: Saratoga, Lexington\n\n§GThese commanders come with powerful traits (attack / defence / breakthrough).§!\n\n§RThis decision can only be taken once.§!"
  mycheat_add_resources:0 "Add Strategic Resources"
  mycheat_add_resources_desc:0 "Spawns a large amount of strategic resources in your capital state.\n\nThree tiers: +50 / +100 / +50000.\n\nCovers all 7 resources: oil, steel, aluminium, rubber, tungsten, chromium, coal.\n\n§RRequires full control of the capital state.§!"
 

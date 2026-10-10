@@ -1,0 +1,66 @@
+# My Cheat —— 将领头像（整合自 TYGC「这是什么，点一下」事件）
+# 来源：通用国策强化 v1.11 (workshop 3261530766)
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_amy"
+		texturefile = "gfx/leaders/JL/amy.png"
+	}
+
+	spriteType = {
+		name = "GFX_BALP_ABDS_SHIROKO"
+		texturefile = "gfx/leaders/JL/SHIROKO.png"
+	}
+
+	spriteType = {
+		name = "GFX_sshs"
+		texturefile = "gfx/leaders/JL/sshs.png"
+	}
+
+	spriteType = {
+		name = "GFX_syq"
+		texturefile = "gfx/leaders/JL/syq.png"
+	}
+
+	spriteType = {
+		name = "GFX_lxylm"
+		texturefile = "gfx/leaders/JL/lxylm.png"
+	}
+
+	spriteType = {
+		name = "GFX_qyn"
+		texturefile = "gfx/leaders/JL/qyn.png"
+	}
+
+	spriteType = {
+		name = "GFX_hxzc"
+		texturefile = "gfx/leaders/JL/hxzc.png"
+	}
+
+	spriteType = {
+		name = "GFX_lifu"
+		texturefile = "gfx/leaders/JL/lifu.png"
+	}
+
+	spriteType = {
+		name = "GFX_anbi"
+		texturefile = "gfx/leaders/JL/anbi.png"
+	}
+
+	spriteType = {
+		name = "GFX_tebiezhou"
+		texturefile = "gfx/leaders/JL/tebiezhou.png"
+	}
+
+	spriteType = {
+		name = "GFX_sltj"
+		texturefile = "gfx/leaders/JL/sltj.png"
+	}
+
+	spriteType = {
+		name = "GFX_lkxd"
+		texturefile = "gfx/leaders/JL/lkxd.png"
+	}
+
+}

@@ -137,4 +137,144 @@ mycheat_category = {
 			country_event = { id = mycheat.mining  days = 0 }
 		}
 	}
+
+	##################################################################
+	### 这是什么，点一下：12 名额外的二次元将领                    ###
+	### 整合自 TYGC「这是什么，点一下」事件（原消耗 66 政治点）    ###
+	### 10 名陆军将领 + 2 名海军将领                              ###
+	##################################################################
+	mycheat_extra_leaders = {
+		icon = generic_army_support
+		cost = 0
+		fire_only_once = yes
+
+		available = {
+			is_ai = no
+			NOT = { has_country_flag = mycheat_extra_leaders_granted }
+		}
+
+		complete_effect = {
+			set_country_flag = mycheat_extra_leaders_granted
+		create_corps_commander = {
+			name = "阿米娅"
+			gfx = GFX_amy
+			traits = { star_5 traits_att2 }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "白子"
+			gfx = GFX_BALP_ABDS_SHIROKO
+			traits = { star_5 traits_att }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "十四行诗"
+			gfx = GFX_sshs
+			traits = { star_5 traits_att3 }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "三月七"
+			gfx = GFX_syq
+			traits = { star_5 traits_def }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "露西亚 黎明"
+			gfx = GFX_lxylm
+			traits = { star_5 traits_att }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "琪亚娜"
+			gfx = GFX_qyn
+			traits = { star_5 traits_att3 }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "户山香澄"
+			gfx = GFX_hxzc
+			traits = { star_5 traits_att2 }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "里芙"
+			gfx = GFX_lifu
+			traits = { star_5 traits_att3 }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "安比"
+			gfx = GFX_anbi
+			traits = { star_5 traits_att2 }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "特别周"
+			gfx = GFX_tebiezhou
+			traits = { star_5 traits_att4 }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_navy_leader = {
+			name = "萨拉托加"
+			gfx = GFX_sltj
+			skill = 3
+			attack_skill = 4
+			defense_skill = 6
+			maneuvering_skill = 2
+			coordination_skill = 2
+			traits = { star_5_2 traits_jianniang }
+		}
+		create_navy_leader = {
+			name = "列克星敦"
+			gfx = GFX_lkxd
+			skill = 3
+			attack_skill = 6
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+			traits = { star_5_2 traits_jianniang }
+		}
+		}
+	}
 }
