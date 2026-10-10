@@ -26,7 +26,7 @@ mycheat_category = {
 			set_country_flag = mycheat_characters_granted
 			### 同时解锁 17 家军工企业（MIO）###
 			set_country_flag = mycheat_mio_unlocked
-			set_country_flag = 66pp
+			### 66pp 已由 mycheat_mio_unlocked 取代（66pp 以数字开头，非法 flag 名）###
 			set_country_flag = flag_ACMD_on_1
 ### 58 个角色（自动生成）###
 			recruit_character = mc_ACMD_ALN
@@ -87,6 +87,11 @@ mycheat_category = {
 			recruit_character = mc_ACMD_CMLZ_SC
 			recruit_character = mc_ACMD_CLST
 			recruit_character = mc_ACMD_CLST_SC
+			### 4 个顾问（整合自 TYGC「这是什么，点一下」）###
+			recruit_character = gongyequ
+			recruit_character = xueyuan
+			recruit_character = shequ
+			recruit_character = junying
 			### 12 名二次元将领（整合自 TYGC「这是什么，点一下」）###
 		create_field_marshal = {
 			name = "阿米娅"

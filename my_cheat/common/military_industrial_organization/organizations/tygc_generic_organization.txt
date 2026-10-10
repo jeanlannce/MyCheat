@@ -6,7 +6,7 @@ tygc_tank_organization = {
 		always = yes
 	}
 	visible = {
-		owner = { has_country_flag = 66pp }
+		owner = { has_country_flag = mycheat_mio_unlocked }
 	}
 
 	equipment_type = { mio_cat_eq_all_light_tank mio_cat_eq_all_medium_tank mio_cat_eq_all_heavy_tank }
@@ -296,7 +296,7 @@ tygc_artillery_organization = {
 	}
 	
 	visible = {
-		owner = { has_country_flag = 66pp }
+		owner = { has_country_flag = mycheat_mio_unlocked }
 	}
 
 	equipment_type = {
@@ -650,7 +650,7 @@ tygc_infantry_equipment_organization = {
 		always = yes
 	}
 	visible = {
-		owner = { has_country_flag = 66pp }
+		owner = { has_country_flag = mycheat_mio_unlocked }
 	}
 
 	equipment_type = {
@@ -983,7 +983,7 @@ tygc_support_equipment_organization = {
 		always = yes
 	}
 	visible = {
-		owner = { has_country_flag = 66pp }
+		owner = { has_country_flag = mycheat_mio_unlocked }
 	}
 
 	equipment_type = { infantry_equipment support_equipment }
@@ -1296,7 +1296,7 @@ tygc_motorized_mechanized_organization = {
 		always = yes
 	}
 	visible = {
-		owner = { has_country_flag = 66pp }
+		owner = { has_country_flag = mycheat_mio_unlocked }
 	}
 
 	equipment_type = {
@@ -1639,7 +1639,7 @@ tygc_raider_ship_organization = {
 	}
 	
 	visible = {
-		owner = { has_country_flag = 66pp }
+		owner = { has_country_flag = mycheat_mio_unlocked }
 	}
 
 	equipment_type = {
@@ -1980,7 +1980,7 @@ tygc_light_aircraft_organization = {
 	}
 	
 	visible = {
-		owner = { has_country_flag = 66pp }
+		owner = { has_country_flag = mycheat_mio_unlocked }
 	}
 
 	equipment_type = {

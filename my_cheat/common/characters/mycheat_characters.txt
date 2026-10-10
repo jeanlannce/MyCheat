@@ -1754,6 +1754,7 @@ characters = {
 		name = gongyequ
 		portraits = {
 			civilian = {
+				large = "gfx/interface/ideas/gongyequ.png"
 				small = "gfx/interface/ideas/gongyequ.png"
 			}
 		}
@@ -1771,6 +1772,7 @@ characters = {
 		name = xueyuan
 		portraits = {
 			civilian = {
+				large = "gfx/interface/ideas/xueyuan.png"
 				small = "gfx/interface/ideas/xueyuan.png"
 			}
 		}
@@ -1788,6 +1790,7 @@ characters = {
 		name = shequ
 		portraits = {
 			civilian = {
+				large = "gfx/interface/ideas/shequ.png"
 				small = "gfx/interface/ideas/shequ.png"
 			}
 		}
@@ -1805,6 +1808,7 @@ characters = {
 		name = junying
 		portraits = {
 			civilian = {
+				large = "gfx/interface/ideas/junying.png"
 				small = "gfx/interface/ideas/junying.png"
 			}
 		}

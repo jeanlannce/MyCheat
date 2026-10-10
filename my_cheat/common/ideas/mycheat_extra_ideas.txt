@@ -7,7 +7,7 @@ ideas = {
 				picture = gongyequ1
 			
 				visible = {
-					has_country_flag = 66pp
+					has_country_flag = mycheat_mio_unlocked
 				}
 
 				cost = 100

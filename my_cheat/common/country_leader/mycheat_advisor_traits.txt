@@ -2,19 +2,6 @@
 # 来源：通用国策强化 v1.11 (workshop 3261530766) 的 tygc_traits.txt
 
 leader_traits = {
-	gongyequ1 = {
-		random = no
-		production_speed_industrial_complex_factor = 0.1
-		production_speed_arms_factory_factor = 0.1
-		production_speed_dockyard_factor = 0.1
-		production_speed_buildings_factor = 0.1
-		industry_research = 0.15
-		electronics_research = 0.15
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	gongyequ = {
 		random = no
 		industrial_capacity_factory = 0.2

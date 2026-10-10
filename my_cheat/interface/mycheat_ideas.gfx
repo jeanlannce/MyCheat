@@ -1,0 +1,11 @@
+# My Cheat —— 额外 idea 图标
+# 来源：通用国策强化 v1.11 (workshop 3261530766) 的 tygc_ideas.gfx
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_gongyequ1"
+		texturefile = "gfx/interface/ideas/gongyequ1.png"
+	}
+
+}
