@@ -13,7 +13,7 @@
  cheatideas_armygen_row3_2:0 "£mc_construction_speed_landfort 陆军设施建造速度"
  cheatideas_armyspec_row5_2:0 "£mc_research_speed_equipment 研究速度 (陆军)"
  
- cheatideas_production:0 "情报机构"
+ cheatideas_production:0 "£mc_spy_network 情报机构"
  cheatideas_production_row1:0 "£mc_civilian_intel 民政情报"
  cheatideas_production_row2:0 "£mc_army_intel 陆军情报"
  cheatideas_production_row3:0 "£mc_navy_intel 海军情报"
@@ -22,7 +22,7 @@
  cheatideas_production_row6:0 "£mc_drift_defence 意识形态变化抵抗力度"
  cheatideas_production_row7:0 "£mc_operatives_boost_resistance 外国颠覆活动"
  
- cheatideas_intelagency:0 "特工行动"
+ cheatideas_intelagency:0 "£mc_intel_operatives 特工行动"
  cheatideas_intelagency_row1:0 "£mc_slot 特工槽位"
  cheatideas_intelagency_row2:0 "£mc_operatives_build_intel_network 情报网建立"
  cheatideas_intelagency_row3:0 "£mc_operatives_extract_intel 特工获取情报"
@@ -31,7 +31,7 @@
  cheatideas_intelagency_row6:0 "£mc_intel_operatives 行动通过率"
  cheatideas_intelagency_row7:0 "__"
  
- cheatideas_warmeasures:0 "反间谍和密码学"
+ cheatideas_warmeasures:0 "£mc_counter_intelligence 反间谍和密码学"
  cheatideas_warmeasures_row1:0 "£mc_counter_intelligence 反间谍"
  cheatideas_warmeasures_row2:0 "£mc_decryption 破译能力修正"
  cheatideas_warmeasures_row3:0 "£mc_encryption 密码学等级"
@@ -40,7 +40,7 @@
  cheatideas_warmeasures_row6:0 "__"
  cheatideas_warmeasures_row7:0 "__"
  
- cheatideas_experiences:0 "抵抗与镇压"
+ cheatideas_experiences:0 "£mc_compliance 抵抗与镇压"
  cheatideas_experiences_row1:0 "£mc_garrison 对驻军伤害"
  cheatideas_experiences_row2:0 "£mc_operatives_targeted_sabotage 目标破坏效率"
  cheatideas_experiences_row3:0 "__"
@@ -49,7 +49,7 @@
  cheatideas_experiences_row6:0 "£mc_compliance 抵抗目标"
  cheatideas_experiences_row7:0 "£mc_compliance_gain 顺从度增长"
  
- cheatideas_doc1:0 "改造再利用"
+ cheatideas_doc1:0 "£mc_factory_conversion 改造再利用"
  cheatideas_doc1_row1:0 "£mc_equipment_conversion 装备缴获比例"
  cheatideas_doc1_row2:0 "£mc_mio_conversion_speed 改装速度"
  cheatideas_doc1_row3:0 "£mc_factory_conversion 转换速度加成"
@@ -58,7 +58,7 @@
  cheatideas_doc1_row6:0 "£mc_resources 资源短缺惩罚"
  cheatideas_doc1_row7:0 "__"
  
- cheatideas_doc2:0 "其他1"
+ cheatideas_doc2:0 "£mc_attack_core 其他1"
  cheatideas_doc2_row1:0 "£mc_attack_core 核心领土攻击"
  cheatideas_doc2_row2:0 "£mc_defence_core 核心领土防御"
  cheatideas_doc2_row3:0 "£mc_special_project_nuclear 核武器生产"
@@ -67,7 +67,7 @@
  cheatideas_doc2_row6:0 "__"
  cheatideas_doc2_row7:0 "__"
  
- cheatideas_doc3:0 "其他2"
+ cheatideas_doc3:0 "£mc_ability_cost 其他2"
  cheatideas_doc3_row1:0 "__"
  cheatideas_doc3_row2:0 "__"
  cheatideas_doc3_row3:0 "__"
@@ -76,7 +76,7 @@
  cheatideas_doc3_row6:0 "__"
  cheatideas_doc3_row7:0 "__"
  
- cheatideas_doc4:0 "其他3"
+ cheatideas_doc4:0 "£mc_ability_cost 其他3"
  cheatideas_doc4_row1:0 "__"
  cheatideas_doc4_row2:0 "__"
  cheatideas_doc4_row3:0 "__"

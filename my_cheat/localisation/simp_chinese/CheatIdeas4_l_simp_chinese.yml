@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- cheatideas_new1:0 "装备设计"
+ cheatideas_new1:0 "£mc_design_team 装备设计"
  cheatideas_new1_row1:0 "£mc_design_team 设计成本 (步兵营)"
  cheatideas_new1_row2:0 "£mc_design_team 设计成本 (支援营)"
  cheatideas_new1_row3:0 "£mc_design_team 设计成本 (机动营)"
@@ -8,7 +8,7 @@
  cheatideas_new1_row6:0 "£mc_air_design_cost 空军装备设计商成本"
  cheatideas_new1_row7:0 "£mc_navy_design_cost 海军装备设计商成本"
  
- cheatideas_new2:0 "队伍与训练"
+ cheatideas_new2:0 "£mc_training 队伍与训练"
  cheatideas_new2_row1:0 "£mc_leader_experience_gain 将领经验获取"
  cheatideas_new2_row2:0 "£mc_army_leader_cost 军事领袖花费"
  cheatideas_new2_row3:0 "£mc_training 训练时间"
@@ -17,7 +17,7 @@
  cheatideas_new2_row6:0 "__"
  cheatideas_new2_row7:0 "__"
  
- cheatideas_new3:0 "其他4"
+ cheatideas_new3:0 "£mc_ability_cost 其他4"
  cheatideas_new3_row1:0 "__"
  cheatideas_new3_row2:0 "__"
  cheatideas_new3_row3:0 "__"
@@ -26,7 +26,7 @@
  cheatideas_new3_row6:0 "__"
  cheatideas_new3_row7:0 "__"
  
- cheatideas_new4:0 "其他5"
+ cheatideas_new4:0 "£mc_ability_cost 其他5"
  cheatideas_new4_row1:0 "__"
  cheatideas_new4_row2:0 "__"
  cheatideas_new4_row3:0 "__"

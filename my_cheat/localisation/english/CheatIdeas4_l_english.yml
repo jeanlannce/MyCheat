@@ -1,6 +1,6 @@
 ﻿l_english:
  
- cheatideas_new1:0 "Equipment Design"
+ cheatideas_new1:0 "£mc_design_team Equipment Design"
  cheatideas_new1_row1:0 "£mc_design_team Design Cost (Infantry)"
  cheatideas_new1_row2:0 "£mc_design_team Design Cost (Support)"
  cheatideas_new1_row3:0 "£mc_design_team Design Cost (Mobile)"
@@ -9,7 +9,7 @@
  cheatideas_new1_row6:0 "£mc_air_design_cost Air Manufacturer Cost"
  cheatideas_new1_row7:0 "£mc_navy_design_cost Navy Manufacturer Cost"
  
- cheatideas_new2:0 "Troops & Training"
+ cheatideas_new2:0 "£mc_training Troops & Training"
  cheatideas_new2_row1:0 "£mc_leader_experience_gain Leader Experience Gain"
  cheatideas_new2_row2:0 "£mc_army_leader_cost Military Leader Cost"
  cheatideas_new2_row3:0 "£mc_training Training Time"
@@ -18,7 +18,7 @@
  cheatideas_new2_row6:0 "__"
  cheatideas_new2_row7:0 "__"
  
- cheatideas_new3:0 "Others 4"
+ cheatideas_new3:0 "£mc_ability_cost Others 4"
  cheatideas_new3_row1:0 "__"
  cheatideas_new3_row2:0 "__"
  cheatideas_new3_row3:0 "__"
@@ -27,7 +27,7 @@
  cheatideas_new3_row6:0 "__"
  cheatideas_new3_row7:0 "__"
  
- cheatideas_new4:0 "Others 5"
+ cheatideas_new4:0 "£mc_ability_cost Others 5"
  cheatideas_new4_row1:0 "__"
  cheatideas_new4_row2:0 "__"
  cheatideas_new4_row3:0 "__"

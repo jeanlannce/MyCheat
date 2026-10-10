@@ -13,7 +13,7 @@
  cheatideas_armygen_row3_2:0 "£mc_construction_speed_landfort Land Facility Construction Speed"
  cheatideas_armyspec_row5_2:0 "£mc_research_speed_equipment Research Speed (Army)"
  
- cheatideas_production:0 "Intelligence Agency"
+ cheatideas_production:0 "£mc_spy_network Intelligence Agency"
  cheatideas_production_row1:0 "£mc_civilian_intel Civilian Intel"
  cheatideas_production_row2:0 "£mc_army_intel Army Intel"
  cheatideas_production_row3:0 "£mc_navy_intel Navy Intel"
@@ -22,7 +22,7 @@
  cheatideas_production_row6:0 "£mc_drift_defence Ideology Drift Defence"
  cheatideas_production_row7:0 "£mc_operatives_boost_resistance Foreign Subversion"
  
- cheatideas_intelagency:0 "Agent Operations"
+ cheatideas_intelagency:0 "£mc_intel_operatives Agent Operations"
  cheatideas_intelagency_row1:0 "£mc_slot Operative Slots"
  cheatideas_intelagency_row2:0 "£mc_operatives_build_intel_network Intel Network Gain"
  cheatideas_intelagency_row3:0 "£mc_operatives_extract_intel Intel from Operatives"
@@ -31,7 +31,7 @@
  cheatideas_intelagency_row6:0 "£mc_intel_operatives Operation Outcome"
  cheatideas_intelagency_row7:0 "__"
  
- cheatideas_warmeasures:0 "Counter-Intel & Crypto"
+ cheatideas_warmeasures:0 "£mc_counter_intelligence Counter-Intel & Crypto"
  cheatideas_warmeasures_row1:0 "£mc_counter_intelligence Counter Intelligence"
  cheatideas_warmeasures_row2:0 "£mc_decryption Decryption Power"
  cheatideas_warmeasures_row3:0 "£mc_encryption Cryptography Level"
@@ -40,7 +40,7 @@
  cheatideas_warmeasures_row6:0 "__"
  cheatideas_warmeasures_row7:0 "__"
  
- cheatideas_experiences:0 "Resistance & Suppression"
+ cheatideas_experiences:0 "£mc_compliance Resistance & Suppression"
  cheatideas_experiences_row1:0 "£mc_garrison Damage to Garrison"
  cheatideas_experiences_row2:0 "£mc_operatives_targeted_sabotage Target Sabotage Efficiency"
  cheatideas_experiences_row3:0 "__"
@@ -49,7 +49,7 @@
  cheatideas_experiences_row6:0 "£mc_compliance Resistance Target"
  cheatideas_experiences_row7:0 "£mc_compliance_gain Compliance Gain"
  
- cheatideas_doc1:0 "Recycle & Reuse"
+ cheatideas_doc1:0 "£mc_factory_conversion Recycle & Reuse"
  cheatideas_doc1_row1:0 "£mc_equipment_conversion Equipment Capture"
  cheatideas_doc1_row2:0 "£mc_mio_conversion_speed Refit Speed"
  cheatideas_doc1_row3:0 "£mc_factory_conversion Conversion Speed"
@@ -58,7 +58,7 @@
  cheatideas_doc1_row6:0 "£mc_resources Resource Shortage Penalty"
  cheatideas_doc1_row7:0 "__"
  
- cheatideas_doc2:0 "Others 1"
+ cheatideas_doc2:0 "£mc_attack_core Others 1"
  cheatideas_doc2_row1:0 "£mc_attack_core Core Territory Attack"
  cheatideas_doc2_row2:0 "£mc_defence_core Core Territory Defence"
  cheatideas_doc2_row3:0 "£mc_special_project_nuclear Nuclear Production"
@@ -67,7 +67,7 @@
  cheatideas_doc2_row6:0 "__"
  cheatideas_doc2_row7:0 "__"
  
- cheatideas_doc3:0 "Others 2"
+ cheatideas_doc3:0 "£mc_ability_cost Others 2"
  cheatideas_doc3_row1:0 "__"
  cheatideas_doc3_row2:0 "__"
  cheatideas_doc3_row3:0 "__"
@@ -76,7 +76,7 @@
  cheatideas_doc3_row6:0 "__"
  cheatideas_doc3_row7:0 "__"
  
- cheatideas_doc4:0 "Others 3"
+ cheatideas_doc4:0 "£mc_ability_cost Others 3"
  cheatideas_doc4_row1:0 "__"
  cheatideas_doc4_row2:0 "__"
  cheatideas_doc4_row3:0 "__"

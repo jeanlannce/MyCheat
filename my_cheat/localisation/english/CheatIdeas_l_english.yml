@@ -1,5 +1,5 @@
 ﻿l_english:
- cheatideas_construction:0 "Domestic Policy"
+ cheatideas_construction:0 "£mc_political_power Domestic Policy"
  cheatideas_construction_row1:0 "£mc_political_power Daily Political Power"
  cheatideas_construction_row2:0 "£mc_political_power Political Power Gain (%)"
  cheatideas_construction_row3:0 "£mc_stability Weekly Stability"
@@ -8,7 +8,7 @@
  cheatideas_construction_row6:0 "£mc_command_power Command Power Gain (%)"
  cheatideas_construction_row7:0 "£mc_command_power_max Max Command Power"
  
- cheatideas_industry:0 "Construction"
+ cheatideas_industry:0 "£mc_construction_speed_facility Construction"
  cheatideas_industry_row1:0 "£mc_consumer_goods Consumer Goods Factories"
  cheatideas_industry_row2:0 "£mc_construction_speed Construction Speed"
  cheatideas_industry_row3:0 "£mc_resources Resource Gain"
@@ -17,7 +17,7 @@
  cheatideas_industry_row6:0 "£mc_industry_repair Factory Repair Speed"
  cheatideas_industry_row7:0 "£mc_industry_repair Free Repair"
  
- cheatideas_inpolicies:0 "Industry"
+ cheatideas_inpolicies:0 "£mc_factory_output Industry"
  cheatideas_inpolicies_row1:0 "£mc_factory_output Factory Output"
  cheatideas_inpolicies_row2:0 "£mc_efficiency_base Production Efficiency Cap"
  cheatideas_inpolicies_row3:0 "£mc_efficiency_base Production Efficiency Retention"
@@ -26,7 +26,7 @@
  cheatideas_inpolicies_row6:0 "£mc_dockyard_output Dockyard Output"
  cheatideas_inpolicies_row7:0 "£mc_industry_repair Ship Repair Speed"
  
- cheatideas_expolicies:0 "Population"
+ cheatideas_expolicies:0 "£mc_population Population"
  cheatideas_expolicies_row1:0 "£mc_population Population Growth"
  cheatideas_expolicies_row2:0 "£mc_manpower Conscription Factor"
  cheatideas_expolicies_row3:0 "£mc_mobilisation Mobilization Speed"
@@ -35,7 +35,7 @@
  cheatideas_expolicies_row6:0 "__"
  cheatideas_expolicies_row7:0 "__"
  
- cheatideas_inteldef:0 "Diplomacy"
+ cheatideas_inteldef:0 "£mc_improve_relations Diplomacy"
  cheatideas_inteldef_row1:0 "£mc_improve_relations Improve Relations"
  cheatideas_inteldef_row2:0 "£mc_trade Trade Agreement"
  cheatideas_inteldef_row3:0 "£mc_world_tension_guarantee Guarantee Tension Limit"
@@ -44,7 +44,7 @@
  cheatideas_inteldef_row6:0 "£mc_war_goal Justify War Goal Time"
  cheatideas_inteldef_row7:0 "£mc_world_tension_wargoal Enemy Justify War Goal Time"
  
- cheatideas_inteloff:0 "Exile & Subject"
+ cheatideas_inteloff:0 "£mc_autonomy Exile & Subject"
  cheatideas_inteloff_row1:0 "£mc_legitimacy Legitimacy Gain"
  cheatideas_inteloff_row2:0 "£mc_autonomy Own Autonomy Gain"
  cheatideas_inteloff_row3:0 "£mc_autonomy Subjects Autonomy Gain"
@@ -53,7 +53,7 @@
  cheatideas_inteloff_row6:0 "Extra Trade to Overlord"
  cheatideas_inteloff_row7:0 "Overlord Trade Cost"
  
- cheatideas_navygen:0 "Armed Forces"
+ cheatideas_navygen:0 "£mc_army_spirit Armed Forces"
  cheatideas_navygen_row1:0 "£mc_army_spirit §RInvincible Army§!"
  cheatideas_navygen_row2:0 "£mc_navy_spirit §RInvincible Navy§!"
  cheatideas_navygen_row3:0 "£mc_air_spirit §RInvincible Air Force§!"
@@ -62,7 +62,7 @@
  cheatideas_navygen_row6:0 "£mc_experience_neutral Air Mastery Gain"
  cheatideas_navygen_row7:0 "£mc_experience_neutral Special Forces Mastery Gain"
  
- cheatideas_navyspec:0 "War Experience"
+ cheatideas_navyspec:0 "£mc_experience_neutral War Experience"
  cheatideas_navyspec_row1:0 "£mc_experience_neutral Navy Experience Gain"
  cheatideas_navyspec_row2:0 "£mc_experience_neutral Air Experience Gain"
  cheatideas_navyspec_row3:0 "£mc_experience_neutral Army Experience Gain"
@@ -71,7 +71,7 @@
  cheatideas_navyspec_row6:0 "£mc_experience_neutral Army Unit Experience"
  cheatideas_navyspec_row7:0 "£mc_experience_loss Air Wing Experience Loss"
  
- cheatideas_airgen:0 "Volunteers & Special Forces"
+ cheatideas_airgen:0 "£mc_special_project Volunteers & Special Forces"
  cheatideas_airgen_row1:0 "£mc_world_tension_lendlease Lend-Lease Tension Limit"
  cheatideas_airgen_row2:0 "£mc_world_tension_volunteers Volunteers Tension Limit"
  cheatideas_airgen_row3:0 "£mc_divisions Volunteer Divisions Sent"
@@ -80,7 +80,7 @@
  cheatideas_airgen_row6:0 "£mc_special_project Special Forces Capacity"
  cheatideas_airgen_row7:0 "£mc_special_project Special Forces Minimum"
  
- cheatideas_airspec:0 "MIO"
+ cheatideas_airspec:0 "£mc_industrial_manufacturer MIO"
  cheatideas_airspec_row1:0 "£mc_research_speed MIO Research Bonus"
  cheatideas_airspec_row2:0 "£mc_industrial_manufacturer MIO Size Up Requirement"
  cheatideas_airspec_row3:0 "£mc_funds MIO Funds Gain"
@@ -89,7 +89,7 @@
  cheatideas_airspec_row6:0 "£mc_industrial_concern_cost MIO Policy Cost"
  cheatideas_airspec_row7:0 "£mc_industry MIO Policy Cooldown"
  
- cheatideas_armygen:0 "Facilities & Scientists"
+ cheatideas_armygen:0 "£mc_scientist Facilities & Scientists"
  cheatideas_armygen_row1:0 "£mc_construction_speed_facility Facility Construction Speed (All)"
  cheatideas_armygen_row2:0 "£mc_construction_speed_airbase Air Facility Construction Speed"
  cheatideas_armygen_row3:0 "£mc_construction_speed_landfort Land Facility Construction Speed"
@@ -98,7 +98,7 @@
  cheatideas_armygen_row6:0 "£mc_supply_consumption Facility Supply Consumption"
  cheatideas_armygen_row7:0 "£mc_scientist Female Scientist Chance"
  
- cheatideas_armyspec:0 "Special Projects"
+ cheatideas_armyspec:0 "£mc_research_speed_nuclear Special Projects"
  cheatideas_armyspec_row1:0 "£mc_research_speed Research Speed (All)"
  cheatideas_armyspec_row2:0 "£mc_research_speed_radar Research Speed (Radar)"
  cheatideas_armyspec_row3:0 "£mc_research_speed_rocket Research Speed (Rocket)"

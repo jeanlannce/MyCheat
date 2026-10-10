@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- cheatideas_construction:0 "内政"
+ cheatideas_construction:0 "£mc_political_power 内政"
  cheatideas_construction_row1:0 "£mc_political_power 每日政治点数获取"
  cheatideas_construction_row2:0 "£mc_political_power 政治点数获取 (%)"
  cheatideas_construction_row3:0 "£mc_stability 每周稳定度"
@@ -8,7 +8,7 @@
  cheatideas_construction_row6:0 "£mc_command_power 指挥点数获取 (%)"
  cheatideas_construction_row7:0 "£mc_command_power_max 指挥点数上限"
  
- cheatideas_industry:0 "建筑"
+ cheatideas_industry:0 "£mc_construction_speed_facility 建筑"
  cheatideas_industry_row1:0 "£mc_consumer_goods 消费品工厂"
  cheatideas_industry_row2:0 "£mc_construction_speed 建筑速度"
  cheatideas_industry_row3:0 "£mc_resources 资源获取"
@@ -17,7 +17,7 @@
  cheatideas_industry_row6:0 "£mc_industry_repair 工厂维修速度"
  cheatideas_industry_row7:0 "£mc_industry_repair 免费维修"
  
- cheatideas_inpolicies:0 "工业"
+ cheatideas_inpolicies:0 "£mc_factory_output 工业"
  cheatideas_inpolicies_row1:0 "£mc_factory_output 工厂产出"
  cheatideas_inpolicies_row2:0 "£mc_efficiency_base 生产效率上限"
  cheatideas_inpolicies_row3:0 "£mc_efficiency_base 生产效率保持"
@@ -26,7 +26,7 @@
  cheatideas_inpolicies_row6:0 "£mc_dockyard_output 船厂产出"
  cheatideas_inpolicies_row7:0 "£mc_industry_repair 舰船维修速度"
  
- cheatideas_expolicies:0 "人口"
+ cheatideas_expolicies:0 "£mc_population 人口"
  cheatideas_expolicies_row1:0 "£mc_population 人口增长"
  cheatideas_expolicies_row2:0 "£mc_manpower 适役人口修正"
  cheatideas_expolicies_row3:0 "£mc_mobilisation 动员速度"
@@ -35,7 +35,7 @@
  cheatideas_expolicies_row6:0 "__"
  cheatideas_expolicies_row7:0 "__"
  
- cheatideas_inteldef:0 "外交"
+ cheatideas_inteldef:0 "£mc_improve_relations 外交"
  cheatideas_inteldef_row1:0 "£mc_improve_relations 关系改善修正"
  cheatideas_inteldef_row2:0 "£mc_trade 贸易协定修正"
  cheatideas_inteldef_row3:0 "£mc_world_tension_guarantee 保障独立紧张度限制"
@@ -44,7 +44,7 @@
  cheatideas_inteldef_row6:0 "£mc_war_goal 正当化战争目标时间"
  cheatideas_inteldef_row7:0 "£mc_world_tension_wargoal 对我方正当化目标"
  
- cheatideas_inteloff:0 "流亡与附庸"
+ cheatideas_inteloff:0 "£mc_autonomy 流亡与附庸"
  cheatideas_inteloff_row1:0 "£mc_legitimacy 正统性获取"
  cheatideas_inteloff_row2:0 "£mc_autonomy 自身自治度获取"
  cheatideas_inteloff_row3:0 "£mc_autonomy 傀儡自治度获取"
@@ -53,7 +53,7 @@
  cheatideas_inteloff_row6:0 "对宗主国额外贸易"
  cheatideas_inteloff_row7:0 "宗主国贸易花费"
  
- cheatideas_navygen:0 "武装部队"
+ cheatideas_navygen:0 "£mc_army_spirit 武装部队"
  cheatideas_navygen_row1:0 "£mc_army_spirit §R无敌陆军§!"
  cheatideas_navygen_row2:0 "£mc_navy_spirit §R无敌海军§!"
  cheatideas_navygen_row3:0 "£mc_air_spirit §R无敌空军§!"
@@ -62,7 +62,7 @@
  cheatideas_navygen_row6:0 "£mc_experience_neutral 空军精通度获取"
  cheatideas_navygen_row7:0 "£mc_experience_neutral 特种部队精通度获取"
  
- cheatideas_navyspec:0 "战争经验"
+ cheatideas_navyspec:0 "£mc_experience_neutral 战争经验"
  cheatideas_navyspec_row1:0 "£mc_experience_neutral 海军经验获取"
  cheatideas_navyspec_row2:0 "£mc_experience_neutral 空军经验获取"
  cheatideas_navyspec_row3:0 "£mc_experience_neutral 陆军经验获取"
@@ -71,7 +71,7 @@
  cheatideas_navyspec_row6:0 "£mc_experience_neutral 陆军单位经验修正"
  cheatideas_navyspec_row7:0 "£mc_experience_loss 空军联队经验损失"
  
- cheatideas_airgen:0 "志愿军与特种部队"
+ cheatideas_airgen:0 "£mc_special_project 志愿军与特种部队"
  cheatideas_airgen_row1:0 "£mc_world_tension_lendlease 租借法案紧张度限制"
  cheatideas_airgen_row2:0 "£mc_world_tension_volunteers 志愿军紧张度限制"
  cheatideas_airgen_row3:0 "£mc_divisions 志愿军派遣师数"
@@ -80,7 +80,7 @@
  cheatideas_airgen_row6:0 "£mc_special_project 特种部队容量"
  cheatideas_airgen_row7:0 "£mc_special_project 特种部队下限"
  
- cheatideas_airspec:0 "MIO（军工组织）"
+ cheatideas_airspec:0 "£mc_industrial_manufacturer MIO（军工组织）"
  cheatideas_airspec_row1:0 "£mc_research_speed MIO研究加成"
  cheatideas_airspec_row2:0 "£mc_industrial_manufacturer MIO规模升级需求"
  cheatideas_airspec_row3:0 "£mc_funds MIO资金获取系数"
@@ -89,7 +89,7 @@
  cheatideas_airspec_row6:0 "£mc_industrial_concern_cost MIO政策成本"
  cheatideas_airspec_row7:0 "£mc_industry MIO政策冷却"
  
- cheatideas_armygen:0 "设施与科学家"
+ cheatideas_armygen:0 "£mc_scientist 设施与科学家"
  cheatideas_armygen_row1:0 "£mc_construction_speed_facility 设施建造速度 (全部)"
  cheatideas_armygen_row2:0 "£mc_construction_speed_airbase 空军设施建造速度"
  cheatideas_armygen_row3:0 "£mc_construction_speed_landfort 陆军设施建造速度"
@@ -98,7 +98,7 @@
  cheatideas_armygen_row6:0 "£mc_supply_consumption 设施补给消耗"
  cheatideas_armygen_row7:0 "£mc_scientist 随机女性科学家概率"
  
- cheatideas_armyspec:0 "特殊项目"
+ cheatideas_armyspec:0 "£mc_research_speed_nuclear 特殊项目"
  cheatideas_armyspec_row1:0 "£mc_research_speed 研究速度 (所有项目)"
  cheatideas_armyspec_row2:0 "£mc_research_speed_radar 研究速度 (雷达)"
  cheatideas_armyspec_row3:0 "£mc_research_speed_rocket 研究速度 (火箭)"
