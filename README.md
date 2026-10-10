@@ -2,7 +2,7 @@
 
 [Hearts of Iron IV](https://www.paradoxinteractive.com/games/hearts-of-iron-iv) 多功能作弊/增强 mod —— 基于 **Cheat Ideas** 面板框架深度重排，并整合 **TYGC** 的军工企业（MIO）与角色系统。
 
-> 游戏版本：**1.19.3.0** ｜ mod 版本：**v2.0.0**（2026-10-10）
+> 游戏版本：**1.19.3.0** ｜ mod 版本：**v2.1.0**（2026-10-10）
 
 ---
 
