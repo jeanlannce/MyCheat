@@ -60,3 +60,16 @@
  traits_att4:0 "Damage Dealer IV"
  traits_def:0 "Defender I"
  traits_jianniang:0 "Ship Girl"
+
+#########################################
+### Political strategies (integrated from TYGC)
+### Decision and idea share the same key; desc serves both
+#########################################
+ mc_zdzcl_g:0 "Communism"
+ mc_zdzcl_g_desc:0 "Spend §Y75 political power§! to steadily boost §YCommunism§! popularity over §Y360 days§!.\n\nExpires automatically and can be taken again afterwards."
+ mc_zdzcl_f:0 "Fascism"
+ mc_zdzcl_f_desc:0 "Spend §Y75 political power§! to steadily boost §YFascism§! popularity over §Y360 days§!.\n\nExpires automatically and can be taken again afterwards."
+ mc_zdzcl_m:0 "Democracy"
+ mc_zdzcl_m_desc:0 "Spend §Y75 political power§! to steadily boost §YDemocracy§! popularity over §Y360 days§!.\n\nExpires automatically and can be taken again afterwards."
+ mc_zdzcl_z:0 "Neutrality"
+ mc_zdzcl_z_desc:0 "Spend §Y75 political power§! to steadily boost §YNeutrality§! popularity over §Y360 days§!.\n\nExpires automatically and can be taken again afterwards."

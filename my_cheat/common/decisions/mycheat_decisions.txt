@@ -256,4 +256,76 @@ mycheat_category = {
 	### 这是什么，点一下：12 名额外的二次元将领                    ###
 	### 整合自 TYGC「这是什么，点一下」事件（原消耗 66 政治点）    ###
 	### 10 名陆军将领 + 2 名海军将领                              ###
+	##################################################################
+	### 政治策略：定期获得对应意识形态的民众支持度加成              ###
+	### 整合自 TYGC「提高政党支持率」：75 政治点 / 一次 360 天      ###
+	### 机制：add_ideas → 360 天后自动移除 → 到期可再次执行         ###
+	##################################################################
+	mc_zdzcl_g = {
+		icon = GFX_idea_generic_communism_drift_bonus
+		cost = 75
+		days_remove = 360
+
+		available = {
+			is_ai = no
+		}
+
+		complete_effect = {
+			add_ideas = mc_zdzcl_g
+		}
+		remove_effect = {
+			remove_ideas = mc_zdzcl_g
+		}
+	}
+
+	mc_zdzcl_f = {
+		icon = GFX_idea_generic_fascism_drift_bonus
+		cost = 75
+		days_remove = 360
+
+		available = {
+			is_ai = no
+		}
+
+		complete_effect = {
+			add_ideas = mc_zdzcl_f
+		}
+		remove_effect = {
+			remove_ideas = mc_zdzcl_f
+		}
+	}
+
+	mc_zdzcl_m = {
+		icon = GFX_idea_generic_democratic_drift_bonus
+		cost = 75
+		days_remove = 360
+
+		available = {
+			is_ai = no
+		}
+
+		complete_effect = {
+			add_ideas = mc_zdzcl_m
+		}
+		remove_effect = {
+			remove_ideas = mc_zdzcl_m
+		}
+	}
+
+	mc_zdzcl_z = {
+		icon = GFX_idea_generic_neutrality_drift_bonus
+		cost = 75
+		days_remove = 360
+
+		available = {
+			is_ai = no
+		}
+
+		complete_effect = {
+			add_ideas = mc_zdzcl_z
+		}
+		remove_effect = {
+			remove_ideas = mc_zdzcl_z
+		}
+	}
 }

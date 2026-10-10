@@ -1,0 +1,81 @@
+# My Cheat —— 政治策略 idea（整合自 TYGC「提高政党支持率」zdzcl_114514）
+# 由决议 mc_zdzcl_g/f/m/z 授予，360 天后由决议的 remove_effect 自动移除
+# picture 会自动补全前缀为 GFX_idea_<值>（4 个图标均为原版自带）
+
+ideas = {
+	country = {
+
+		mc_zdzcl_g = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+
+			modifier = {
+				communism_drift = 0.75
+			}
+		}
+
+		mc_zdzcl_f = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+
+			modifier = {
+				fascism_drift = 0.75
+			}
+		}
+
+		mc_zdzcl_m = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				democratic_drift = 0.75
+			}
+		}
+
+		mc_zdzcl_z = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_neutrality_drift_bonus
+
+			modifier = {
+				neutrality_drift = 0.75
+			}
+		}
+
+	}
+}
