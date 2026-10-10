@@ -191,7 +191,7 @@
  cheatideas_airgen_row6_btn_3:0 "+40.0%"
  cheatideas_airgen_row6_btn_4:0 "+60.0%"
  cheatideas_airgen_row6_btn_5:0 "+100.0%"
- cheatideas_airgen_row6_btn_6:0 "+10000.0%"
+ cheatideas_airgen_row6_btn_6:0 "+10k%"
 ### airgen row7
  cheatideas_airgen_row7_btn_m3:0 "-8"
  cheatideas_airgen_row7_btn_m2:0 "-4"
@@ -211,7 +211,7 @@
  cheatideas_airspec_row1_btn_3:0 "+40.0%"
  cheatideas_airspec_row1_btn_4:0 "+60.0%"
  cheatideas_airspec_row1_btn_5:0 "+100.0%"
- cheatideas_airspec_row1_btn_6:0 "+10000.0%"
+ cheatideas_airspec_row1_btn_6:0 "+10k%"
 ### airspec row2
  cheatideas_airspec_row2_btn_m3:0 "+1"
  cheatideas_airspec_row2_btn_m2:0 "+0.5"
@@ -231,7 +231,7 @@
  cheatideas_airspec_row3_btn_3:0 "+40.0%"
  cheatideas_airspec_row3_btn_4:0 "+60.0%"
  cheatideas_airspec_row3_btn_5:0 "+100.0%"
- cheatideas_airspec_row3_btn_6:0 "+10000.0%"
+ cheatideas_airspec_row3_btn_6:0 "+10k%"
 ### airspec row5
  cheatideas_airspec_row5_btn_m3:0 "+1"
  cheatideas_airspec_row5_btn_m2:0 "+0.5"
@@ -271,7 +271,7 @@
  cheatideas_armygen_row1_btn_3:0 "+40.0%"
  cheatideas_armygen_row1_btn_4:0 "+60.0%"
  cheatideas_armygen_row1_btn_5:0 "+100.0%"
- cheatideas_armygen_row1_btn_6:0 "+10000.0%"
+ cheatideas_armygen_row1_btn_6:0 "+10k%"
 ### armygen row2
  cheatideas_armygen_row2_btn_m3:0 "-60.0%"
  cheatideas_armygen_row2_btn_m2:0 "-40.0%"
@@ -281,7 +281,7 @@
  cheatideas_armygen_row2_btn_3:0 "+40.0%"
  cheatideas_armygen_row2_btn_4:0 "+60.0%"
  cheatideas_armygen_row2_btn_5:0 "+100.0%"
- cheatideas_armygen_row2_btn_6:0 "+10000.0%"
+ cheatideas_armygen_row2_btn_6:0 "+10k%"
 ### armygen row3
  cheatideas_armygen_row3_btn_m3:0 "-60.0%"
  cheatideas_armygen_row3_btn_m2:0 "-40.0%"
@@ -291,7 +291,7 @@
  cheatideas_armygen_row3_btn_3:0 "+40.0%"
  cheatideas_armygen_row3_btn_4:0 "+60.0%"
  cheatideas_armygen_row3_btn_5:0 "+100.0%"
- cheatideas_armygen_row3_btn_6:0 "+10000.0%"
+ cheatideas_armygen_row3_btn_6:0 "+10k%"
 ### armygen row4
  cheatideas_armygen_row4_btn_m3:0 "-60.0%"
  cheatideas_armygen_row4_btn_m2:0 "-40.0%"
@@ -301,7 +301,7 @@
  cheatideas_armygen_row4_btn_3:0 "+40.0%"
  cheatideas_armygen_row4_btn_4:0 "+60.0%"
  cheatideas_armygen_row4_btn_5:0 "+100.0%"
- cheatideas_armygen_row4_btn_6:0 "+10000.0%"
+ cheatideas_armygen_row4_btn_6:0 "+10k%"
 ### armygen row5
  cheatideas_armygen_row5_btn_m3:0 "-60.0%"
  cheatideas_armygen_row5_btn_m2:0 "-40.0%"
@@ -311,7 +311,7 @@
  cheatideas_armygen_row5_btn_3:0 "+40.0%"
  cheatideas_armygen_row5_btn_4:0 "+60.0%"
  cheatideas_armygen_row5_btn_5:0 "+100.0%"
- cheatideas_armygen_row5_btn_6:0 "+10000.0%"
+ cheatideas_armygen_row5_btn_6:0 "+10k%"
 ### armygen row6
  cheatideas_armygen_row6_btn_m3:0 "+1"
  cheatideas_armygen_row6_btn_m2:0 "+0.5"
@@ -341,7 +341,7 @@
  cheatideas_armyspec_row1_btn_3:0 "+40.0%"
  cheatideas_armyspec_row1_btn_4:0 "+60.0%"
  cheatideas_armyspec_row1_btn_5:0 "+100.0%"
- cheatideas_armyspec_row1_btn_6:0 "+10000.0%"
+ cheatideas_armyspec_row1_btn_6:0 "+10k%"
 ### armyspec row2
  cheatideas_armyspec_row2_btn_m3:0 "-60.0%"
  cheatideas_armyspec_row2_btn_m2:0 "-40.0%"
@@ -351,7 +351,7 @@
  cheatideas_armyspec_row2_btn_3:0 "+40.0%"
  cheatideas_armyspec_row2_btn_4:0 "+60.0%"
  cheatideas_armyspec_row2_btn_5:0 "+100.0%"
- cheatideas_armyspec_row2_btn_6:0 "+10000.0%"
+ cheatideas_armyspec_row2_btn_6:0 "+10k%"
 ### construction row1
  cheatideas_construction_row1_btn_m3:0 "-5.00"
  cheatideas_construction_row1_btn_m2:0 "-1.00"
@@ -371,7 +371,7 @@
  cheatideas_construction_row2_btn_3:0 "+40.0%"
  cheatideas_construction_row2_btn_4:0 "+60.0%"
  cheatideas_construction_row2_btn_5:0 "+100.0%"
- cheatideas_construction_row2_btn_6:0 "+10000.0%"
+ cheatideas_construction_row2_btn_6:0 "+10k%"
 ### construction row3
  cheatideas_construction_row3_btn_m3:0 "-0.01"
  cheatideas_construction_row3_btn_m2:0 "-0.0025"
@@ -401,7 +401,7 @@
  cheatideas_construction_row5_btn_3:0 "+40.0%"
  cheatideas_construction_row5_btn_4:0 "+60.0%"
  cheatideas_construction_row5_btn_5:0 "+100.0%"
- cheatideas_construction_row5_btn_6:0 "+10000.0%"
+ cheatideas_construction_row5_btn_6:0 "+10k%"
 ### construction row6
  cheatideas_construction_row6_btn_m3:0 "-60.0%"
  cheatideas_construction_row6_btn_m2:0 "-40.0%"
@@ -411,7 +411,7 @@
  cheatideas_construction_row6_btn_3:0 "+40.0%"
  cheatideas_construction_row6_btn_4:0 "+60.0%"
  cheatideas_construction_row6_btn_5:0 "+100.0%"
- cheatideas_construction_row6_btn_6:0 "+10000.0%"
+ cheatideas_construction_row6_btn_6:0 "+10k%"
 ### construction row7
  cheatideas_construction_row7_btn_m3:0 "-60"
  cheatideas_construction_row7_btn_m2:0 "-40"
@@ -431,7 +431,7 @@
  cheatideas_doc1_row1_btn_3:0 "+40.0%"
  cheatideas_doc1_row1_btn_4:0 "+60.0%"
  cheatideas_doc1_row1_btn_5:0 "+100.0%"
- cheatideas_doc1_row1_btn_6:0 "+10000.0%"
+ cheatideas_doc1_row1_btn_6:0 "+10k%"
 ### doc1 row2
  cheatideas_doc1_row2_btn_m3:0 "-60.0%"
  cheatideas_doc1_row2_btn_m2:0 "-40.0%"
@@ -451,7 +451,7 @@
  cheatideas_doc1_row3_btn_3:0 "+40.0%"
  cheatideas_doc1_row3_btn_4:0 "+60.0%"
  cheatideas_doc1_row3_btn_5:0 "+100.0%"
- cheatideas_doc1_row3_btn_6:0 "+10000.0%"
+ cheatideas_doc1_row3_btn_6:0 "+10k%"
 ### doc1 row4
  cheatideas_doc1_row4_btn_m3:0 "+100.0%"
  cheatideas_doc1_row4_btn_m2:0 "+50.0%"
@@ -491,7 +491,7 @@
  cheatideas_doc2_row1_btn_3:0 "+40.0%"
  cheatideas_doc2_row1_btn_4:0 "+60.0%"
  cheatideas_doc2_row1_btn_5:0 "+100.0%"
- cheatideas_doc2_row1_btn_6:0 "+10000.0%"
+ cheatideas_doc2_row1_btn_6:0 "+10k%"
 ### doc2 row2
  cheatideas_doc2_row2_btn_m3:0 "-60.0%"
  cheatideas_doc2_row2_btn_m2:0 "-40.0%"
@@ -501,7 +501,7 @@
  cheatideas_doc2_row2_btn_3:0 "+40.0%"
  cheatideas_doc2_row2_btn_4:0 "+60.0%"
  cheatideas_doc2_row2_btn_5:0 "+100.0%"
- cheatideas_doc2_row2_btn_6:0 "+10000.0%"
+ cheatideas_doc2_row2_btn_6:0 "+10k%"
 ### doc2 row4
  cheatideas_doc2_row4_btn_m3:0 "+100.0%"
  cheatideas_doc2_row4_btn_m2:0 "+50.0%"
@@ -521,7 +521,7 @@
  cheatideas_experiences_row1_btn_3:0 "+40.0%"
  cheatideas_experiences_row1_btn_4:0 "+60.0%"
  cheatideas_experiences_row1_btn_5:0 "+100.0%"
- cheatideas_experiences_row1_btn_6:0 "+10000.0%"
+ cheatideas_experiences_row1_btn_6:0 "+10k%"
 ### experiences row2
  cheatideas_experiences_row2_btn_m3:0 "-0.6"
  cheatideas_experiences_row2_btn_m2:0 "-0.4"
@@ -581,7 +581,7 @@
  cheatideas_expolicies_row1_btn_3:0 "+40.0%"
  cheatideas_expolicies_row1_btn_4:0 "+60.0%"
  cheatideas_expolicies_row1_btn_5:0 "+100.0%"
- cheatideas_expolicies_row1_btn_6:0 "+10000.0%"
+ cheatideas_expolicies_row1_btn_6:0 "+10k%"
 ### expolicies row2
  cheatideas_expolicies_row2_btn_m3:0 "-60.0%"
  cheatideas_expolicies_row2_btn_m2:0 "-40.0%"
@@ -591,7 +591,7 @@
  cheatideas_expolicies_row2_btn_3:0 "+40.0%"
  cheatideas_expolicies_row2_btn_4:0 "+60.0%"
  cheatideas_expolicies_row2_btn_5:0 "+100.0%"
- cheatideas_expolicies_row2_btn_6:0 "+10000.0%"
+ cheatideas_expolicies_row2_btn_6:0 "+10k%"
 ### expolicies row3
  cheatideas_expolicies_row3_btn_m3:0 "-60.0%"
  cheatideas_expolicies_row3_btn_m2:0 "-40.0%"
@@ -601,7 +601,7 @@
  cheatideas_expolicies_row3_btn_3:0 "+40.0%"
  cheatideas_expolicies_row3_btn_4:0 "+60.0%"
  cheatideas_expolicies_row3_btn_5:0 "+100.0%"
- cheatideas_expolicies_row3_btn_6:0 "+10000.0%"
+ cheatideas_expolicies_row3_btn_6:0 "+10k%"
 ### expolicies row4
  cheatideas_expolicies_row4_btn_m3:0 "-10000"
  cheatideas_expolicies_row4_btn_m2:0 "-1000"
@@ -631,7 +631,7 @@
  cheatideas_industry_row2_btn_3:0 "+40.0%"
  cheatideas_industry_row2_btn_4:0 "+60.0%"
  cheatideas_industry_row2_btn_5:0 "+100.0%"
- cheatideas_industry_row2_btn_6:0 "+10000.0%"
+ cheatideas_industry_row2_btn_6:0 "+10k%"
 ### industry row3
  cheatideas_industry_row3_btn_m3:0 "-60.0%"
  cheatideas_industry_row3_btn_m2:0 "-40.0%"
@@ -641,7 +641,7 @@
  cheatideas_industry_row3_btn_3:0 "+40.0%"
  cheatideas_industry_row3_btn_4:0 "+60.0%"
  cheatideas_industry_row3_btn_5:0 "+100.0%"
- cheatideas_industry_row3_btn_6:0 "+10000.0%"
+ cheatideas_industry_row3_btn_6:0 "+10k%"
 ### industry row4
  cheatideas_industry_row4_btn_m3:0 "+100.0%"
  cheatideas_industry_row4_btn_m2:0 "+50.0%"
@@ -661,7 +661,7 @@
  cheatideas_industry_row5_btn_3:0 "+40.0%"
  cheatideas_industry_row5_btn_4:0 "+60.0%"
  cheatideas_industry_row5_btn_5:0 "+100.0%"
- cheatideas_industry_row5_btn_6:0 "+10000.0%"
+ cheatideas_industry_row5_btn_6:0 "+10k%"
 ### industry row6
  cheatideas_industry_row6_btn_m3:0 "-60.0%"
  cheatideas_industry_row6_btn_m2:0 "-40.0%"
@@ -671,7 +671,7 @@
  cheatideas_industry_row6_btn_3:0 "+40.0%"
  cheatideas_industry_row6_btn_4:0 "+60.0%"
  cheatideas_industry_row6_btn_5:0 "+100.0%"
- cheatideas_industry_row6_btn_6:0 "+10000.0%"
+ cheatideas_industry_row6_btn_6:0 "+10k%"
 ### industry row7
  cheatideas_industry_row7_btn_m3:0 "-60.0%"
  cheatideas_industry_row7_btn_m2:0 "-40.0%"
@@ -681,7 +681,7 @@
  cheatideas_industry_row7_btn_3:0 "+40.0%"
  cheatideas_industry_row7_btn_4:0 "+60.0%"
  cheatideas_industry_row7_btn_5:0 "+100.0%"
- cheatideas_industry_row7_btn_6:0 "+10000.0%"
+ cheatideas_industry_row7_btn_6:0 "+10k%"
 ### inpolicies row1
  cheatideas_inpolicies_row1_btn_m3:0 "-60.0%"
  cheatideas_inpolicies_row1_btn_m2:0 "-40.0%"
@@ -751,7 +751,7 @@
  cheatideas_inpolicies_row7_btn_3:0 "+40.0%"
  cheatideas_inpolicies_row7_btn_4:0 "+60.0%"
  cheatideas_inpolicies_row7_btn_5:0 "+100.0%"
- cheatideas_inpolicies_row7_btn_6:0 "+10000.0%"
+ cheatideas_inpolicies_row7_btn_6:0 "+10k%"
 ### intelagency row1
  cheatideas_intelagency_row1_btn_m3:0 "-5"
  cheatideas_intelagency_row1_btn_m2:0 "-2"
@@ -831,7 +831,7 @@
  cheatideas_inteldef_row2_btn_3:0 "+40.0%"
  cheatideas_inteldef_row2_btn_4:0 "+60.0%"
  cheatideas_inteldef_row2_btn_5:0 "+100.0%"
- cheatideas_inteldef_row2_btn_6:0 "+10000.0%"
+ cheatideas_inteldef_row2_btn_6:0 "+10k%"
 ### inteldef row3
  cheatideas_inteldef_row3_btn_m3:0 "+100.0%"
  cheatideas_inteldef_row3_btn_m2:0 "+50.0%"
@@ -881,7 +881,7 @@
  cheatideas_inteldef_row7_btn_3:0 "+40.0%"
  cheatideas_inteldef_row7_btn_4:0 "+60.0%"
  cheatideas_inteldef_row7_btn_5:0 "+100.0%"
- cheatideas_inteldef_row7_btn_6:0 "+10000.0%"
+ cheatideas_inteldef_row7_btn_6:0 "+10k%"
 ### inteloff row1
  cheatideas_inteloff_row1_btn_m3:0 "-60.0%"
  cheatideas_inteloff_row1_btn_m2:0 "-40.0%"
@@ -891,7 +891,7 @@
  cheatideas_inteloff_row1_btn_3:0 "+40.0%"
  cheatideas_inteloff_row1_btn_4:0 "+60.0%"
  cheatideas_inteloff_row1_btn_5:0 "+100.0%"
- cheatideas_inteloff_row1_btn_6:0 "+10000.0%"
+ cheatideas_inteloff_row1_btn_6:0 "+10k%"
 ### inteloff row2
  cheatideas_inteloff_row2_btn_m3:0 "-16.00"
  cheatideas_inteloff_row2_btn_m2:0 "-4.00"
@@ -921,7 +921,7 @@
  cheatideas_inteloff_row4_btn_3:0 "+40.0%"
  cheatideas_inteloff_row4_btn_4:0 "+60.0%"
  cheatideas_inteloff_row4_btn_5:0 "+100.0%"
- cheatideas_inteloff_row4_btn_6:0 "+10000.0%"
+ cheatideas_inteloff_row4_btn_6:0 "+10k%"
 ### inteloff row5
  cheatideas_inteloff_row5_btn_m3:0 "-60.0%"
  cheatideas_inteloff_row5_btn_m2:0 "-40.0%"
@@ -931,7 +931,7 @@
  cheatideas_inteloff_row5_btn_3:0 "+40.0%"
  cheatideas_inteloff_row5_btn_4:0 "+60.0%"
  cheatideas_inteloff_row5_btn_5:0 "+100.0%"
- cheatideas_inteloff_row5_btn_6:0 "+10000.0%"
+ cheatideas_inteloff_row5_btn_6:0 "+10k%"
 ### inteloff row6
  cheatideas_inteloff_row6_btn_m3:0 "-60.00%"
  cheatideas_inteloff_row6_btn_m2:0 "-40.00%"
@@ -941,7 +941,7 @@
  cheatideas_inteloff_row6_btn_3:0 "+40.00%"
  cheatideas_inteloff_row6_btn_4:0 "+60.00%"
  cheatideas_inteloff_row6_btn_5:0 "+100.00%"
- cheatideas_inteloff_row6_btn_6:0 "+10000.00%"
+ cheatideas_inteloff_row6_btn_6:0 "+10k%"
 ### inteloff row7
  cheatideas_inteloff_row7_btn_m3:0 "+100.00%"
  cheatideas_inteloff_row7_btn_m2:0 "+50.00%"
@@ -991,7 +991,7 @@
  cheatideas_navyspec_row4_btn_3:0 "+40.0%"
  cheatideas_navyspec_row4_btn_4:0 "+60.0%"
  cheatideas_navyspec_row4_btn_5:0 "+100.0%"
- cheatideas_navyspec_row4_btn_6:0 "+10000.0%"
+ cheatideas_navyspec_row4_btn_6:0 "+10k%"
 ### navyspec row6
  cheatideas_navyspec_row6_btn_m3:0 "-60.0%"
  cheatideas_navyspec_row6_btn_m2:0 "-40.0%"
@@ -1001,7 +1001,7 @@
  cheatideas_navyspec_row6_btn_3:0 "+40.0%"
  cheatideas_navyspec_row6_btn_4:0 "+60.0%"
  cheatideas_navyspec_row6_btn_5:0 "+100.0%"
- cheatideas_navyspec_row6_btn_6:0 "+10000.0%"
+ cheatideas_navyspec_row6_btn_6:0 "+10k%"
 ### navyspec row7
  cheatideas_navyspec_row7_btn_m3:0 "+100.0%"
  cheatideas_navyspec_row7_btn_m2:0 "+50.0%"
@@ -1091,7 +1091,7 @@
  cheatideas_production_row3_btn_3:0 "+40.0%"
  cheatideas_production_row3_btn_4:0 "+60.0%"
  cheatideas_production_row3_btn_5:0 "+100.0%"
- cheatideas_production_row3_btn_6:0 "+10000.0%"
+ cheatideas_production_row3_btn_6:0 "+10k%"
 ### production row4
  cheatideas_production_row4_btn_m3:0 "-60.0%"
  cheatideas_production_row4_btn_m2:0 "-40.0%"
@@ -1101,7 +1101,7 @@
  cheatideas_production_row4_btn_3:0 "+40.0%"
  cheatideas_production_row4_btn_4:0 "+60.0%"
  cheatideas_production_row4_btn_5:0 "+100.0%"
- cheatideas_production_row4_btn_6:0 "+10000.0%"
+ cheatideas_production_row4_btn_6:0 "+10k%"
 ### production row5
  cheatideas_production_row5_btn_m3:0 "+100.0%"
  cheatideas_production_row5_btn_m2:0 "+50.0%"
@@ -1121,7 +1121,7 @@
  cheatideas_production_row6_btn_3:0 "+40.0%"
  cheatideas_production_row6_btn_4:0 "+60.0%"
  cheatideas_production_row6_btn_5:0 "+100.0%"
- cheatideas_production_row6_btn_6:0 "+10000.0%"
+ cheatideas_production_row6_btn_6:0 "+10k%"
 ### production row7
  cheatideas_production_row7_btn_m3:0 "-0.6"
  cheatideas_production_row7_btn_m2:0 "-0.4"
@@ -1171,7 +1171,7 @@
  cheatideas_warmeasures_row4_btn_3:0 "+40.00%"
  cheatideas_warmeasures_row4_btn_4:0 "+60.00%"
  cheatideas_warmeasures_row4_btn_5:0 "+100.00%"
- cheatideas_warmeasures_row4_btn_6:0 "+10000.00%"
+ cheatideas_warmeasures_row4_btn_6:0 "+10k%"
 ### warmeasures row5
  cheatideas_warmeasures_row5_btn_m3:0 "-60.00%"
  cheatideas_warmeasures_row5_btn_m2:0 "-40.00%"
@@ -1181,4 +1181,4 @@
  cheatideas_warmeasures_row5_btn_3:0 "+40.00%"
  cheatideas_warmeasures_row5_btn_4:0 "+60.00%"
  cheatideas_warmeasures_row5_btn_5:0 "+100.00%"
- cheatideas_warmeasures_row5_btn_6:0 "+10000.00%"
+ cheatideas_warmeasures_row5_btn_6:0 "+10k%"
