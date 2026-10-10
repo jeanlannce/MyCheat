@@ -64,3 +64,15 @@ Covers all 7 resources: oil, steel, aluminium, rubber, tungsten, chromium, coal.
  mycheat.mining.small:0 "A little here and there (§Y+50§! each)"
  mycheat.mining.medium:0 "So what? (§Y+100§! each)"
  mycheat.mining.huge:0 "No holding back (§Y+50000§! each)"
+
+#########################################
+### 将领特质名（整合自 TYGC）
+#########################################
+ star_5:0 "Poster Girl"
+ star_5_2:0 "Poster Girl"
+ traits_att:0 "Damage Dealer I"
+ traits_att2:0 "Damage Dealer II"
+ traits_att3:0 "Damage Dealer III"
+ traits_att4:0 "Damage Dealer IV"
+ traits_def:0 "Defender I"
+ traits_jianniang:0 "Ship Girl"

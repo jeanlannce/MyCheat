@@ -8,7 +8,7 @@ add_namespace = mycheat
 ### 决议触发本事件，先选学科，再选档位                          ###
 ##################################################################
 country_event = {
-	id = mycheat.breakthrough
+	id = breakthrough
 	title = mycheat.breakthrough.t
 	desc = mycheat.breakthrough.d
 	picture = GFX_report_event_generic_research_lab
@@ -17,23 +17,23 @@ country_event = {
 
 	option = {
 		name = mycheat.breakthrough.opt_land
-		country_event = { id = mycheat.breakthrough_land }
+		country_event = { id = breakthrough_land }
 	}
 	option = {
 		name = mycheat.breakthrough.opt_naval
-		country_event = { id = mycheat.breakthrough_naval }
+		country_event = { id = breakthrough_naval }
 	}
 	option = {
 		name = mycheat.breakthrough.opt_air
-		country_event = { id = mycheat.breakthrough_air }
+		country_event = { id = breakthrough_air }
 	}
 	option = {
 		name = mycheat.breakthrough.opt_nuclear
-		country_event = { id = mycheat.breakthrough_nuclear }
+		country_event = { id = breakthrough_nuclear }
 	}
 	option = {
 		name = mycheat.breakthrough.opt_all
-		country_event = { id = mycheat.breakthrough_all }
+		country_event = { id = breakthrough_all }
 	}
 }
 
@@ -41,7 +41,7 @@ country_event = {
 ### 陆军突破点（分支）                                          ###
 ##################################################################
 country_event = {
-	id = mycheat.breakthrough_land
+	id = breakthrough_land
 	title = mycheat.breakthrough.t
 	desc = mycheat.breakthrough_land.d
 	picture = GFX_report_event_generic_research_lab
@@ -59,7 +59,7 @@ country_event = {
 ### 海军突破点（分支）                                          ###
 ##################################################################
 country_event = {
-	id = mycheat.breakthrough_naval
+	id = breakthrough_naval
 	title = mycheat.breakthrough.t
 	desc = mycheat.breakthrough_naval.d
 	picture = GFX_report_event_generic_research_lab
@@ -77,7 +77,7 @@ country_event = {
 ### 空军突破点（分支）                                          ###
 ##################################################################
 country_event = {
-	id = mycheat.breakthrough_air
+	id = breakthrough_air
 	title = mycheat.breakthrough.t
 	desc = mycheat.breakthrough_air.d
 	picture = GFX_report_event_generic_research_lab
@@ -95,7 +95,7 @@ country_event = {
 ### 核物理突破点（分支）                                        ###
 ##################################################################
 country_event = {
-	id = mycheat.breakthrough_nuclear
+	id = breakthrough_nuclear
 	title = mycheat.breakthrough.t
 	desc = mycheat.breakthrough_nuclear.d
 	picture = GFX_report_event_generic_research_lab
@@ -113,7 +113,7 @@ country_event = {
 ### 全部学科突破点（分支）                                      ###
 ##################################################################
 country_event = {
-	id = mycheat.breakthrough_all
+	id = breakthrough_all
 	title = mycheat.breakthrough.t
 	desc = mycheat.breakthrough_all.d
 	picture = GFX_report_event_generic_research_lab
@@ -132,7 +132,7 @@ country_event = {
 ### 决议触发，3 档：小开不算开 / 那咋了 / 演都不演了          ###
 ##################################################################
 country_event = {
-	id = mycheat.mining
+	id = mining
 	title = mycheat.mining.t
 	desc = mycheat.mining.d
 	picture = GFX_report_event_generic_factory

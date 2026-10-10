@@ -1,0 +1,46 @@
+# My Cheat —— 将领特质图标（整合自 TYGC）
+# 图标使用原版贴图，无需额外资源
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_star_5"
+		texturefile = "gfx/interface/traits/trait_trickster.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_star_5_2"
+		texturefile = "gfx/interface/traits/trait_trickster.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_traits_att"
+		texturefile = "gfx/interface/traits/trait_offensive_doctrine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_traits_att2"
+		texturefile = "gfx/interface/traits/trait_offensive_doctrine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_traits_att3"
+		texturefile = "gfx/interface/traits/trait_offensive_doctrine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_traits_att4"
+		texturefile = "gfx/interface/traits/trait_offensive_doctrine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_traits_def"
+		texturefile = "gfx/interface/traits/trait_defensive_doctrine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_traits_jianniang"
+		texturefile = "gfx/interface/traits/trait_offensive_doctrine.dds"
+	}
+
+}

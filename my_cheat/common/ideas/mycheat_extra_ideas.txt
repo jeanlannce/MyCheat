@@ -1,0 +1,27 @@
+# My Cheat —— 额外 idea（整合自 TYGC「这是什么，点一下」）
+
+ideas = {
+	industrial_concern = {
+			gongyequ1 = {
+
+				picture = gongyequ1
+			
+				visible = {
+					has_country_flag = 66pp
+				}
+
+				cost = 100
+				research_bonus = {
+					industry = 0.15
+					electronics = 0.15
+				}
+				modifier = {
+					production_speed_industrial_complex_factor = 0.1
+					production_speed_arms_factory_factor = 0.1
+					production_speed_dockyard_factor = 0.1
+					production_speed_buildings_factor = 0.1
+					production_speed_infrastructure_factor = 0.1
+				}
+			}
+	}
+}

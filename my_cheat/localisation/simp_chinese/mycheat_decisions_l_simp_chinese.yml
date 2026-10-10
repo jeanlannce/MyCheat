@@ -64,3 +64,15 @@
  mycheat.mining.small:0 "小开不算开（每种 §Y+50§!）"
  mycheat.mining.medium:0 "那咋了（每种 §Y+100§!）"
  mycheat.mining.huge:0 "演都不演了（每种 §Y+50000§!）"
+
+#########################################
+### 将领特质名（整合自 TYGC）
+#########################################
+ star_5:0 "看板娘"
+ star_5_2:0 "看板娘"
+ traits_att:0 "输出-1类"
+ traits_att2:0 "输出-2类"
+ traits_att3:0 "输出-3类"
+ traits_att4:0 "输出-4类"
+ traits_def:0 "防御-1类"
+ traits_jianniang:0 "舰娘"

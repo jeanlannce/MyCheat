@@ -1749,4 +1749,73 @@ characters = {
 	}
 
 
+
+	gongyequ = {
+		name = gongyequ
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/gongyequ.png"
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = tjng2
+			cost = 50
+			traits = {
+				gongyequ
+			}
+		}
+	}
+	xueyuan = {
+		name = xueyuan
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/xueyuan.png"
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = tjng1
+			cost = 50
+			traits = {
+				xueyuan
+			}
+		}
+	}
+	shequ = {
+		name = shequ
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/shequ.png"
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = tjng3
+			cost = 50
+			traits = {
+				shequ
+			}
+		}
+	}
+	junying = {
+		name = junying
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/junying.png"
+			}
+		}
+
+		advisor = {
+			slot = theorist
+			idea_token = tjng4
+			cost = 50
+			traits = {
+				junying
+			}
+		}
+	}
 }

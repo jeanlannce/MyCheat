@@ -1,0 +1,68 @@
+# My Cheat —— 顾问特质（整合自 TYGC「这是什么，点一下」）
+# 来源：通用国策强化 v1.11 (workshop 3261530766) 的 tygc_traits.txt
+
+leader_traits = {
+	gongyequ1 = {
+		random = no
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_arms_factory_factor = 0.1
+		production_speed_dockyard_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		industry_research = 0.15
+		electronics_research = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	gongyequ = {
+		random = no
+		industrial_capacity_factory = 0.2
+		global_building_slots_factor = 0.2
+		local_resources_factor = 0.2
+		consumer_goods_factor = -0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	xueyuan = {
+		random = no
+		research_speed_factor = 0.15
+		political_power_factor = 0.15
+		experience_gain_army_factor = 0.25
+		experience_gain_navy_factor = 0.25
+		experience_gain_air_factor = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shequ = {
+		random = no
+		stability_factor = 0.1
+		weekly_manpower = 1000
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = 0.1
+		mobilization_speed = 0.15
+		monthly_population = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	junying = {
+		random = no
+		conscription = 0.01
+		land_doctrine_cost_factor = -0.15
+		air_doctrine_cost_factor = -0.15
+		naval_doctrine_cost_factor = -0.15
+		experience_gain_army = 0.1
+		experience_gain_air = 0.1
+		experience_gain_navy = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
