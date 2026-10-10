@@ -567,4 +567,35 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
+
+	spriteType = {
+		name = "GFX_mc_world_tension_guarantee"
+		texturefile = "gfx/mycheat_texticons/world_tension_guarantee_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_world_tension_faction"
+		texturefile = "gfx/mycheat_texticons/world_tension_faction_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_world_tension_lendlease"
+		texturefile = "gfx/mycheat_texticons/world_tension_lendlease_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_world_tension_volunteers"
+		texturefile = "gfx/mycheat_texticons/world_tension_volunteers_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mc_operatives_targeted_sabotage"
+		texturefile = "gfx/mycheat_texticons/operatives_targeted_sabotage_texticon.dds"
+		legacy_lazy_load = no
+	}
+
 }
